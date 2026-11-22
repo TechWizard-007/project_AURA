@@ -4,20 +4,21 @@
     "status": "completed",
     "total_frames": 10,
     "frame_group_size": 5,
-    "total_temporal_groups": 2,
+    "temporal_analysis_enabled": false,
+    "total_temporal_groups": 0,
     "individual_segments": [
         {
             "frame_id": "frame_000",
             "frame_path": "data\\processed\\v1\\extracted\\chunk_002\\frames\\frame_000.jpg",
             "local_timestamp": 0.0,
             "global_timestamp": 10.0,
-            "description": "In this video frame, two individuals are visible inside a vehicle, viewed from outside through the front windshield. The setting appears to be a car interior, with the windshield framing the scene and a light greenish-gray background suggesting the exterior environment.\n\nThe main subjects are a woman on the left and a man on the right. The woman has dark, shoulder-length wavy hair and is wearing a purple top. The man has short brown hair, wears black-rimmed glasses, and is dressed in a brown shirt with a white collar. He is positioned behind the steering wheel, indicating he is the driver.\n\nBoth individuals are seated in the front seats of the car, with the woman in the passenger seat and the man in the driver’s seat. Their facial expressions are neutral to slightly downturned, but no specific emotion is clearly discernible.\n\nThere are no readable texts or distinct visual details beyond the characters and the car interior. The relationship between the elements is straightforward: the two people are occupants of the vehicle, with the man operating the vehicle and the woman seated beside him. The frame does not provide information about the vehicle’s movement or the external environment beyond the windshield’s view.",
-            "inference_time_seconds": 51.707,
+            "description": "In this video frame, two individuals are visible inside a vehicle, viewed from outside through the front windshield. The setting appears to be a car interior, with the windshield framing the scene. The person on the left is a woman with shoulder-length dark hair, wearing a purple top. She is seated in the passenger seat. The person on the right is a man with short brown hair and black-rimmed glasses, wearing a brown shirt with a white collar and suspenders. He is seated in the driver’s seat, with his hands on the steering wheel. Both individuals have neutral facial expressions and are looking forward. The car’s interior is minimally detailed, with gray seats visible behind the occupants. The background outside the car is not visible, and there is no readable text in the frame. The overall composition suggests a static shot focused on the two people inside the vehicle.",
+            "inference_time_seconds": 45.691,
             "ollama_metrics": {
-                "total_duration_seconds": 49.679,
-                "load_duration_seconds": 0.014,
+                "total_duration_seconds": 43.659,
+                "load_duration_seconds": 0.012,
                 "prompt_eval_count": 2177,
-                "eval_count": 237,
+                "eval_count": 176,
                 "tokens_per_second": 12.3
             }
         },
@@ -26,13 +27,13 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_002\\frames\\frame_001.jpg",
             "local_timestamp": 1.0,
             "global_timestamp": 11.0,
-            "description": "This is a flat, minimalist illustration of a person’s left wrist and forearm, shown against a plain light-blue background. The person is wearing a brown, long-sleeved shirt with the cuff rolled up slightly. On the wrist is a wristwatch with a square orange case, a dark gray strap, and a white face. The watch face has black hour and minute hands, and a red second hand. The time shown is approximately 10:10. The hand is positioned with the palm facing forward and fingers slightly curled. There are no other objects or text visible in the frame.",
-            "inference_time_seconds": 38.291,
+            "description": "This is a flat, minimalist illustration of a person’s left wrist and forearm against a solid light blue background. The arm is shown in profile, with the hand slightly curled. The person is wearing a brown, long-sleeved shirt with the cuff folded back. On the wrist is a wristwatch with a square orange case, a dark gray strap, and a white face. The watch face has black hour markers and black hour and minute hands, with a red second hand. The watch is centered on the wrist, and the hand is positioned so that the watch is clearly visible. There are no other objects or text in the frame.",
+            "inference_time_seconds": 38.308,
             "ollama_metrics": {
-                "total_duration_seconds": 36.22,
+                "total_duration_seconds": 36.275,
                 "load_duration_seconds": 0.016,
                 "prompt_eval_count": 2177,
-                "eval_count": 121,
+                "eval_count": 129,
                 "tokens_per_second": 13.19
             }
         },
@@ -41,14 +42,14 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_002\\frames\\frame_002.jpg",
             "local_timestamp": 2.0,
             "global_timestamp": 12.0,
-            "description": "This is a flat, minimalist illustration of a person’s left wrist and forearm against a solid light blue background. The person’s skin is a light peach tone, and they are wearing a brown, long-sleeved shirt with the cuff visible. On the wrist is a wristwatch with a square orange case, a dark gray strap, and a white face. The watch face has black hour and minute hands, and a red second hand. The hour and minute hands are positioned to indicate approximately 10:10. The watch is centered on the wrist, and the hand is shown in a neutral, slightly clenched position. There are no other objects or text visible in the frame.",
-            "inference_time_seconds": 40.075,
+            "description": "A single frame from a video at timestamp 12.0 seconds shows a stylized, flat-design illustration of a person’s left wrist and hand. The hand is shown in profile, with the palm facing slightly upward and fingers slightly curled. The wrist is adorned with a watch that has a square orange case, a white dial with black tick marks for hours and minutes, and black hour and minute hands, along with a red second hand. The watch strap is gray. The person is wearing a brown sleeve that extends from the left side of the frame, covering the wrist and part of the forearm. The background is a solid, light blue color, providing no additional environmental context. There are no other visible objects or text in the frame. The hand and watch are centrally positioned, with the hand occupying the right side of the frame and the sleeve extending to the left. The watch is clearly attached to the wrist, and the hand is stationary with no discernible motion.",
+            "inference_time_seconds": 43.961,
             "ollama_metrics": {
-                "total_duration_seconds": 38.032,
-                "load_duration_seconds": 0.011,
+                "total_duration_seconds": 41.915,
+                "load_duration_seconds": 0.013,
                 "prompt_eval_count": 2177,
-                "eval_count": 140,
-                "tokens_per_second": 13.01
+                "eval_count": 196,
+                "tokens_per_second": 12.66
             }
         },
         {
@@ -56,14 +57,14 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_002\\frames\\frame_003.jpg",
             "local_timestamp": 3.0,
             "global_timestamp": 13.0,
-            "description": "This is a stylized, cartoon-like illustration of the upper facade of a coffee shop. The background is a solid light blue, suggesting a clear sky, with a small white cloud visible in the top right corner. The building itself is rendered in muted tones, primarily beige and light brown. Prominently featured is a rectangular sign with a pale yellow background and a gray border, displaying the text “Coffee Shop” in an elegant, cursive gray font. Below the sign is a striped awning with alternating vertical bands of light pink and off-white. The overall composition is simple and clean, focusing on the signage and awning as the main visual elements.",
-            "inference_time_seconds": 40.506,
+            "description": "This is a stylized, flat illustration of the upper facade of a coffee shop. The background is a solid light blue, suggesting a clear sky, with a small white cloud visible in the top right corner. The building structure is depicted in muted beige tones. Prominently featured is a rectangular sign with a pale yellow background and a gray border, displaying the text “Coffee Shop” in an elegant, cursive gray font. Below the sign is a striped awning with alternating vertical bands of light pink and off-white. The overall composition is clean and minimalist, focusing on the signage and awning as the main elements.",
+            "inference_time_seconds": 37.9,
             "ollama_metrics": {
-                "total_duration_seconds": 38.437,
+                "total_duration_seconds": 35.861,
                 "load_duration_seconds": 0.014,
                 "prompt_eval_count": 2177,
-                "eval_count": 133,
-                "tokens_per_second": 12.73
+                "eval_count": 126,
+                "tokens_per_second": 13.48
             }
         },
         {
@@ -71,14 +72,14 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_002\\frames\\frame_004.jpg",
             "local_timestamp": 4.0,
             "global_timestamp": 14.0,
-            "description": "In a bright, stylized urban setting under a light blue sky with two white clouds, a man is seated on a teal and red scooter positioned in front of a coffee shop. The coffee shop has a beige facade, a pink and white striped awning, and a sign that reads “Coffee Shop” in cursive script. A small window displays a coffee cup icon, and a pink and yellow umbrella is visible near the entrance. The man, wearing a dark blue jacket over a white shirt and dark pants, is holding the scooter’s handlebars. Two simplified trees with green foliage stand on either side of the coffee shop, and other buildings — one tan and one light green — are visible in the background. The scene is rendered in a flat, cartoonish art style with soft colors and minimal detail.",
-            "inference_time_seconds": 43.136,
+            "description": "In a brightly colored, stylized urban scene under a light blue sky with two white clouds, a man is seated on a teal and red scooter positioned in front of a coffee shop. The coffee shop has a beige facade with a pink and white striped awning and a sign that reads “Coffee Shop” in cursive script. A small window on the shop displays a coffee cup icon, and a pink and yellow umbrella is visible near the entrance. The man, wearing a dark blue jacket with gold trim over a white shirt and dark pants, is holding the scooter’s handlebars. Two simplified trees with green foliage stand on either side of the coffee shop, and other buildings—one tan and one light green—are visible in the background. The overall setting is cheerful and cartoonish, with soft, flat shading and minimal detail.",
+            "inference_time_seconds": 41.275,
             "ollama_metrics": {
-                "total_duration_seconds": 41.121,
-                "load_duration_seconds": 0.015,
+                "total_duration_seconds": 39.23,
+                "load_duration_seconds": 0.025,
                 "prompt_eval_count": 2177,
-                "eval_count": 163,
-                "tokens_per_second": 12.68
+                "eval_count": 166,
+                "tokens_per_second": 12.93
             }
         },
         {
@@ -86,14 +87,14 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_002\\frames\\frame_005.jpg",
             "local_timestamp": 5.0,
             "global_timestamp": 15.0,
-            "description": "In a stylized, cartoon-like urban scene under a light blue sky with two white clouds, a man is riding a teal and red scooter on a gray road with dashed white lines. The scooter has a red rear storage box. The man, wearing a dark blue jacket over a white shirt and dark pants, is holding a pink and yellow umbrella. He is positioned in front of a coffee shop with a beige facade, a pink and white striped awning, and a sign that reads “Coffee Shop” in cursive. A coffee cup icon is visible on the shop’s window. Two small green trees are on either side of the coffee shop. To the left and right of the coffee shop are simplified buildings—one beige with square windows and one light green with rectangular windows. The sidewalk is a light beige color with a yellow and white curb.",
-            "inference_time_seconds": 42.307,
+            "description": "This is a stylized, flat-cartoon illustration of a city street scene under a light blue sky with two white clouds. The setting includes a paved road with dashed white lane markings in the foreground, a sidewalk with a yellow-and-white curb, and buildings in the background.\n\n1. Environment and Setting:\n   - The background features three buildings: a tan building on the left with square windows, a central coffee shop, and a light green building on the right with a grid of windows.\n   - Two small, stylized green trees are positioned on the sidewalk, one to the left of the coffee shop and one to the right.\n   - The sky is a solid light blue with two simple white clouds.\n\n2. Main Subjects and Objects:\n   - A man is riding a teal and red scooter on the road. He is wearing a dark blue jacket, light-colored shirt, and dark pants.\n   - The scooter has a red rear storage box.\n   - The central building is a coffee shop with a beige sign that reads “Coffee Shop” in cursive script. It has a pink-and-white striped awning.\n   - A small pink and yellow umbrella is visible near the coffee shop’s entrance.\n   - The coffee shop’s window displays a simple icon of a steaming coffee cup.\n\n3. Observable Actions and Positions:\n   - The man is seated on the scooter, holding the handlebars, and appears to be moving forward along the road.\n   - The scooter is positioned in the center of the frame, slightly to the left of the coffee shop.\n\n4. Relationships Between Visible Elements:\n   - The coffee shop is centrally located between the two other buildings.\n   - The trees are placed symmetrically on either side of the coffee shop on the sidewalk.\n   - The man on the scooter is positioned in front of the coffee shop, suggesting he is approaching or passing by it.\n\n5. Important Readable Text and Visual Details:\n   - The sign above the coffee shop clearly reads “Coffee Shop” in a cursive font.\n   - The coffee shop’s window has a simple graphic of a coffee cup with steam.\n   - The scooter’s color scheme is teal and red, with a red storage box at the back.\n   - The buildings have simplified, blocky designs with flat colors and minimal detail.",
+            "inference_time_seconds": 68.08,
             "ollama_metrics": {
-                "total_duration_seconds": 40.264,
-                "load_duration_seconds": 0.01,
+                "total_duration_seconds": 66.022,
+                "load_duration_seconds": 0.015,
                 "prompt_eval_count": 2177,
-                "eval_count": 170,
-                "tokens_per_second": 13.06
+                "eval_count": 466,
+                "tokens_per_second": 11.75
             }
         },
         {
@@ -101,14 +102,14 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_002\\frames\\frame_006.jpg",
             "local_timestamp": 6.0,
             "global_timestamp": 16.0,
-            "description": "This is a stylized, flat-cartoon illustration of a city street scene under a light blue sky with two white clouds. The setting includes a paved road with dashed lane markings, a sidewalk with a yellow-and-white curb, and three buildings.\n\nOn the left, there is a tan, three-story building with square windows. In the center stands a coffee shop with a beige facade, a pink-and-white striped awning, and a sign that reads “Coffee Shop” in cursive script. The shop’s window displays a coffee cup icon, and outside, there is a small table with two light-blue chairs under a red-and-yellow striped umbrella. Two small green trees are positioned on the sidewalk, one on either side of the coffee shop. On the right, there is a taller, light-green building with multiple square windows.\n\nA man is riding a teal and red scooter on the road, moving from left to right. He is wearing a dark jacket, light-colored shirt, and dark pants, and is carrying a red suitcase on the back of the scooter. The man is positioned in front of the tan building, and his scooter is partially obscuring a faint, translucent silhouette of another person behind him.\n\nThe overall composition is static, with no visible motion blur or dynamic effects, suggesting a calm, daytime urban environment.",
-            "inference_time_seconds": 52.1,
+            "description": "This is a stylized, flat-cartoon illustration of a city street scene under a light blue sky with two white clouds. The street is gray with dashed white lines, and a sidewalk with a yellow-and-white striped curb runs alongside it. On the left, a man with dark hair, wearing a dark jacket and light-colored shirt, rides a teal and red scooter toward the right. He has a red box on the back of the scooter. Behind him is a tan-colored building with three windows and a glass door. In the center is a coffee shop with a beige facade, a pink-and-white striped awning, and a sign that reads “Coffee Shop” in cursive. The shop has a window with a coffee cup icon and an outdoor seating area with a table, two light blue chairs, and a pink-and-yellow umbrella. Two small green trees are on the sidewalk, one on each side of the coffee shop. To the right is a taller, light green building with multiple windows. The overall scene is bright and clean, with soft, pastel colors.",
+            "inference_time_seconds": 45.887,
             "ollama_metrics": {
-                "total_duration_seconds": 50.049,
-                "load_duration_seconds": 0.015,
+                "total_duration_seconds": 43.836,
+                "load_duration_seconds": 0.014,
                 "prompt_eval_count": 2177,
-                "eval_count": 266,
-                "tokens_per_second": 12.08
+                "eval_count": 216,
+                "tokens_per_second": 12.52
             }
         },
         {
@@ -116,14 +117,14 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_002\\frames\\frame_007.jpg",
             "local_timestamp": 7.0,
             "global_timestamp": 17.0,
-            "description": "In a stylized, cartoonish urban environment with simplified buildings and a light blue sky, a man is riding a teal scooter with a red front panel and yellow side mirrors. He is wearing a dark blue jacket over a white shirt with a crisscross neckline and has a friendly expression. A yellow “TAXI” sign is mounted on the scooter’s handlebars. Behind him, a man in a dark suit and glasses is seated in the driver’s seat of a vehicle, holding a phone to his ear. To the right, a woman with dark, wavy hair and a purple top is visible through a window of a building or vehicle, looking forward with a neutral expression. The scene appears to be set on a street with a crosswalk in the foreground, and the overall composition suggests a city setting with multiple modes of transportation and people engaged in daily activities.",
-            "inference_time_seconds": 43.839,
+            "description": "In this stylized illustration, a man with short brown hair, wearing a blue jacket over a white shirt with a crisscross neckline, is seated on a teal scooter with red and yellow accents. He is smiling and holding the handlebars. A yellow “TAXI” sign is mounted on the scooter’s frame. Behind him, another man with glasses and a blue jacket is visible, seated in what appears to be a vehicle, holding a phone to his ear. To the right, a woman with dark, wavy hair and a purple top is seated inside a vehicle, looking forward with a neutral expression. The background features simplified, geometric representations of buildings with white rectangular windows against a light blue sky. The scene is set on a street with a gray sidewalk and a crosswalk marked by white stripes. The overall composition suggests a city environment with multiple vehicles and pedestrians.",
+            "inference_time_seconds": 42.512,
             "ollama_metrics": {
-                "total_duration_seconds": 41.785,
-                "load_duration_seconds": 0.014,
+                "total_duration_seconds": 40.491,
+                "load_duration_seconds": 0.011,
                 "prompt_eval_count": 2177,
-                "eval_count": 176,
-                "tokens_per_second": 12.32
+                "eval_count": 177,
+                "tokens_per_second": 12.81
             }
         },
         {
@@ -131,14 +132,14 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_002\\frames\\frame_008.jpg",
             "local_timestamp": 8.0,
             "global_timestamp": 18.0,
-            "description": "In this stylized illustration, a man with short brown hair, wearing a blue jacket over a white shirt with a crisscross neckline, is seated on a teal scooter with red and yellow accents. He is smiling and has his hands on the handlebars. Behind him, a yellow “TAXI” sign is visible, suggesting he is operating a taxi service. To his left, another man with glasses and a blue jacket is seated in what appears to be a car, holding a phone to his ear. Behind him, a third man in a light-colored suit is partially visible. To the right, a woman with dark, wavy hair and a purple top is seated inside a vehicle, looking forward with a neutral expression. The background consists of simplified, geometric shapes representing buildings with white rectangular windows against a light blue sky. The scene appears to be set in an urban environment, with the scooter and vehicles positioned as if in traffic or on a street.",
-            "inference_time_seconds": 44.634,
+            "description": "In a stylized, cartoon-like urban setting with simplified buildings and a light blue sky, a man with brown hair and a blue jacket is riding a teal scooter with a red front panel and yellow headlights. He is smiling and appears to be gesturing with his right hand. A yellow “TAXI” sign is visible on the scooter’s handlebar. Behind him, another man with glasses and a blue jacket is seated in a vehicle, holding a phone to his ear. To the right, a woman with dark, wavy hair and a purple top is visible through the window of a large, light-green vehicle, looking forward with a neutral expression. The scene is viewed from a slightly elevated perspective, with the scooter in the foreground and the other vehicles and figures arranged in the midground, suggesting a busy street or intersection.",
+            "inference_time_seconds": 41.616,
             "ollama_metrics": {
-                "total_duration_seconds": 42.608,
-                "load_duration_seconds": 0.012,
+                "total_duration_seconds": 39.575,
+                "load_duration_seconds": 0.011,
                 "prompt_eval_count": 2177,
-                "eval_count": 194,
-                "tokens_per_second": 12.63
+                "eval_count": 168,
+                "tokens_per_second": 12.85
             }
         },
         {
@@ -146,62 +147,19 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_002\\frames\\frame_009.jpg",
             "local_timestamp": 9.0,
             "global_timestamp": 19.0,
-            "description": "In a stylized, cartoon-like urban environment, a man with brown hair, wearing a blue jacket over a white shirt, is riding a teal scooter with a red front panel and yellow side mirrors. He is extending his right arm outward, appearing to gesture or point. Behind him, a blue taxi with a yellow “TAXI” sign on its roof is visible, with a man wearing glasses and a blue jacket seated in the driver’s seat. To the right, a woman with dark, wavy hair and a purple top is seated inside a light green vehicle, looking forward with a neutral expression. The background features simplified, geometric buildings with white windows against a light blue sky, and a set of gray and white striped steps is visible in the foreground. The scene suggests a city street with multiple vehicles and pedestrians.",
-            "inference_time_seconds": 41.608,
+            "description": "In this video frame, the setting appears to be an urban street environment, indicated by the presence of buildings with windows in the background and a crosswalk in the foreground. The scene is viewed from a perspective that includes multiple vehicles and pedestrians.\n\nThe main subjects include:\n- A man in the foreground riding a teal scooter with a red front panel and yellow side mirrors. He is wearing a dark blue jacket over a light-colored shirt and has a neutral expression.\n- Behind the scooter, a taxi cab is visible, with a yellow “TAXI” sign on its roof. Inside the taxi, a man with glasses and a dark jacket is seated in the driver’s seat, smiling and holding a phone to his ear. Another man is partially visible in the passenger seat.\n- To the right, a woman with dark, wavy hair is visible through the window of a large, light-green vehicle. She is wearing a purple top and has a neutral or slightly concerned expression.\n\nThe observable actions and positions are:\n- The scooter rider is stationary or moving slowly, positioned on the crosswalk.\n- The taxi driver is holding a phone to his ear, suggesting he is on a call.\n- The woman in the green vehicle is looking forward, possibly at the scooter rider or the taxi.\n\nThe relationships between visible elements:\n- The scooter rider is positioned between the taxi and the green vehicle, suggesting he is in the middle of the street or crosswalk.\n- The taxi is directly behind the scooter, and the green vehicle is to the right of the scooter, indicating a traffic or pedestrian scenario.\n\nImportant readable text:\n- The word “TAXI” is clearly visible on the roof of the taxi cab.\n\nVisual details:\n- The buildings in the background have a modern, simplified design with rectangular windows.\n- The crosswalk is composed of alternating light and dark gray stripes.\n- The scooter has a distinct retro design with a round headlight and a red front panel.\n- The woman’s expression is neutral, and her posture suggests she is observing the scene.",
+            "inference_time_seconds": 62.48,
             "ollama_metrics": {
-                "total_duration_seconds": 39.55,
-                "load_duration_seconds": 0.015,
+                "total_duration_seconds": 60.43,
+                "load_duration_seconds": 0.025,
                 "prompt_eval_count": 2177,
-                "eval_count": 166,
-                "tokens_per_second": 12.82
+                "eval_count": 412,
+                "tokens_per_second": 12.2
             }
         }
     ],
-    "temporal_segments": [
-        {
-            "group_id": "group_001",
-            "frame_ids": [
-                "frame_000",
-                "frame_001",
-                "frame_002",
-                "frame_003",
-                "frame_004"
-            ],
-            "start_timestamp": 10.0,
-            "end_timestamp": 14.0,
-            "description": "The sequence begins inside a car, where a man with glasses, wearing a brown shirt with a white collar, is driving while a woman with dark, wavy hair in a purple top sits beside him; both appear focused on the road. The scene then transitions to a close-up of the man’s wrist, showing a watch with a white face and black hands, indicating the passage of time. The view shifts to an exterior shot of a “Coffee Shop” with a pink and white striped awning, set against a backdrop of a light blue sky with clouds. The final frame reveals a wider street scene, showing the coffee shop flanked by buildings and trees, with a man on a teal scooter with a red seat parked in front of the shop, under a small pink and yellow umbrella. The progression moves from a confined, personal space to an open, urban environment, suggesting a transition from travel to a destination.",
-            "inference_time_seconds": 162.497,
-            "ollama_metrics": {
-                "total_duration_seconds": 160.426,
-                "load_duration_seconds": 0.014,
-                "prompt_eval_count": 10475,
-                "eval_count": 185,
-                "tokens_per_second": 4.45
-            }
-        },
-        {
-            "group_id": "group_002",
-            "frame_ids": [
-                "frame_005",
-                "frame_006",
-                "frame_007",
-                "frame_008",
-                "frame_009"
-            ],
-            "start_timestamp": 15.0,
-            "end_timestamp": 19.0,
-            "description": "The sequence depicts a man on a teal and red scooter navigating a stylized urban street. The scene begins with him riding past a \"Coffee Shop\" with a striped awning and outdoor seating, flanked by simple buildings and trees under a light blue sky. As he moves forward, the perspective shifts to a street-level view where he is now positioned at a crosswalk, surrounded by other vehicles. A yellow \"TAXI\" sign is visible on one of the cars, and the man on the scooter extends his right arm, gesturing toward the right side of the frame, likely indicating a direction or signaling to a passenger. The environment remains consistent with a clean, cartoonish aesthetic, and the man's scooter remains the central focus as he progresses through the cityscape.",
-            "inference_time_seconds": 159.895,
-            "ollama_metrics": {
-                "total_duration_seconds": 157.837,
-                "load_duration_seconds": 0.018,
-                "prompt_eval_count": 10475,
-                "eval_count": 157,
-                "tokens_per_second": 4.59
-            }
-        }
-    ],
-    "total_elapsed_time_seconds": 760.64,
-    "individual_analysis_time_seconds": 438.203,
-    "temporal_analysis_time_seconds": 322.392
+    "temporal_segments": [],
+    "total_elapsed_time_seconds": 467.735,
+    "individual_analysis_time_seconds": 467.71,
+    "temporal_analysis_time_seconds": 0
 }

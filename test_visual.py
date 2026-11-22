@@ -1,14 +1,10 @@
-
+import json
 from pathlib import Path
 
 from visualAnalyzer import VisualAnalyzer
 
-
-# Configuration
-CHUNK_ID = "chunk_001"
-FPS = 1.0
-
-FRAMES_DIR = Path(
+# First chunk's frame directory
+FRAME_DIR = Path(
     "data/processed/v1/extracted/chunk_001/frames"
 )
 
@@ -19,40 +15,32 @@ OUTPUT_PATH = Path(
 
 def main():
 
-    frame_paths = sorted(
-        FRAMES_DIR.glob("frame_*.jpg")
-    )
-
-    if not frame_paths:
-        raise FileNotFoundError(
-            f"No frames found in {FRAMES_DIR}"
-        )
-
     frames = []
 
-    for index, frame_path in enumerate(frame_paths):
+    for image_path in sorted(FRAME_DIR.glob("*.jpg")):
 
-        timestamp = index / FPS
+        frame_number = int(image_path.stem.split("_")[1])
 
         frames.append({
-            "frame_path": frame_path,
-            "local_timestamp": round(timestamp, 3),
-            "global_timestamp": round(timestamp, 3)
+            "frame_path": image_path,
+            "local_timestamp": float(frame_number),
+            "global_timestamp": float(frame_number)
         })
+
+    if not frames:
+        raise FileNotFoundError("No frames found!")
 
     analyzer = VisualAnalyzer()
 
-    print("\nTesting temporal analysis only...")
-
-    result = analyzer.analyze_temporal_group(
-        frames[5:10]
+    result = analyzer.analyze_frames(
+        frames=frames,
+        output_path=OUTPUT_PATH,
+        chunk_id="chunk_001"
     )
 
-    print("\nTemporal description:")
-    print(result["description"])
-
-    print("\nPerformance metrics:")
-    print(result["ollama_metrics"])
+    print("\nTest completed!")
+    print(f"Frames analyzed: {len(result['individual_segments'])}")
+    print(f"Output: {OUTPUT_PATH}")
 
 
 if __name__ == "__main__":

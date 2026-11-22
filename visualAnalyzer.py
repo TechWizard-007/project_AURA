@@ -33,6 +33,13 @@ FRAME_GROUP_SIZE = int(
     os.getenv("AURA_FRAME_GROUP_SIZE", "5")
 )
 
+ENABLE_TEMPORAL_ANALYSIS = (
+    os.getenv(
+        "AURA_ENABLE_TEMPORAL_ANALYSIS",
+        "true"
+    ).lower() == "true"
+)
+
 
 class VisualAnalyzer:
 
@@ -92,8 +99,16 @@ class VisualAnalyzer:
     @staticmethod
     def get_metrics(result: dict) -> dict:
 
+        prompt_eval_duration = result.get(
+            "prompt_eval_duration", 0
+        )
+
         eval_duration = result.get(
             "eval_duration", 0
+        )
+
+        prompt_eval_count = result.get(
+            "prompt_eval_count", 0
         )
 
         eval_count = result.get(
@@ -111,11 +126,24 @@ class VisualAnalyzer:
                 3
             ),
 
-            "prompt_eval_count": result.get(
-                "prompt_eval_count", 0
+            "prompt_eval_duration_seconds": round(
+                prompt_eval_duration / 1e9,
+                3
             ),
 
+            "eval_duration_seconds": round(
+                eval_duration / 1e9,
+                3
+            ),
+
+            "prompt_eval_count": prompt_eval_count,
+
             "eval_count": eval_count,
+
+            "prompt_tokens_per_second": round(
+                prompt_eval_count / (prompt_eval_duration / 1e9),
+                2
+            ) if prompt_eval_duration > 0 else 0,
 
             "tokens_per_second": round(
                 eval_count / (eval_duration / 1e9),
@@ -189,36 +217,28 @@ class VisualAnalyzer:
     # -----------------------------------------
 
     @staticmethod
-    def create_individual_prompt(
-        timestamp: float
-    ) -> str:
+    def create_individual_prompt(timestamp: float) -> str:
 
         return f"""
-You are the visual understanding component of
-Project AURA, a video understanding system.
+    You are the visual understanding component of Project AURA.
 
-Analyze this single video frame.
+    Analyze this video frame at timestamp {timestamp} seconds.
 
-Video timestamp: {timestamp} seconds.
+    Describe the visually important information:
+    - Environment and setting.
+    - Main objects and subjects.
+    - Observable actions and spatial relationships.
+    - Important readable text.
 
-Describe:
+    RULES:
+    - Describe only what is visibly supported.
+    - Do not infer identities, intentions or emotions.
+    - Avoid repeating obvious visual details.
+    - Prioritize distinctive information useful for semantic retrieval.
+    - Use concise, factual language.
 
-1. The visible environment and setting.
-2. Main subjects and objects.
-3. Observable actions and positions.
-4. Relationships between visible elements.
-5. Important readable text and visual details.
-
-IMPORTANT:
-
-- Describe only what is visibly supported.
-- Do not invent objects, actions or events.
-- Do not infer identities or intentions.
-- Avoid unsupported emotional interpretations.
-- Be objective, concise and useful for semantic retrieval.
-
-Return one detailed natural-language description.
-"""
+    Return a single description in approximately 50-80 words.
+    """
 
     def analyze_individual_frame(
         self,
@@ -457,10 +477,14 @@ Return ONE unified natural-language description.
             "status": "in_progress",
             "total_frames": len(frames),
             "frame_group_size": FRAME_GROUP_SIZE,
+            "temporal_analysis_enabled": ENABLE_TEMPORAL_ANALYSIS,
+
             "total_temporal_groups": (
                 (len(frames) + FRAME_GROUP_SIZE - 1)
                 // FRAME_GROUP_SIZE
+                if ENABLE_TEMPORAL_ANALYSIS else 0
             ),
+            
             "individual_segments": [],
             "temporal_segments": []
         }
@@ -506,33 +530,45 @@ Return ONE unified natural-language description.
 
             print("\nIndividual analysis completed!")
 
-            # Pass 2: Temporal group analysis
-            frame_groups = [
-                frames[index:index + FRAME_GROUP_SIZE]
-                for index in range(0, len(frames), FRAME_GROUP_SIZE)
-            ]
+            
+            # Pass 2: Temporal group analysis 
 
-            print("\nStarting temporal group analysis...")
+            if ENABLE_TEMPORAL_ANALYSIS:
 
-            for index, group in enumerate(
-                tqdm(frame_groups, desc="Temporal groups", unit="group"),
-                start=1
-            ):
+                frame_groups = [
+                    frames[index:index + FRAME_GROUP_SIZE]
+                    for index in range(0, len(frames), FRAME_GROUP_SIZE)
+                ]
 
-                analysis = self.analyze_temporal_group(group)
+                print("\nStarting temporal group analysis...")
 
-                result["temporal_segments"].append({
-                    "group_id": f"group_{index:03d}",
-                    "frame_ids": [
-                        Path(frame["frame_path"]).stem
-                        for frame in group
-                    ],
-                    "start_timestamp": group[0]["global_timestamp"],
-                    "end_timestamp": group[-1]["global_timestamp"],
-                    "description": analysis["description"],
-                    "inference_time_seconds": analysis["inference_time_seconds"],
-                    "ollama_metrics": analysis["ollama_metrics"]
-                })
+                for index, group in enumerate(
+                    tqdm(frame_groups, desc="Temporal groups", unit="group"),
+                    start=1
+                ):
+
+                    analysis = self.analyze_temporal_group(group)
+
+                    result["temporal_segments"].append({
+                        "group_id": f"group_{index:03d}",
+                        "frame_ids": [
+                            Path(frame["frame_path"]).stem
+                            for frame in group
+                        ],
+                        "start_timestamp": group[0]["global_timestamp"],
+                        "end_timestamp": group[-1]["global_timestamp"],
+                        "description": analysis["description"],
+                        "inference_time_seconds": analysis["inference_time_seconds"],
+                        "ollama_metrics": analysis["ollama_metrics"]
+                    })
+
+                    save_progress()
+
+                print("\nTemporal analysis completed!")
+
+            else:
+
+                print("\nTemporal analysis skipped (disabled in .env).")
 
                 save_progress()
 
