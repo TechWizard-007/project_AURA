@@ -11,7 +11,7 @@ from videoChunker import (
 from audioExtractor import extract_audio
 from audioTranscriber import AudioTranscriber
 from frameExtractor import extract_frames
-
+from visualAnalyzer import VisualAnalyzer
 
 # Extraction configuration
 FRAME_FPS = 1.0
@@ -31,6 +31,7 @@ def process_chunks():
 
     # Initialize transcription model once
     transcriber = AudioTranscriber()
+    visual_analyzer = VisualAnalyzer()
 
     for chunk in tqdm(
         chunks,
@@ -84,6 +85,13 @@ def process_chunks():
             output_dir=frames_dir,
             fps=FRAME_FPS,
             chunk_start_seconds=chunk_start
+        )
+        visual_output_path = chunk_output_dir / "visual_analysis.json"
+
+        visual_analyzer.analyze_frames(
+            frames=frames,
+            output_path=visual_output_path,
+            chunk_id=chunk.stem
         )
 
         tqdm.write(

@@ -1,0 +1,207 @@
+{
+    "chunk_id": "chunk_001",
+    "model": "qwen3-vl:8b-instruct",
+    "status": "completed",
+    "total_frames": 10,
+    "frame_group_size": 5,
+    "total_temporal_groups": 2,
+    "individual_segments": [
+        {
+            "frame_id": "frame_000",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_000.jpg",
+            "local_timestamp": 0.0,
+            "global_timestamp": 0.0,
+            "description": "The frame displays a minimalist scene with a light blue sky as the background. On the right side, there is a single, soft white cloud with a rounded, fluffy shape. The cloud is positioned near the bottom right corner and occupies only a small portion of the frame. There are no other visible objects, subjects, or text. The overall composition is simple and static, with no discernible actions or interactions between elements.",
+            "inference_time_seconds": 23.957,
+            "ollama_metrics": {
+                "total_duration_seconds": 21.909,
+                "load_duration_seconds": 11.655,
+                "prompt_eval_count": 2176,
+                "eval_count": 85,
+                "tokens_per_second": 14.37
+            }
+        },
+        {
+            "frame_id": "frame_001",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_001.jpg",
+            "local_timestamp": 1.0,
+            "global_timestamp": 1.0,
+            "description": "The frame displays a minimalist sky scene. The background is a solid, light blue color, representing a clear sky. In the upper right corner, there is a small, soft white cloud with a slightly blurred, rounded shape. No other objects, subjects, or details are visible in the frame. There is no readable text or discernible action occurring. The cloud is positioned in the top right quadrant and appears to be floating without any visible interaction with other elements.",
+            "inference_time_seconds": 12.974,
+            "ollama_metrics": {
+                "total_duration_seconds": 10.922,
+                "load_duration_seconds": 0.017,
+                "prompt_eval_count": 2176,
+                "eval_count": 93,
+                "tokens_per_second": 14.09
+            }
+        },
+        {
+            "frame_id": "frame_002",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_002.jpg",
+            "local_timestamp": 2.0,
+            "global_timestamp": 2.0,
+            "description": "This is a stylized, cartoon-like illustration of an urban environment viewed from a low angle. The background consists of a light blue sky filled with abstract, translucent white rectangular shapes that resemble buildings or windows, creating a sense of depth and cityscape. In the foreground, there are two vehicles, likely police cars, indicated by their red and blue light bars on the roofs. The vehicle on the left has a driver depicted as a man with glasses, who is looking forward with one hand raised to his head. The vehicle on the right has two occupants: a woman with dark hair and a man with glasses, both looking forward. The overall composition suggests a scene of traffic or a stop on a city street, with the vehicles positioned side by side. There is no visible readable text in the frame.",
+            "inference_time_seconds": 18.68,
+            "ollama_metrics": {
+                "total_duration_seconds": 16.643,
+                "load_duration_seconds": 0.062,
+                "prompt_eval_count": 2176,
+                "eval_count": 161,
+                "tokens_per_second": 13.12
+            }
+        },
+        {
+            "frame_id": "frame_003",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_003.jpg",
+            "local_timestamp": 3.0,
+            "global_timestamp": 3.0,
+            "description": "This is a stylized, flat-design illustration of a city street scene with multiple vehicles. The background consists of a light blue sky with a repeating pattern of white rectangular shapes, suggesting buildings or windows. In the foreground, there are two prominent vehicles.\n\nThe vehicle on the left is a light green car. Inside, a woman with dark, wavy hair wearing a purple top is seated in the passenger seat, while a man with brown hair and glasses, wearing a brown shirt, is driving. He is holding a white object, possibly a piece of paper or a napkin, near his face.\n\nTo the right, there is a beige vehicle, possibly a police car, identifiable by a red and blue light bar on its roof. Inside this vehicle, a woman with dark, wavy hair wearing a blue top is seated in the passenger seat, and a man with brown hair and glasses, wearing a green shirt, is driving. He is holding his hand to his forehead.\n\nBehind these two vehicles, a smaller, gray vehicle with a black-and-white striped pattern on its side is partially visible.\n\nThe overall composition suggests a traffic scene with multiple cars on a city street, with the occupants visible through the windows. There is no readable text visible in the frame.",
+            "inference_time_seconds": 27.467,
+            "ollama_metrics": {
+                "total_duration_seconds": 25.431,
+                "load_duration_seconds": 0.011,
+                "prompt_eval_count": 2176,
+                "eval_count": 254,
+                "tokens_per_second": 12.01
+            }
+        },
+        {
+            "frame_id": "frame_004",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_004.jpg",
+            "local_timestamp": 4.0,
+            "global_timestamp": 4.0,
+            "description": "This is a stylized, cartoonish illustration of a city street scene featuring several cars.\n\n1. Environment and Setting:\n   - The background consists of light blue buildings with white rectangular windows, suggesting an urban environment.\n   - The ground is gray, indicating pavement.\n\n2. Main Subjects and Objects:\n   - Two prominent cars are in the foreground.\n     - The car on the left is a light green sedan. Inside, there is a woman with dark, wavy hair wearing a purple top, and a man with brown hair and glasses, who is driving.\n     - The car on the right is a beige sedan with a black grille. Inside, there is a woman with dark hair wearing a blue top, and a man with brown hair and glasses, who is holding his head with his hand.\n   - A police car is visible between the two foreground cars. It has a red and blue light bar on its roof and black-and-white checkered markings on its side.\n   - Other cars are partially visible in the background.\n\n3. Observable Actions and Positions:\n   - The occupants are seated inside their respective vehicles.\n   - The driver in the left car is holding the steering wheel.\n   - The man in the right car is holding his head with his hand.\n   - The police car is positioned between the two foreground cars.\n\n4. Relationships Between Visible Elements:\n   - The two foreground cars are positioned side by side, with the police car between them.\n   - The buildings form the backdrop, framing the street scene.\n   - The occupants are confined within their vehicles, with no visible interaction between them.\n\n5. Important Readable Text and Visual Details:\n   - There is no readable text visible in the frame.\n   - The police car has a red and blue light bar on its roof and black-and-white checkered markings on its side.\n   - The cars are stylized with simplified shapes and flat colors.",
+            "inference_time_seconds": 38.571,
+            "ollama_metrics": {
+                "total_duration_seconds": 36.518,
+                "load_duration_seconds": 0.012,
+                "prompt_eval_count": 2176,
+                "eval_count": 387,
+                "tokens_per_second": 12.05
+            }
+        },
+        {
+            "frame_id": "frame_005",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_005.jpg",
+            "local_timestamp": 5.0,
+            "global_timestamp": 5.0,
+            "description": "This is a stylized, cartoon-like illustration of a traffic scene on a city street. The background features a light blue building facade with a repeating pattern of white rectangular windows. The street is gray, with white rectangular markings visible on the road surface, possibly indicating a crosswalk or lane divisions.\n\nIn the foreground, there are three vehicles visible from the front, all appearing to be in a traffic jam or stopped.\n\n1. The central vehicle is a light green car with a visible front grille and headlights. Inside, a woman with dark, wavy hair and a purple top is seated in the passenger seat, while a man with brown hair and glasses is driving. A small yellow sign with the word “TAXI” is visible on the roof of this car.\n\n2. To the left of the central car is a beige vehicle, possibly a van or a truck, with a visible front grille and headlights. Inside, two men are visible: one in the driver’s seat wearing glasses and a light blue shirt, and another in the passenger seat wearing a white shirt and glasses.\n\n3. To the right of the central car is a beige car with a prominent front grille and headlights. Inside, a woman with dark hair and a blue top is seated in the passenger seat, while a man with brown hair and glasses is driving. Behind this car, a portion of a white vehicle with red and blue emergency lights on top is visible, suggesting it is a police car.\n\nAll vehicles are stationary or moving very slowly, indicating a traffic jam. The characters are depicted in a simplified, flat design with minimal shading. The overall scene conveys a typical urban traffic situation with multiple vehicles and occupants.",
+            "inference_time_seconds": 34.419,
+            "ollama_metrics": {
+                "total_duration_seconds": 32.371,
+                "load_duration_seconds": 0.01,
+                "prompt_eval_count": 2176,
+                "eval_count": 340,
+                "tokens_per_second": 12.16
+            }
+        },
+        {
+            "frame_id": "frame_006",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_006.jpg",
+            "local_timestamp": 6.0,
+            "global_timestamp": 6.0,
+            "description": "This is a stylized, cartoon-like illustration of a city street scene viewed from a low angle, looking forward across a crosswalk. The setting is urban, with simplified, light-blue buildings featuring white rectangular windows in the background. The road surface is gray, with white stripes marking the crosswalk in the foreground.\n\nThree main vehicles are prominently featured, all facing forward and appearing to be stopped or moving slowly:\n\n1.  A central, light-green car with a large, rectangular windshield. Inside, a woman with dark hair sits in the passenger seat, and a man with glasses sits in the driver's seat.\n2.  To the left, a beige, boxy vehicle (possibly a van or truck) with a large rear window. Two men are visible inside: one in the driver’s seat wearing a white shirt and tie, and another in the passenger seat wearing a blue shirt and glasses, who is raising his hand to his head.\n3.  To the right, a beige car with a distinctive grille. Inside, a woman with dark hair is in the passenger seat, and a man with glasses is in the driver’s seat.\n\nBehind the central car, a white police car with red and blue lights on its roof is partially visible. Behind the beige vehicle on the left, a blue taxi with a yellow \"TAXI\" sign on its roof is also partially visible.\n\nAll vehicles are positioned on the road, with the crosswalk directly in front of them. The overall composition suggests a moment of traffic or a pause in movement.",
+            "inference_time_seconds": 31.846,
+            "ollama_metrics": {
+                "total_duration_seconds": 29.815,
+                "load_duration_seconds": 0.012,
+                "prompt_eval_count": 2176,
+                "eval_count": 312,
+                "tokens_per_second": 12.28
+            }
+        },
+        {
+            "frame_id": "frame_007",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_007.jpg",
+            "local_timestamp": 7.0,
+            "global_timestamp": 7.0,
+            "description": "This is a stylized, flat-design illustration of a city street scene at a crosswalk. The setting features a gray asphalt road with white pedestrian crosswalk stripes in the foreground. In the background, there are simplified, light-blue buildings with white rectangular windows, suggesting an urban environment.\n\nThree cars are prominently featured, all stopped at the crosswalk. From left to right:\n\n1. A brownish-gray van with a rear window showing two male occupants. The driver, wearing glasses and a blue shirt, is looking forward. The passenger, also wearing glasses, is looking toward the driver.\n2. A light green car in the center, with a rear window showing a woman with dark hair and a man with glasses. The woman is looking forward, while the man appears to be looking slightly to his right.\n3. A beige car on the right, with a rear window showing a woman with dark hair and a man with glasses. The woman is looking toward the man, who is looking forward.\n\nBehind the beige car, a white police car with red and blue lights on its roof is partially visible, also stopped.\n\nAll vehicles are depicted from a rear-facing perspective, with their rear windows showing the occupants. The illustration uses a minimalist, cartoonish style with solid colors and clean lines. There is no visible motion, and all vehicles appear stationary. The only readable text is the word “TAXI” on the roof of the van on the left.",
+            "inference_time_seconds": 30.055,
+            "ollama_metrics": {
+                "total_duration_seconds": 28.025,
+                "load_duration_seconds": 0.015,
+                "prompt_eval_count": 2176,
+                "eval_count": 293,
+                "tokens_per_second": 12.37
+            }
+        },
+        {
+            "frame_id": "frame_008",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_008.jpg",
+            "local_timestamp": 8.0,
+            "global_timestamp": 8.0,
+            "description": "In this frame, two individuals are visible inside a vehicle, viewed from outside through the windshield. The person on the left is a woman with dark, shoulder-length wavy hair, wearing a purple top. She is seated in the passenger seat and has a neutral facial expression. The person on the right is a man with brown hair and black-rimmed glasses, wearing a brown sweater over a white collared shirt. He is seated in the driver’s seat, holding the steering wheel with his left hand, and his right arm is extended outward with his hand open, as if gesturing or pointing. The interior of the car is visible, including the steering wheel and the seats, which are rendered in a simplified, stylized manner. The background outside the car is not detailed, appearing as a plain white space, suggesting the focus is on the occupants. The overall visual style is flat and cartoonish, with muted colors and clean lines.",
+            "inference_time_seconds": 21.299,
+            "ollama_metrics": {
+                "total_duration_seconds": 19.252,
+                "load_duration_seconds": 0.026,
+                "prompt_eval_count": 2176,
+                "eval_count": 190,
+                "tokens_per_second": 12.85
+            }
+        },
+        {
+            "frame_id": "frame_009",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_009.jpg",
+            "local_timestamp": 9.0,
+            "global_timestamp": 9.0,
+            "description": "In this video frame, two individuals are visible inside a vehicle, viewed from the perspective of someone outside looking through the front windshield. The setting appears to be a car interior, with the windshield and a portion of the dashboard visible. The background is plain and light-colored, suggesting a simplified or stylized environment.\n\nThe main subjects are a woman in the passenger seat and a man in the driver’s seat. The woman has dark, shoulder-length wavy hair and is wearing a purple top. She is looking forward with a neutral or slightly concerned expression. The man has brown hair, wears black-rimmed glasses, and is dressed in a brown sweater over a white collared shirt with suspenders. He is seated behind the steering wheel, with his right hand raised to his forehead in a gesture that may indicate stress, confusion, or frustration.\n\nThe relationship between the elements is straightforward: the two individuals are seated in a car, with the man operating the vehicle and the woman as a passenger. There are no visible readable texts or additional details beyond the subjects and their immediate surroundings. The overall composition suggests a moment of tension or contemplation during a car ride.",
+            "inference_time_seconds": 24.761,
+            "ollama_metrics": {
+                "total_duration_seconds": 22.726,
+                "load_duration_seconds": 0.009,
+                "prompt_eval_count": 2176,
+                "eval_count": 233,
+                "tokens_per_second": 12.69
+            }
+        }
+    ],
+    "temporal_segments": [
+        {
+            "group_id": "group_001",
+            "frame_ids": [
+                "frame_000",
+                "frame_001",
+                "frame_002",
+                "frame_003",
+                "frame_004"
+            ],
+            "start_timestamp": 0.0,
+            "end_timestamp": 4.0,
+            "description": "The video sequence begins with a serene, minimalist sky featuring a single, soft white cloud drifting from the right side of the frame. The scene then transitions to a stylized, cartoonish cityscape with simplified buildings in the background. The foreground is occupied by several cars, including a police vehicle with a red and blue light bar, all depicted in a flat, graphic style.\n\nAs the frames progress, the camera perspective shifts to focus on the vehicles. Two cars are prominently featured: a light green car on the left and a beige car on the right. Inside the green car, a man with glasses is driving, and a woman with dark hair is in the passenger seat. In the beige car, another man with glasses is driving, and a woman with dark hair is in the passenger seat. Both drivers appear to be looking ahead, and the passengers are looking forward as well.\n\nThe police car remains stationary between the two civilian cars, with its lights on. The background buildings remain static, and the overall scene suggests a moment of traffic or a potential interaction between the drivers. The sequence captures a calm, everyday moment in a stylized urban environment, with no significant changes in the environment or the actions of the subjects beyond the initial transition from sky to cityscape.",
+            "inference_time_seconds": 78.753,
+            "ollama_metrics": {
+                "total_duration_seconds": 76.674,
+                "load_duration_seconds": 0.018,
+                "prompt_eval_count": 10470,
+                "eval_count": 254,
+                "tokens_per_second": 4.32
+            }
+        },
+        {
+            "group_id": "group_002",
+            "frame_ids": [
+                "frame_005",
+                "frame_006",
+                "frame_007",
+                "frame_008",
+                "frame_009"
+            ],
+            "start_timestamp": 5.0,
+            "end_timestamp": 9.0,
+            "description": "The sequence depicts a traffic scene on a city street, viewed from a low angle looking forward across a crosswalk. The environment is characterized by a light blue sky and the simplified, blocky architecture of city buildings in the background. The road is gray with white pedestrian crossing stripes.\n\nThe main focus is on a light green car in the center of the frame, which appears to be the primary subject of the sequence. Inside this car, a man with brown hair and glasses is driving, and a woman with dark, wavy hair is seated in the passenger seat. In the first three frames (5.0s-7.0s), the car is stationary in traffic, surrounded by other vehicles: to its left is a beige truck with two occupants, and to its right is a beige car with two occupants. Behind the green car, a white police car with red and blue lights is visible. The vehicles are positioned in a line, suggesting a traffic jam.\n\nBetween frames 5.0s and 7.0s, there is a subtle shift in perspective, with the camera angle appearing to move slightly forward or the vehicles shifting forward minimally, but the overall scene remains static.\n\nAt 8.0s, the camera zooms in for a close-up on the occupants of the green car. The driver, the man with glasses, raises his right hand in a gesture that could be interpreted as a wave or a signal. The passenger, the woman, has a neutral or slightly concerned expression.\n\nBy 9.0s, the close-up continues, and the driver now raises his hand to his forehead in a gesture that suggests confusion, frustration, or deep thought. The passenger maintains her neutral expression.\n\nThe sequence progresses from a wide shot of a traffic jam to a focused close-up on the driver's reaction, highlighting a moment of personal emotion or decision-making within the larger context of the traffic scene. The text \"TAXI\" is visible on a vehicle behind the green car, but it is not the central focus.",
+            "inference_time_seconds": 116.897,
+            "ollama_metrics": {
+                "total_duration_seconds": 114.829,
+                "load_duration_seconds": 0.024,
+                "prompt_eval_count": 10470,
+                "eval_count": 412,
+                "tokens_per_second": 4.27
+            }
+        }
+    ],
+    "total_elapsed_time_seconds": 459.708,
+    "individual_analysis_time_seconds": 264.029,
+    "temporal_analysis_time_seconds": 195.65
+}

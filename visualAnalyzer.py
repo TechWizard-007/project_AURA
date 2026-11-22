@@ -1,0 +1,573 @@
+
+import os
+import time
+import base64
+import json
+import requests
+
+from pathlib import Path
+from tqdm import tqdm
+from dotenv import load_dotenv
+
+
+load_dotenv()
+
+
+# Ollama configuration
+OLLAMA_BASE_URL = os.getenv(
+    "AURA_OLLAMA_BASE_URL",
+    "http://localhost:11434"
+).rstrip("/")
+
+VISION_MODEL = os.getenv(
+    "AURA_VISION_MODEL",
+    "qwen3-vl:8b-instruct"
+)
+
+REQUEST_TIMEOUT = int(
+    os.getenv("AURA_VISION_TIMEOUT", "300")
+)
+
+# Temporal analysis configuration
+FRAME_GROUP_SIZE = int(
+    os.getenv("AURA_FRAME_GROUP_SIZE", "5")
+)
+
+
+class VisualAnalyzer:
+
+    def __init__(self):
+
+        self.model = VISION_MODEL
+
+        self.generate_url = (
+            f"{OLLAMA_BASE_URL}/api/generate"
+        )
+
+        print("\nInitializing visual analyzer...")
+        print(f"Model: {self.model}")
+
+        try:
+            response = requests.get(
+                f"{OLLAMA_BASE_URL}/api/tags",
+                timeout=10
+            )
+
+            response.raise_for_status()
+
+        except requests.RequestException as error:
+            raise ConnectionError(
+                f"Unable to connect to Ollama: {error}"
+            ) from error
+
+        available_models = [
+            model["name"]
+            for model in response.json().get("models", [])
+        ]
+
+        if self.model not in available_models:
+            raise RuntimeError(
+                f"Model '{self.model}' is not available.\n"
+                f"Available models: {available_models}"
+            )
+
+        print("Ollama connection established!")
+        print("Visual analyzer initialized successfully!")
+
+    @staticmethod
+    def encode_image(image_path: Path) -> str:
+
+        image_path = Path(image_path)
+
+        if not image_path.exists():
+            raise FileNotFoundError(
+                f"Image not found: {image_path}"
+            )
+
+        with image_path.open("rb") as image_file:
+            return base64.b64encode(
+                image_file.read()
+            ).decode("utf-8")
+
+    @staticmethod
+    def get_metrics(result: dict) -> dict:
+
+        eval_duration = result.get(
+            "eval_duration", 0
+        )
+
+        eval_count = result.get(
+            "eval_count", 0
+        )
+
+        return {
+            "total_duration_seconds": round(
+                result.get("total_duration", 0) / 1e9,
+                3
+            ),
+
+            "load_duration_seconds": round(
+                result.get("load_duration", 0) / 1e9,
+                3
+            ),
+
+            "prompt_eval_count": result.get(
+                "prompt_eval_count", 0
+            ),
+
+            "eval_count": eval_count,
+
+            "tokens_per_second": round(
+                eval_count / (eval_duration / 1e9),
+                2
+            ) if eval_duration > 0 else 0
+        }
+
+    
+
+
+    def generate(
+        self,
+        prompt: str,
+        images: list[str]
+    ) -> dict:
+
+        payload = {
+            "model": self.model,
+            "prompt": prompt,
+            "images": images,
+            "stream": False,
+            "options": {
+                "temperature": 0.2,
+                "num_ctx": 16384
+            }
+        }
+
+        start_time = time.perf_counter()
+
+        response = requests.post(
+            self.generate_url,
+            json=payload,
+            timeout=REQUEST_TIMEOUT
+        )
+
+        if not response.ok:
+            print("\nOllama API Error!")
+            print(f"Status Code: {response.status_code}")
+            print(f"Response: {response.text}")
+
+            response.raise_for_status()
+
+        # This must be OUTSIDE the error-checking block
+        result = response.json()
+
+        wall_time = time.perf_counter() - start_time
+
+        description = result.get(
+            "response", ""
+        ).strip()
+
+        if not description:
+            raise RuntimeError(
+                "Ollama returned an empty description."
+            )
+
+        return {
+            "description": description,
+
+            "inference_time_seconds": round(
+                wall_time, 3
+            ),
+
+            "ollama_metrics": self.get_metrics(result)
+        }
+
+
+
+    # -----------------------------------------
+    # INDIVIDUAL FRAME ANALYSIS
+    # -----------------------------------------
+
+    @staticmethod
+    def create_individual_prompt(
+        timestamp: float
+    ) -> str:
+
+        return f"""
+You are the visual understanding component of
+Project AURA, a video understanding system.
+
+Analyze this single video frame.
+
+Video timestamp: {timestamp} seconds.
+
+Describe:
+
+1. The visible environment and setting.
+2. Main subjects and objects.
+3. Observable actions and positions.
+4. Relationships between visible elements.
+5. Important readable text and visual details.
+
+IMPORTANT:
+
+- Describe only what is visibly supported.
+- Do not invent objects, actions or events.
+- Do not infer identities or intentions.
+- Avoid unsupported emotional interpretations.
+- Be objective, concise and useful for semantic retrieval.
+
+Return one detailed natural-language description.
+"""
+
+    def analyze_individual_frame(
+        self,
+        frame: dict
+    ) -> dict:
+
+        image = self.encode_image(
+            frame["frame_path"]
+        )
+
+        prompt = self.create_individual_prompt(
+            frame["global_timestamp"]
+        )
+
+        return self.generate(
+            prompt=prompt,
+            images=[image]
+        )
+
+    def analyze_individual_frames(
+        self,
+        frames: list[dict]
+    ) -> list[dict]:
+
+        results = []
+
+        print("\nStarting individual frame analysis...")
+
+        for frame in tqdm(
+            frames,
+            desc="Individual frames",
+            unit="frame"
+        ):
+
+            analysis = self.analyze_individual_frame(
+                frame
+            )
+
+            results.append({
+
+                "frame_id": Path(
+                    frame["frame_path"]
+                ).stem,
+
+                "frame_path": str(
+                    frame["frame_path"]
+                ),
+
+                "local_timestamp": frame[
+                    "local_timestamp"
+                ],
+
+                "global_timestamp": frame[
+                    "global_timestamp"
+                ],
+
+                "description": analysis[
+                    "description"
+                ],
+
+                "inference_time_seconds": analysis[
+                    "inference_time_seconds"
+                ],
+
+                "ollama_metrics": analysis[
+                    "ollama_metrics"
+                ]
+
+            })
+
+        return results
+
+    # -----------------------------------------
+    # TEMPORAL GROUP ANALYSIS
+    # -----------------------------------------
+
+    @staticmethod
+    def create_temporal_prompt(
+        frames: list[dict]
+    ) -> str:
+
+        timeline = "\n".join(
+            f"- Image {index + 1}: "
+            f"{frame['global_timestamp']} seconds"
+            for index, frame in enumerate(frames)
+        )
+
+        return f"""
+You are the temporal visual understanding component
+of Project AURA.
+
+You have received {len(frames)} consecutive frames
+from a video, arranged in chronological order.
+
+FRAME TIMELINE:
+
+{timeline}
+
+Analyze all images together.
+
+Produce ONE unified description of the visual
+sequence, focusing on:
+
+1. Overall scene and environment.
+2. Main subjects and objects.
+3. Observable actions and changes across frames.
+4. Spatial relationships between subjects and objects.
+5. Continuity of recurring subjects and objects.
+6. Important visual details and readable text.
+7. How the scene progresses over time.
+
+IMPORTANT:
+
+- Treat images as chronological observations.
+- Identify changes that are actually visible.
+- Maintain consistency when referring to recurring
+  subjects and objects.
+- Do not invent events between frames.
+- Do not assume identity, intention or emotion.
+- Mention uncertainty when visual evidence is unclear.
+- Do not describe every frame independently.
+- Preserve useful details for semantic video retrieval.
+
+Return ONE unified natural-language description.
+"""
+
+    def analyze_temporal_group(
+        self,
+        frames: list[dict]
+    ) -> dict:
+
+        images = [
+            self.encode_image(frame["frame_path"])
+            for frame in frames
+        ]
+
+        prompt = self.create_temporal_prompt(
+            frames
+        )
+
+        return self.generate(
+            prompt=prompt,
+            images=images
+        )
+
+    def analyze_temporal_frames(
+        self,
+        frames: list[dict]
+    ) -> list[dict]:
+
+        frame_groups = [
+            frames[index:index + FRAME_GROUP_SIZE]
+            for index in range(
+                0,
+                len(frames),
+                FRAME_GROUP_SIZE
+            )
+        ]
+
+        results = []
+
+        print("\nStarting temporal group analysis...")
+
+        for index, group in enumerate(
+            tqdm(
+                frame_groups,
+                desc="Temporal groups",
+                unit="group"
+            ),
+            start=1
+        ):
+
+            analysis = self.analyze_temporal_group(
+                group
+            )
+
+            results.append({
+
+                "group_id": f"group_{index:03d}",
+
+                "frame_ids": [
+                    Path(frame["frame_path"]).stem
+                    for frame in group
+                ],
+
+                "start_timestamp": group[0][
+                    "global_timestamp"
+                ],
+
+                "end_timestamp": group[-1][
+                    "global_timestamp"
+                ],
+
+                "description": analysis[
+                    "description"
+                ],
+
+                "inference_time_seconds": analysis[
+                    "inference_time_seconds"
+                ],
+
+                "ollama_metrics": analysis[
+                    "ollama_metrics"
+                ]
+
+            })
+
+        return results
+
+    # -----------------------------------------
+    # COMPLETE VISUAL ANALYSIS
+    # -----------------------------------------
+
+    
+    def analyze_frames(
+        self,
+        frames: list[dict],
+        output_path: Path,
+        chunk_id: str
+    ) -> dict:
+
+        if not frames:
+            raise ValueError("No frames provided.")
+
+        if FRAME_GROUP_SIZE <= 0:
+            raise ValueError("Frame group size must be greater than zero.")
+
+        output_path = Path(output_path)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+
+        total_start = time.perf_counter()
+
+        result = {
+            "chunk_id": chunk_id,
+            "model": self.model,
+            "status": "in_progress",
+            "total_frames": len(frames),
+            "frame_group_size": FRAME_GROUP_SIZE,
+            "total_temporal_groups": (
+                (len(frames) + FRAME_GROUP_SIZE - 1)
+                // FRAME_GROUP_SIZE
+            ),
+            "individual_segments": [],
+            "temporal_segments": []
+        }
+
+        def save_progress():
+
+            result["total_elapsed_time_seconds"] = round(
+                time.perf_counter() - total_start, 3
+            )
+
+            with output_path.open("w", encoding="utf-8") as file:
+                json.dump(
+                    result,
+                    file,
+                    indent=4,
+                    ensure_ascii=False
+                )
+
+        try:
+
+            # Pass 1: Individual frame analysis
+            print("\nStarting individual frame analysis...")
+
+            for frame in tqdm(
+                frames,
+                desc="Individual frames",
+                unit="frame"
+            ):
+
+                analysis = self.analyze_individual_frame(frame)
+
+                result["individual_segments"].append({
+                    "frame_id": Path(frame["frame_path"]).stem,
+                    "frame_path": str(frame["frame_path"]),
+                    "local_timestamp": frame["local_timestamp"],
+                    "global_timestamp": frame["global_timestamp"],
+                    "description": analysis["description"],
+                    "inference_time_seconds": analysis["inference_time_seconds"],
+                    "ollama_metrics": analysis["ollama_metrics"]
+                })
+
+                save_progress()
+
+            print("\nIndividual analysis completed!")
+
+            # Pass 2: Temporal group analysis
+            frame_groups = [
+                frames[index:index + FRAME_GROUP_SIZE]
+                for index in range(0, len(frames), FRAME_GROUP_SIZE)
+            ]
+
+            print("\nStarting temporal group analysis...")
+
+            for index, group in enumerate(
+                tqdm(frame_groups, desc="Temporal groups", unit="group"),
+                start=1
+            ):
+
+                analysis = self.analyze_temporal_group(group)
+
+                result["temporal_segments"].append({
+                    "group_id": f"group_{index:03d}",
+                    "frame_ids": [
+                        Path(frame["frame_path"]).stem
+                        for frame in group
+                    ],
+                    "start_timestamp": group[0]["global_timestamp"],
+                    "end_timestamp": group[-1]["global_timestamp"],
+                    "description": analysis["description"],
+                    "inference_time_seconds": analysis["inference_time_seconds"],
+                    "ollama_metrics": analysis["ollama_metrics"]
+                })
+
+                save_progress()
+
+            # Final statistics
+            result["individual_analysis_time_seconds"] = round(
+                sum(
+                    segment["inference_time_seconds"]
+                    for segment in result["individual_segments"]
+                ), 3
+            )
+
+            result["temporal_analysis_time_seconds"] = round(
+                sum(
+                    segment["inference_time_seconds"]
+                    for segment in result["temporal_segments"]
+                ), 3
+            )
+
+            result["status"] = "completed"
+
+            save_progress()
+
+            print("\nVisual analysis completed!")
+            print(f"Individual descriptions: {len(result['individual_segments'])}")
+            print(f"Temporal descriptions: {len(result['temporal_segments'])}")
+            print(f"Total elapsed time: {result['total_elapsed_time_seconds']:.2f}s")
+            print(f"Saved to: {output_path}")
+
+            return result
+
+        except Exception:
+
+            result["status"] = "partial"
+            save_progress()
+
+            print("\nAnalysis interrupted. Completed results preserved.")
+
+            raise

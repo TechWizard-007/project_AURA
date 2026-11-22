@@ -1,0 +1,207 @@
+{
+    "chunk_id": "chunk_003",
+    "model": "qwen3-vl:8b-instruct",
+    "status": "completed",
+    "total_frames": 10,
+    "frame_group_size": 5,
+    "total_temporal_groups": 2,
+    "individual_segments": [
+        {
+            "frame_id": "frame_000",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_003\\frames\\frame_000.jpg",
+            "local_timestamp": 0.0,
+            "global_timestamp": 20.0,
+            "description": "In a stylized, cartoonish urban setting with a light blue sky and simplified building facades, a man with brown hair, wearing a dark jacket over a light shirt, is riding a teal scooter with a red seat and yellow accents. He has a yellow “TAXI” sign on his head and is gesturing with his right hand toward the right side of the frame. Behind him, two other men are visible inside a vehicle: one with glasses and a smile, and another with a neutral expression. To the right, a large, light-green vehicle, possibly a bus or van, is shown with two passengers visible through its window: a woman with dark, wavy hair in a purple top and a man with glasses and a brown shirt. The woman appears to be looking forward, while the man has a neutral expression. The scene suggests a city street with vehicles and pedestrians, and the “TAXI” sign indicates the scooter rider is offering a ride.",
+            "inference_time_seconds": 48.374,
+            "ollama_metrics": {
+                "total_duration_seconds": 46.279,
+                "load_duration_seconds": 0.014,
+                "prompt_eval_count": 2177,
+                "eval_count": 197,
+                "tokens_per_second": 12.84
+            }
+        },
+        {
+            "frame_id": "frame_001",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_003\\frames\\frame_001.jpg",
+            "local_timestamp": 1.0,
+            "global_timestamp": 21.0,
+            "description": "This is a stylized, cartoon-like illustration of a city street scene at what appears to be daytime, with a light blue sky and simplified, blocky buildings in the background. The foreground features a gray road with white pedestrian crosswalk markings.\n\nThe main subjects are several vehicles and their occupants:\n\n- In the center, a large, light-green car is shown from the front, with two occupants visible through the windshield: a woman with dark hair and a man with glasses.\n- To the left, a teal scooter is positioned in front of a beige van. The scooter rider is a man in a suit, and inside the van, two men are visible, one of whom is wearing glasses.\n- To the right, a beige police car with red and blue lights on its roof is partially visible, with several occupants inside.\n- The vehicles are arranged as if in traffic or stopped at an intersection.\n\nThe only readable text visible is the word \"TAXI\" in yellow on the side of the van, above the driver's side window.\n\nThe vehicles are positioned in a line, suggesting a traffic jam or stop. The scooter is in front of the van, and the police car is to the right of the central car. The buildings in the background are uniform in design, with white rectangular windows, indicating a stylized urban environment.",
+            "inference_time_seconds": 50.492,
+            "ollama_metrics": {
+                "total_duration_seconds": 48.453,
+                "load_duration_seconds": 0.014,
+                "prompt_eval_count": 2177,
+                "eval_count": 269,
+                "tokens_per_second": 12.23
+            }
+        },
+        {
+            "frame_id": "frame_002",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_003\\frames\\frame_002.jpg",
+            "local_timestamp": 2.0,
+            "global_timestamp": 22.0,
+            "description": "The frame displays a solid, uniform light blue background with no visible environment, subjects, objects, actions, relationships, or text.",
+            "inference_time_seconds": 30.605,
+            "ollama_metrics": {
+                "total_duration_seconds": 28.536,
+                "load_duration_seconds": 0.011,
+                "prompt_eval_count": 2177,
+                "eval_count": 27,
+                "tokens_per_second": 13.93
+            }
+        },
+        {
+            "frame_id": "frame_003",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_003\\frames\\frame_003.jpg",
+            "local_timestamp": 3.0,
+            "global_timestamp": 23.0,
+            "description": "In this single video frame at timestamp 23.0 seconds, a stylized, minimalist illustration is shown against a solid light blue background. The main subject is a hand holding a smartphone vertically. The hand is depicted with a simple orange-colored skin tone and is wearing a sleeve of a solid maroon color. The smartphone has a dark gray or black rectangular frame with rounded corners. At the top of the phone, a small speaker grille is visible. The screen is entirely white and blank, with no content displayed. A small circular home button is located at the bottom center of the phone’s frame. The phone is held steady in the center of the frame, with the hand and phone occupying the central visual space. There are no other objects, text, or environmental details visible. The composition is clean and focused solely on the smartphone and the hand holding it.",
+            "inference_time_seconds": 42.961,
+            "ollama_metrics": {
+                "total_duration_seconds": 40.918,
+                "load_duration_seconds": 0.034,
+                "prompt_eval_count": 2177,
+                "eval_count": 174,
+                "tokens_per_second": 12.86
+            }
+        },
+        {
+            "frame_id": "frame_004",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_003\\frames\\frame_004.jpg",
+            "local_timestamp": 4.0,
+            "global_timestamp": 24.0,
+            "description": "In a minimalist, flat-design illustration with a solid light blue background, a hand emerges from the bottom of the frame, holding a dark gray smartphone. The hand is depicted with a simple, stylized form, wearing a sleeve of a deep purple or maroon color. The smartphone has a classic rectangular shape with rounded corners, a small speaker grille at the top, and a circular home button at the bottom. The phone’s screen is white and displays a logo: a stylized coffee cup with steam rising from it, and the word “Coffee” written in a cursive, brown font that flows around the cup. The top of the screen shows a status bar with icons for signal strength, Wi-Fi, and battery. The hand holds the phone steady and centered in the frame, with the phone’s screen facing forward and directly toward the viewer. There are no other objects or environmental details visible.",
+            "inference_time_seconds": 43.006,
+            "ollama_metrics": {
+                "total_duration_seconds": 40.978,
+                "load_duration_seconds": 0.011,
+                "prompt_eval_count": 2177,
+                "eval_count": 181,
+                "tokens_per_second": 12.44
+            }
+        },
+        {
+            "frame_id": "frame_005",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_003\\frames\\frame_005.jpg",
+            "local_timestamp": 5.0,
+            "global_timestamp": 25.0,
+            "description": "In a minimalist, light-blue environment, a hand emerges from the bottom of the frame, holding a dark gray smartphone. The hand is wearing a sleeve of a deep purple garment. The smartphone’s screen displays a simple, stylized illustration: a coffee cup with steam rising above it, resting on a saucer. The word “Coffee” is written in a cursive, brown font, arcing around the cup. The phone’s status bar at the top shows signal and battery indicators. The composition is centered, with the phone and hand as the sole focus against the plain background.",
+            "inference_time_seconds": 37.089,
+            "ollama_metrics": {
+                "total_duration_seconds": 35.054,
+                "load_duration_seconds": 0.011,
+                "prompt_eval_count": 2177,
+                "eval_count": 118,
+                "tokens_per_second": 13.52
+            }
+        },
+        {
+            "frame_id": "frame_006",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_003\\frames\\frame_006.jpg",
+            "local_timestamp": 6.0,
+            "global_timestamp": 26.0,
+            "description": "This is a static image of a logo on a plain white background. The central graphic is a stylized coffee cup and saucer, outlined in brown with a white interior. The word \"Coffee\" is written in a flowing, cursive brown font that curves along the side of the cup. To the right of the cup, on the saucer, are three coffee beans. Below the cup and saucer, the text \"The Java Cafe\" is written in a smaller, simpler brown font. The overall design is minimalist and uses a monochromatic brown and white color scheme.",
+            "inference_time_seconds": 37.185,
+            "ollama_metrics": {
+                "total_duration_seconds": 35.148,
+                "load_duration_seconds": 0.013,
+                "prompt_eval_count": 2177,
+                "eval_count": 118,
+                "tokens_per_second": 13.48
+            }
+        },
+        {
+            "frame_id": "frame_007",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_003\\frames\\frame_007.jpg",
+            "local_timestamp": 7.0,
+            "global_timestamp": 27.0,
+            "description": "This is a static image of a logo for a café. The central graphic is a stylized outline of a coffee cup and saucer, rendered in a single brown line. The word “Coffee” is written in a flowing, cursive script that curves along the side of the cup. To the right of the cup, on the saucer, are three coffee beans. Below the cup and saucer, the text “The Java Cafe” is written in a smaller, simpler font. The entire logo is monochromatic, using only brown on a white background. There is no visible environment, action, or movement, as this is a still image. The elements are arranged to form a cohesive brand identity, with the cup and text as the primary focal points.",
+            "inference_time_seconds": 40.537,
+            "ollama_metrics": {
+                "total_duration_seconds": 38.463,
+                "load_duration_seconds": 0.011,
+                "prompt_eval_count": 2177,
+                "eval_count": 155,
+                "tokens_per_second": 12.75
+            }
+        },
+        {
+            "frame_id": "frame_008",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_003\\frames\\frame_008.jpg",
+            "local_timestamp": 8.0,
+            "global_timestamp": 28.0,
+            "description": "This is a static image of a logo for \"The Java Cafe.\" The logo features a stylized outline of a coffee cup and saucer in a brown color on a white background. The word \"Coffee\" is written in a flowing, cursive script that appears to be integrated into the shape of the cup. To the right of the cup, on the saucer, are three coffee beans. Below the cup and saucer, the text \"The Java Cafe\" is written in a simpler, sans-serif font. The overall design is minimalist and centered.",
+            "inference_time_seconds": 36.747,
+            "ollama_metrics": {
+                "total_duration_seconds": 34.696,
+                "load_duration_seconds": 0.012,
+                "prompt_eval_count": 2177,
+                "eval_count": 113,
+                "tokens_per_second": 13.54
+            }
+        },
+        {
+            "frame_id": "frame_009",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_003\\frames\\frame_009.jpg",
+            "local_timestamp": 9.0,
+            "global_timestamp": 29.0,
+            "description": "The frame displays a dark, minimalist logo centered on a black background. The logo features a stylized outline of a coffee cup with a saucer. The word “Coffee” is written in a cursive, flowing font, arcing over the cup and saucer. To the right of the cup, three coffee beans are depicted. Below the cup and saucer, the text “The Java Cafe” is written in a clean, sans-serif font. The entire logo is rendered in a dark brown or black color, creating a monochromatic and subdued visual effect. There are no other visible elements, actions, or environmental details in the frame.",
+            "inference_time_seconds": 38.153,
+            "ollama_metrics": {
+                "total_duration_seconds": 36.127,
+                "load_duration_seconds": 0.011,
+                "prompt_eval_count": 2177,
+                "eval_count": 131,
+                "tokens_per_second": 13.51
+            }
+        }
+    ],
+    "temporal_segments": [
+        {
+            "group_id": "group_001",
+            "frame_ids": [
+                "frame_000",
+                "frame_001",
+                "frame_002",
+                "frame_003",
+                "frame_004"
+            ],
+            "start_timestamp": 20.0,
+            "end_timestamp": 24.0,
+            "description": "The video sequence begins with a stylized, cartoonish depiction of a busy city street, characterized by simplified, blocky buildings with white windows against a light blue sky. The initial frame (20.0s) shows a man on a teal scooter, wearing a dark jacket over a white shirt, gesturing with his right hand as if hailing a ride. Behind him, a large, light-gray vehicle with a visible \"TAXI\" sign on its roof is partially visible. Inside this vehicle, two passengers are seated: a woman with dark, wavy hair in a purple top and a man with glasses and a brown shirt. To the left, another vehicle with two men inside is visible.\n\nIn the next frame (21.0s), the scene expands to show more of the street and additional vehicles. The scooter remains in the foreground, and the taxi is now more fully visible. A new vehicle, a beige police car with blue and red lights on its roof, appears on the right side of the frame, moving forward. The background buildings remain consistent, and the overall scene suggests a moment of traffic or a potential interaction.\n\nAt 22.0s, the scene abruptly transitions to a plain, solid light-blue background, with no visible characters, vehicles, or environmental details. This serves as a clear visual break or transition in the video.\n\nThe scene then shifts at 23.0s to a close-up of a hand holding a smartphone against the same light-blue background. The hand is wearing a purple sleeve, and the phone has a black frame with a white screen. The phone’s status bar shows icons for Wi-Fi and battery.\n\nIn the final frame at 24.0s, the smartphone screen now displays a simple, brown graphic of a coffee cup with the word \"Coffee\" written in a cursive font beneath it. The hand and background remain unchanged, indicating a focus on the phone’s screen content.\n\nOverall, the sequence progresses from a dynamic urban scene with multiple vehicles and characters to a minimalist, abstract transition, and finally to a close-up of a smartphone displaying a coffee-related graphic. The transition at 22.0s is the most significant change, marking a shift from the physical environment to a digital or conceptual one.",
+            "inference_time_seconds": 224.564,
+            "ollama_metrics": {
+                "total_duration_seconds": 222.513,
+                "load_duration_seconds": 0.016,
+                "prompt_eval_count": 10475,
+                "eval_count": 463,
+                "tokens_per_second": 4.37
+            }
+        },
+        {
+            "group_id": "group_002",
+            "frame_ids": [
+                "frame_005",
+                "frame_006",
+                "frame_007",
+                "frame_008",
+                "frame_009"
+            ],
+            "start_timestamp": 25.0,
+            "end_timestamp": 29.0,
+            "description": "The sequence begins with a hand holding a smartphone against a plain, light-blue background. The phone's screen displays a simple, brown-line illustration of a steaming coffee cup with the word \"Coffee\" written in a cursive style across it, accompanied by two coffee beans on the saucer. The scene then transitions to a close-up of the logo, which is now clearly visible on a white background. The logo features a stylized coffee cup and saucer, with the word \"Coffee\" integrated into the design and \"The Java Cafe\" written below it. The logo remains static in the subsequent frames, with the only change being a subtle darkening of the background, which culminates in the final frame where the logo is barely visible against a near-black background. The progression suggests a reveal or focus on the brand identity of \"The Java Cafe,\" moving from a contextual display on a phone to a clear, isolated presentation of the logo.",
+            "inference_time_seconds": 162.715,
+            "ollama_metrics": {
+                "total_duration_seconds": 160.692,
+                "load_duration_seconds": 0.02,
+                "prompt_eval_count": 10475,
+                "eval_count": 191,
+                "tokens_per_second": 4.37
+            }
+        }
+    ],
+    "total_elapsed_time_seconds": 792.474,
+    "individual_analysis_time_seconds": 405.149,
+    "temporal_analysis_time_seconds": 387.279
+}
