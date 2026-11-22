@@ -1,0 +1,17 @@
+{
+    "chunk_id": "chunk_003",
+    "audio_path": "data\\processed\\v1\\extracted\\chunk_003\\audio.wav",
+    "model": "large-v3-turbo.pt",
+    "device": "cuda",
+    "language": "en",
+    "text": "deliver fresh coffee and bagels.",
+    "segments": [
+        {
+            "start": 0.0,
+            "end": 7.0,
+            "global_start": 20.0,
+            "global_end": 27.0,
+            "text": "deliver fresh coffee and bagels."
+        }
+    ]
+}

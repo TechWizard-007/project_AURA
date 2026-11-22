@@ -9,6 +9,7 @@ from videoChunker import (
 )
 
 from audioExtractor import extract_audio
+from audioTranscriber import AudioTranscriber
 from frameExtractor import extract_frames
 
 
@@ -28,9 +29,12 @@ def process_chunks():
 
     print(f"\nFound {len(chunks)} video chunks.\n")
 
+    # Initialize transcription model once
+    transcriber = AudioTranscriber()
+
     for chunk in tqdm(
         chunks,
-        desc="Extracting media",
+        desc="Processing chunks",
         unit="chunk"
     ):
 
@@ -53,7 +57,7 @@ def process_chunks():
             exist_ok=True
         )
 
-        # Extract audio
+        # Step 1: Extract audio
         audio_path = chunk_output_dir / "audio.wav"
 
         extract_audio(
@@ -61,7 +65,18 @@ def process_chunks():
             output_path=audio_path
         )
 
-        # Extract representative frames
+        # Step 2: Transcribe audio
+        transcription_path = (
+            chunk_output_dir / "transcription.json"
+        )
+
+        transcription = transcriber.transcribe(
+            audio_path=audio_path,
+            output_path=transcription_path,
+            chunk_start_seconds=chunk_start
+        )
+
+        # Step 3: Extract representative frames
         frames_dir = chunk_output_dir / "frames"
 
         frames = extract_frames(
@@ -74,6 +89,7 @@ def process_chunks():
         tqdm.write(
             f"{chunk.name}: "
             f"Audio extracted | "
+            f"{len(transcription['segments'])} speech segments | "
             f"{len(frames)} frames extracted"
         )
 
