@@ -30,7 +30,7 @@ REQUEST_TIMEOUT = int(
 
 # Temporal analysis configuration
 FRAME_GROUP_SIZE = int(
-    os.getenv("AURA_FRAME_GROUP_SIZE", "5")
+    os.getenv("AURA_FRAME_GROUP_SIZE", "3")
 )
 
 ENABLE_TEMPORAL_ANALYSIS = (
@@ -477,7 +477,8 @@ class VisualAnalyzer:
             ),
             
             "individual_segments": [],
-            "temporal_segments": []
+            "temporal_segments": [],
+            "temporal_errors": []
         }
 
         def save_progress():
@@ -538,21 +539,46 @@ class VisualAnalyzer:
                     start=1
                 ):
 
-                    analysis = self.analyze_temporal_group(group)
+                    group_id = f"group_{index:03d}"
 
-                    result["temporal_segments"].append({
-                        "group_id": f"group_{index:03d}",
-                        "frame_ids": [
-                            Path(frame["frame_path"]).stem
-                            for frame in group
-                        ],
-                        "start_timestamp": group[0]["global_timestamp"],
-                        "end_timestamp": group[-1]["global_timestamp"],
-                        "description": analysis["description"],
-                        "inference_time_seconds": analysis["inference_time_seconds"],
-                        "ollama_metrics": analysis["ollama_metrics"]
-                    })
+                    try:
+                        analysis = self.analyze_temporal_group(group)
 
+                        result["temporal_segments"].append({
+                            "group_id": group_id,
+                            "frame_ids": [
+                                Path(frame["frame_path"]).stem
+                                for frame in group
+                            ],
+                            "start_timestamp": group[0]["global_timestamp"],
+                            "end_timestamp": group[-1]["global_timestamp"],
+                            "description": analysis["description"],
+                            "inference_time_seconds": analysis["inference_time_seconds"],
+                            "ollama_metrics": analysis["ollama_metrics"]
+                        })
+
+                    except Exception as error:
+                        error_details = {
+                            "group_id": group_id,
+                            "frame_ids": [
+                                Path(frame["frame_path"]).stem
+                                for frame in group
+                            ],
+                            "start_timestamp": group[0]["global_timestamp"],
+                            "end_timestamp": group[-1]["global_timestamp"],
+                            "error_type": type(error).__name__,
+                            "error": str(error)
+                        }
+
+                        result["temporal_errors"].append(error_details)
+
+                        print(
+                            f"\\nTemporal analysis failed for {group_id}: "
+                            f"{type(error).__name__}: {error}"
+                        )
+                        print("Skipping this group and continuing...")
+
+                    # Persist successful results and failures alike.
                     save_progress()
 
                 print("\nTemporal analysis completed!")
@@ -578,13 +604,18 @@ class VisualAnalyzer:
                 ), 3
             )
 
-            result["status"] = "completed"
+            result["status"] = (
+                "completed_with_warnings"
+                if result["temporal_errors"]
+                else "completed"
+            )
 
             save_progress()
 
             print("\nVisual analysis completed!")
             print(f"Individual descriptions: {len(result['individual_segments'])}")
             print(f"Temporal descriptions: {len(result['temporal_segments'])}")
+            print(f"Failed temporal groups: {len(result['temporal_errors'])}")
             print(f"Total elapsed time: {result['total_elapsed_time_seconds']:.2f}s")
             print(f"Saved to: {output_path}")
 
