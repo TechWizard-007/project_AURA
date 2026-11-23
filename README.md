@@ -249,56 +249,63 @@ another valid path.
 AURA reads configuration from `.env`. See [`.env.example`](.env.example)
 for the full template.
 
-  -----------------------------------------------------------------------------------------
-  Variable                          Purpose                 Typical value
-  --------------------------------- ----------------------- -------------------------------
-  `AURA_INPUT_VIDEO`                Source video path       `data/raw_videos/example.mp4`
+  -------------------------------------------------------------------------------------
+  Variable                          Purpose             Typical value
+  --------------------------------- ------------------- -------------------------------
+  `AURA_INPUT_VIDEO`                Source video path   `data/raw_videos/example.mp4`
 
-  `AURA_OUTPUT_DIR`                 Chunk and extraction    `data/processed/v1`
-                                    output root             
+  `AURA_OUTPUT_DIR`                 Chunk and           `data/processed/v1`
+                                    extraction output   
+                                    root                
 
-  `AURA_CHUNK_DURATION`             Chunk length in seconds `10`
+  `AURA_CHUNK_DURATION`             Chunk length in     `10`
+                                    seconds             
 
-  `AURA_WHISPER_MODEL_PATH`         Local Whisper           Default cache path if omitted
-                                    checkpoint path         
+  `AURA_WHISPER_MODEL_PATH`         Local Whisper       Default cache path if omitted
+                                    checkpoint path     
 
-  `AURA_WHISPER_DEVICE`             Whisper execution       `cuda`
-                                    device                  
+  `AURA_WHISPER_DEVICE`             Whisper execution   `cuda`
+                                    device              
 
-  `AURA_WHISPER_BEAM_SIZE`          Whisper beam size       `5`
+  `AURA_WHISPER_BEAM_SIZE`          Whisper beam size   `5`
 
-  `AURA_WHISPER_LANGUAGE`           Optional forced         blank
-                                    language; blank enables 
-                                    detection               
+  `AURA_WHISPER_LANGUAGE`           Optional forced     blank
+                                    language; blank     
+                                    enables detection   
 
-  `AURA_OLLAMA_BASE_URL`            Ollama server URL       `http://localhost:11434`
+  `AURA_OLLAMA_BASE_URL`            Ollama server URL   `http://localhost:11434`
 
-  `AURA_VISION_MODEL`               Ollama vision model     `qwen3-vl:8b-instruct`
+  `AURA_VISION_MODEL`               Ollama vision model `qwen3-vl:8b-instruct`
 
-  `AURA_VISION_TIMEOUT`             Vision request timeout  `300`
-                                    in seconds              
+  `AURA_VISION_TIMEOUT`             Vision request      `300`
+                                    timeout in seconds  
 
-  `AURA_FRAME_GROUP_SIZE`           Frames per              `5`
-                                    temporal-analysis group 
+  `AURA_FRAME_GROUP_SIZE`           Frames per          `5`
+                                    temporal-analysis   
+                                    group               
 
-  `AURA_EMBEDDING_MODEL`            Ollama embedding model  `bge-m3:latest`
+  `AURA_EMBEDDING_MODEL`            Ollama embedding    `bge-m3:latest`
+                                    model               
 
-  `AURA_EMBEDDING_DIMENSIONS`       Expected embedding      `1024`
-                                    dimensions              
+  `AURA_EMBEDDING_DIMENSIONS`       Expected embedding  `1024`
+                                    dimensions          
 
-  `AURA_EMBEDDING_TIMEOUT`          Embedding request       `300`
-                                    timeout in seconds      
+  `AURA_EMBEDDING_TIMEOUT`          Embedding request   `300`
+                                    timeout in seconds  
 
-  `AURA_VECTOR_DB_DIR`              Persistent ChromaDB     `data/vector_db`
-                                    directory               
+  `AURA_VECTOR_DB_DIR`              Persistent ChromaDB `data/vector_db`
+                                    directory           
 
-  `AURA_VISUAL_COLLECTION`          Visual collection name  `aura_visual`
+  `AURA_VISUAL_COLLECTION`          Visual collection   `aura_visual`
+                                    name                
 
-  `AURA_AUDIO_COLLECTION`           Audio collection name   `aura_audio`
+  `AURA_AUDIO_COLLECTION`           Audio collection    `aura_audio`
+                                    name                
 
-  `AURA_ENABLE_TEMPORAL_ANALYSIS`   Enable Qwen temporal    `true`
-                                    group descriptions      
-  -----------------------------------------------------------------------------------------
+  `AURA_ENABLE_TEMPORAL_ANALYSIS`   Enable Qwen         `true`
+                                    temporal group      
+                                    descriptions        
+  -------------------------------------------------------------------------------------
 
 ## Run the pipeline
 
@@ -405,6 +412,44 @@ The multimodal retriever surfaced the embrace around 49--52 seconds.
 
 These are qualitative examples from one test video, not a formal
 accuracy benchmark.
+
+## Demo and test media
+
+The following short films are suitable sample inputs for demonstrating
+AURA's video-preprocessing and retrieval pipeline. They are third-party
+works and are **not** part of the AURA source code or project ownership.
+
+  -------------------------------------------------------------------------------------------------------------------------------------------------------
+  Film                                                                     Duration Published licence                                    Source
+  ----------------------------------------------------------- --------------------- ---------------------------------------------------- ----------------
+  [The Daily                                                       About 50 seconds [CC BY                                               Blender Studio
+  Dweebs](https://studio.blender.org/projects/dailydweebs/)                         3.0](https://creativecommons.org/licenses/by/3.0/)   
+
+  [Biscuit: From Stray Dog to                                            60 seconds [CC BY                                               The Studio
+  Superhero](https://www.thestudio.io/osvideo/)                                     4.0](https://creativecommons.org/licenses/by/4.0/)   
+  -------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Attribution
+
+If you use either film in a public AURA demonstration, retain the
+corresponding attribution:
+
+-   **The Daily Dweebs:** © Blender Foundation, [Blender
+    Studio](https://studio.blender.org/projects/dailydweebs/). Licensed
+    under [Creative Commons Attribution
+    3.0](https://creativecommons.org/licenses/by/3.0/).
+-   **Biscuit:** "Biscuit by The Studio (thestudio.io), CC BY 4.0".
+    Licence: [Creative Commons Attribution
+    4.0](https://creativecommons.org/licenses/by/4.0/).
+
+These are Creative Commons-licensed works, **not public-domain works**.
+The licences allow reuse subject to their attribution terms. Check the
+original source page and any asset-specific notices before
+redistributing a copy or modified version.
+
+Use the films as local test inputs. Do not add downloaded source videos
+to the AURA repository; the `.gitignore` excludes `data/raw_videos/` and
+other generated data directories.
 
 ## MVP benchmark
 

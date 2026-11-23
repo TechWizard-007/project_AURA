@@ -1,7 +1,7 @@
 {
     "chunk_id": "chunk_001",
     "model": "qwen3-vl:8b-instruct",
-    "status": "completed",
+    "status": "in_progress",
     "total_frames": 10,
     "frame_group_size": 5,
     "temporal_analysis_enabled": true,
@@ -12,233 +12,20 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_000.jpg",
             "local_timestamp": 0.0,
             "global_timestamp": 0.0,
-            "description": "A bouquet of tulips—white, light purple, and deep purple—wrapped in textured gold paper sits near a window. Sunlight streams in, casting sharp shadows on the wrapping. Green stems and leaves emerge from the arrangement. The background is softly blurred, showing indistinct outdoor elements. The composition emphasizes light, texture, and color contrast.",
-            "inference_time_seconds": 21.221,
+            "description": "A bouquet of tulips in a textured gold paper wrapper rests near a window. White and pale pink blooms contrast with deep purple buds, surrounded by green stems. Sunlight streams in, casting sharp shadows on the wrapping. The background is softly blurred, suggesting an indoor setting with natural light. No text or discernible actions are visible.",
+            "inference_time_seconds": 23.677,
             "ollama_metrics": {
-                "total_duration_seconds": 19.187,
-                "load_duration_seconds": 11.388,
-                "prompt_eval_duration_seconds": 3.129,
-                "eval_duration_seconds": 4.613,
+                "total_duration_seconds": 21.649,
+                "load_duration_seconds": 13.998,
+                "prompt_eval_duration_seconds": 3.263,
+                "eval_duration_seconds": 4.337,
                 "prompt_eval_count": 1638,
-                "eval_count": 71,
-                "prompt_tokens_per_second": 523.41,
-                "tokens_per_second": 15.39
-            }
-        },
-        {
-            "frame_id": "frame_001",
-            "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_001.jpg",
-            "local_timestamp": 1.0,
-            "global_timestamp": 1.0,
-            "description": "A bouquet of tulips—white, light purple, and deep purple—is wrapped in textured gold paper. Sunlight streams from a window, casting sharp shadows on the wrapping. The background is blurred, showing indistinct outdoor elements. The flowers are arranged closely, with green stems and leaves visible. No text or readable markings are present.",
-            "inference_time_seconds": 9.339,
-            "ollama_metrics": {
-                "total_duration_seconds": 7.295,
-                "load_duration_seconds": 0.014,
-                "prompt_eval_duration_seconds": 2.867,
-                "eval_duration_seconds": 4.293,
-                "prompt_eval_count": 1638,
-                "eval_count": 69,
-                "prompt_tokens_per_second": 571.35,
-                "tokens_per_second": 16.07
-            }
-        },
-        {
-            "frame_id": "frame_002",
-            "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_002.jpg",
-            "local_timestamp": 2.0,
-            "global_timestamp": 2.0,
-            "description": "A bouquet of tulips—white, light purple, and deep purple—wrapped in textured gold paper sits near a window. Sunlight illuminates the flowers from the side, casting sharp shadows on the wrapping. The background is softly blurred, suggesting an indoor setting with natural light. No text or discernible actions are visible.",
-            "inference_time_seconds": 9.123,
-            "ollama_metrics": {
-                "total_duration_seconds": 7.083,
-                "load_duration_seconds": 0.009,
-                "prompt_eval_duration_seconds": 2.871,
-                "eval_duration_seconds": 4.086,
-                "prompt_eval_count": 1638,
-                "eval_count": 66,
-                "prompt_tokens_per_second": 570.53,
-                "tokens_per_second": 16.15
-            }
-        },
-        {
-            "frame_id": "frame_003",
-            "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_003.jpg",
-            "local_timestamp": 3.0,
-            "global_timestamp": 3.0,
-            "description": "A bouquet of tulips—white, light purple, and deep purple—wrapped in textured brown paper rests near a window. Sunlight illuminates the flowers from the side, casting sharp shadows on the wrapping. The background is softly blurred, suggesting an indoor setting with natural light. No text or discernible actions are visible.",
-            "inference_time_seconds": 9.053,
-            "ollama_metrics": {
-                "total_duration_seconds": 7.026,
-                "load_duration_seconds": 0.012,
-                "prompt_eval_duration_seconds": 2.804,
-                "eval_duration_seconds": 4.087,
-                "prompt_eval_count": 1638,
-                "eval_count": 66,
-                "prompt_tokens_per_second": 584.17,
-                "tokens_per_second": 16.15
-            }
-        },
-        {
-            "frame_id": "frame_004",
-            "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_004.jpg",
-            "local_timestamp": 4.0,
-            "global_timestamp": 4.0,
-            "description": "A bouquet of tulips—white, light purple, and deep purple—wrapped in textured gold paper sits near a window. Sunlight illuminates the flowers and casts shadows on the wrapping. The background is blurred, showing indistinct outdoor elements. No text or readable markings are visible. The composition emphasizes the bouquet’s colors and textures against the soft, natural light.",
-            "inference_time_seconds": 9.98,
-            "ollama_metrics": {
-                "total_duration_seconds": 7.947,
-                "load_duration_seconds": 0.012,
-                "prompt_eval_duration_seconds": 2.941,
-                "eval_duration_seconds": 4.842,
-                "prompt_eval_count": 1638,
-                "eval_count": 75,
-                "prompt_tokens_per_second": 556.97,
-                "tokens_per_second": 15.49
-            }
-        },
-        {
-            "frame_id": "frame_005",
-            "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_005.jpg",
-            "local_timestamp": 5.0,
-            "global_timestamp": 5.0,
-            "description": "A light gray envelope rests on a weathered wooden surface, its flap partially open. Sunlight casts a diagonal shadow across the envelope and table, highlighting texture and creases. The wood shows signs of aging with darkened patches and visible grain. No text or markings are visible on the envelope. The composition emphasizes stillness and natural lighting.",
-            "inference_time_seconds": 9.31,
-            "ollama_metrics": {
-                "total_duration_seconds": 7.277,
-                "load_duration_seconds": 0.012,
-                "prompt_eval_duration_seconds": 2.797,
-                "eval_duration_seconds": 4.358,
-                "prompt_eval_count": 1638,
-                "eval_count": 69,
-                "prompt_tokens_per_second": 585.53,
-                "tokens_per_second": 15.83
-            }
-        },
-        {
-            "frame_id": "frame_006",
-            "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_006.jpg",
-            "local_timestamp": 6.0,
-            "global_timestamp": 6.0,
-            "description": "A light gray envelope rests on a weathered wooden surface with visible cracks and dark patches. Sunlight casts a sharp, angular shadow across the envelope, highlighting its folded flap. The scene is static, with no discernible movement. The wood’s texture and the envelope’s clean lines contrast with the aged background, emphasizing the object’s simplicity and the ambient lighting.",
-            "inference_time_seconds": 9.507,
-            "ollama_metrics": {
-                "total_duration_seconds": 7.466,
-                "load_duration_seconds": 0.01,
-                "prompt_eval_duration_seconds": 2.825,
-                "eval_duration_seconds": 4.512,
-                "prompt_eval_count": 1638,
-                "eval_count": 73,
-                "prompt_tokens_per_second": 579.75,
-                "tokens_per_second": 16.18
-            }
-        },
-        {
-            "frame_id": "frame_007",
-            "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_007.jpg",
-            "local_timestamp": 7.0,
-            "global_timestamp": 7.0,
-            "description": "A light gray envelope rests on a weathered wooden surface, its flap partially open. Sunlight casts a diagonal beam across the scene, highlighting texture and creases. The wood shows signs of aging with darkened patches and visible grain. No text or markings are visible on the envelope. The composition emphasizes stillness and natural lighting.",
-            "inference_time_seconds": 9.168,
-            "ollama_metrics": {
-                "total_duration_seconds": 7.099,
-                "load_duration_seconds": 0.01,
-                "prompt_eval_duration_seconds": 2.879,
-                "eval_duration_seconds": 4.099,
-                "prompt_eval_count": 1638,
-                "eval_count": 67,
-                "prompt_tokens_per_second": 568.93,
-                "tokens_per_second": 16.35
-            }
-        },
-        {
-            "frame_id": "frame_008",
-            "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_008.jpg",
-            "local_timestamp": 8.0,
-            "global_timestamp": 8.0,
-            "description": "A person writes a handwritten note on a card with cloud cutouts, using a pen. Their hands, adorned with rings and bracelets, rest on a wooden table. Sunlight casts shadows across the paper. Visible text includes “WITH BIG HUGS” and phrases like “I don’t know what to say.” A glass jar sits partially in view on the right.",
-            "inference_time_seconds": 9.592,
-            "ollama_metrics": {
-                "total_duration_seconds": 7.571,
-                "load_duration_seconds": 0.01,
-                "prompt_eval_duration_seconds": 2.869,
-                "eval_duration_seconds": 4.566,
-                "prompt_eval_count": 1638,
-                "eval_count": 75,
-                "prompt_tokens_per_second": 570.87,
-                "tokens_per_second": 16.43
-            }
-        },
-        {
-            "frame_id": "frame_009",
-            "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_009.jpg",
-            "local_timestamp": 9.0,
-            "global_timestamp": 9.0,
-            "description": "A person writes a handwritten note on a white card with a green pen. Their hands, adorned with rings, rest on a wooden table. Sunlight casts shadows across the scene. Another card with cloud cutouts lies beside the note. Partially visible text includes “WITH BIG HUGS” and “I don’t know what to say.” A glass jar sits in the foreground.",
-            "inference_time_seconds": 9.809,
-            "ollama_metrics": {
-                "total_duration_seconds": 7.769,
-                "load_duration_seconds": 0.009,
-                "prompt_eval_duration_seconds": 2.861,
-                "eval_duration_seconds": 4.78,
-                "prompt_eval_count": 1638,
-                "eval_count": 78,
-                "prompt_tokens_per_second": 572.61,
-                "tokens_per_second": 16.32
+                "eval_count": 68,
+                "prompt_tokens_per_second": 502.06,
+                "tokens_per_second": 15.68
             }
         }
     ],
-    "temporal_segments": [
-        {
-            "group_id": "group_001",
-            "frame_ids": [
-                "frame_000",
-                "frame_001",
-                "frame_002",
-                "frame_003",
-                "frame_004"
-            ],
-            "start_timestamp": 0.0,
-            "end_timestamp": 4.0,
-            "description": "The scene remains largely unchanged across the frames. A bouquet of tulips, wrapped in patterned brown paper, is positioned near a window. Sunlight illuminates the flowers, casting distinct shadows. No discernible movement or action occurs, and the background stays static, maintaining the same composition throughout the sequence.",
-            "inference_time_seconds": 22.984,
-            "ollama_metrics": {
-                "total_duration_seconds": 20.929,
-                "load_duration_seconds": 0.023,
-                "prompt_eval_duration_seconds": 11.322,
-                "eval_duration_seconds": 9.297,
-                "prompt_eval_count": 7749,
-                "eval_count": 62,
-                "prompt_tokens_per_second": 684.41,
-                "tokens_per_second": 6.67
-            }
-        },
-        {
-            "group_id": "group_002",
-            "frame_ids": [
-                "frame_005",
-                "frame_006",
-                "frame_007",
-                "frame_008",
-                "frame_009"
-            ],
-            "start_timestamp": 5.0,
-            "end_timestamp": 9.0,
-            "description": "The sequence begins with a closed envelope on a weathered wooden surface. It transitions to a person writing a handwritten note on a card, with the pen moving across the paper. The action progresses from preparing to writing, with the note partially completed by the final frame. The envelope remains stationary throughout.",
-            "inference_time_seconds": 23.338,
-            "ollama_metrics": {
-                "total_duration_seconds": 21.301,
-                "load_duration_seconds": 0.019,
-                "prompt_eval_duration_seconds": 11.312,
-                "eval_duration_seconds": 9.397,
-                "prompt_eval_count": 7749,
-                "eval_count": 60,
-                "prompt_tokens_per_second": 685.01,
-                "tokens_per_second": 6.38
-            }
-        }
-    ],
-    "total_elapsed_time_seconds": 152.51,
-    "individual_analysis_time_seconds": 106.102,
-    "temporal_analysis_time_seconds": 46.322
+    "temporal_segments": [],
+    "total_elapsed_time_seconds": 23.679
 }
