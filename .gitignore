@@ -12,3 +12,18 @@ wheels/
 # env files
 .env
 
+# Environment variants
+.env.*
+!.env.example
+
+# AURA generated data
+data/raw_videos/
+data/processed/
+data/vector_db/
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
