@@ -265,14 +265,14 @@ In PowerShell, move to the folder where you want to keep AURA, then
 clone the repository. Replace the example URL with the URL you copied:
 
 ```powershell
-cd D:\AI_Dev
-git clone https://github.com/YOUR-USERNAME/Project-AURA.git
+# First, navigate to the folder where you want to clone AURA
+git clone https://github.com/YOUR-USERNAME/project_AURA.git
 ```
 
 Enter the newly created project folder:
 
 ```powershell
-cd Project-AURA
+cd project_AURA
 ```
 
 You should now be in the repository root. You can confirm it by running:
@@ -314,10 +314,12 @@ Create the default input directory:
 New-Item -ItemType Directory -Force data/raw_videos
 ```
 
-Place your video in that folder and update `AURA_INPUT_VIDEO` in
-`.env` with its filename and extension. You do not need to name the
-video `v1.webm`. You can also configure an absolute path or another
-valid path supported by the current input-path configuration.
+Place your video in that folder. You do not need to name it
+`v1.webm`, and you do not need to edit `.env` every time you process a
+different video. You can pass its path directly to the preprocessing
+command with `--video` (see [Run the pipeline](#run-the-pipeline)).
+Alternatively, set `AURA_INPUT_VIDEO` in `.env` as the default input
+when you run `uv run python main.py` without `--video`.
 
 ### 6. Download the local AI models
 
@@ -406,9 +408,30 @@ generation and ChromaDB ingestion are separate commands.
 
 ### 1. Chunk and preprocess the video
 
-``` powershell
+You can provide the input video directly with `--video`. This is the
+recommended option because you do not need to rename your file or edit
+`.env` just to process a different video:
+
+```powershell
+uv run python main.py --video "data/raw_videos/my_video.mp4"
+```
+
+You can also provide an absolute path:
+
+```powershell
+uv run python main.py --video "your video path"
+```
+
+If you omit `--video`, AURA falls back to the `AURA_INPUT_VIDEO` value
+configured in your local `.env` file:
+
+```powershell
 uv run python main.py
 ```
+
+The command-line `--video` argument takes priority over the `.env`
+setting. AURA checks that the input file exists and has a supported
+video extension before starting preprocessing.
 
 This runs:
 
