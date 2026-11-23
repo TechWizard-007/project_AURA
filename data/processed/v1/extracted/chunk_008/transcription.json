@@ -1,0 +1,17 @@
+{
+    "chunk_id": "chunk_008",
+    "audio_path": "data\\processed\\v1\\extracted\\chunk_008\\audio.wav",
+    "model": "large-v3-turbo.pt",
+    "device": "cuda",
+    "language": "en",
+    "text": "Thank you.",
+    "segments": [
+        {
+            "start": 0.0,
+            "end": 29.98,
+            "global_start": 70.0,
+            "global_end": 99.98,
+            "text": "Thank you."
+        }
+    ]
+}

@@ -4,22 +4,25 @@
     "status": "completed",
     "total_frames": 10,
     "frame_group_size": 5,
-    "temporal_analysis_enabled": false,
-    "total_temporal_groups": 0,
+    "temporal_analysis_enabled": true,
+    "total_temporal_groups": 2,
     "individual_segments": [
         {
             "frame_id": "frame_000",
             "frame_path": "data\\processed\\v1\\extracted\\chunk_002\\frames\\frame_000.jpg",
             "local_timestamp": 0.0,
             "global_timestamp": 10.0,
-            "description": "In this video frame, two individuals are visible inside a vehicle, viewed from outside through the front windshield. The setting appears to be a car interior, with the windshield framing the scene. The person on the left is a woman with shoulder-length dark hair, wearing a purple top. She is seated in the passenger seat. The person on the right is a man with short brown hair and black-rimmed glasses, wearing a brown shirt with a white collar and suspenders. He is seated in the driver’s seat, with his hands on the steering wheel. Both individuals have neutral facial expressions and are looking forward. The car’s interior is minimally detailed, with gray seats visible behind the occupants. The background outside the car is not visible, and there is no readable text in the frame. The overall composition suggests a static shot focused on the two people inside the vehicle.",
-            "inference_time_seconds": 45.691,
+            "description": "A person writes a handwritten note on a white card with cloud cutouts, using a black pen. Their hands, adorned with rings, rest on a wooden table. Sunlight casts shadows across the scene. Partially visible text includes “WITH BIG HUGS” and “I don’t know what to say.” A glass jar sits blurred in the foreground, suggesting a quiet, personal moment.",
+            "inference_time_seconds": 27.554,
             "ollama_metrics": {
-                "total_duration_seconds": 43.659,
-                "load_duration_seconds": 0.012,
-                "prompt_eval_count": 2177,
-                "eval_count": 176,
-                "tokens_per_second": 12.3
+                "total_duration_seconds": 25.518,
+                "load_duration_seconds": 0.013,
+                "prompt_eval_duration_seconds": 16.742,
+                "eval_duration_seconds": 5.471,
+                "prompt_eval_count": 1639,
+                "eval_count": 80,
+                "prompt_tokens_per_second": 97.9,
+                "tokens_per_second": 14.62
             }
         },
         {
@@ -27,14 +30,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_002\\frames\\frame_001.jpg",
             "local_timestamp": 1.0,
             "global_timestamp": 11.0,
-            "description": "This is a flat, minimalist illustration of a person’s left wrist and forearm against a solid light blue background. The arm is shown in profile, with the hand slightly curled. The person is wearing a brown, long-sleeved shirt with the cuff folded back. On the wrist is a wristwatch with a square orange case, a dark gray strap, and a white face. The watch face has black hour markers and black hour and minute hands, with a red second hand. The watch is centered on the wrist, and the hand is positioned so that the watch is clearly visible. There are no other objects or text in the frame.",
-            "inference_time_seconds": 38.308,
+            "description": "A person with dark, curly hair is out of focus in the background, looking downward. In the foreground, a bouquet of white and light purple tulips with green stems is wrapped in textured brown paper. The setting appears indoors with warm, soft lighting. The person’s face is blurred, and no readable text is visible.",
+            "inference_time_seconds": 23.744,
             "ollama_metrics": {
-                "total_duration_seconds": 36.275,
-                "load_duration_seconds": 0.016,
-                "prompt_eval_count": 2177,
-                "eval_count": 129,
-                "tokens_per_second": 13.19
+                "total_duration_seconds": 21.707,
+                "load_duration_seconds": 0.013,
+                "prompt_eval_duration_seconds": 17.048,
+                "eval_duration_seconds": 4.524,
+                "prompt_eval_count": 1639,
+                "eval_count": 66,
+                "prompt_tokens_per_second": 96.14,
+                "tokens_per_second": 14.59
             }
         },
         {
@@ -42,14 +48,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_002\\frames\\frame_002.jpg",
             "local_timestamp": 2.0,
             "global_timestamp": 12.0,
-            "description": "A single frame from a video at timestamp 12.0 seconds shows a stylized, flat-design illustration of a person’s left wrist and hand. The hand is shown in profile, with the palm facing slightly upward and fingers slightly curled. The wrist is adorned with a watch that has a square orange case, a white dial with black tick marks for hours and minutes, and black hour and minute hands, along with a red second hand. The watch strap is gray. The person is wearing a brown sleeve that extends from the left side of the frame, covering the wrist and part of the forearm. The background is a solid, light blue color, providing no additional environmental context. There are no other visible objects or text in the frame. The hand and watch are centrally positioned, with the hand occupying the right side of the frame and the sleeve extending to the left. The watch is clearly attached to the wrist, and the hand is stationary with no discernible motion.",
-            "inference_time_seconds": 43.961,
+            "description": "A person with dark, curly hair is seen in soft focus, looking downward. In the foreground, a bouquet of white and light pink tulips wrapped in brown paper is prominently displayed. The setting appears to be indoors, with warm, muted lighting. The person’s face is blurred, emphasizing the flowers as the primary subject.",
+            "inference_time_seconds": 24.096,
             "ollama_metrics": {
-                "total_duration_seconds": 41.915,
-                "load_duration_seconds": 0.013,
-                "prompt_eval_count": 2177,
-                "eval_count": 196,
-                "tokens_per_second": 12.66
+                "total_duration_seconds": 22.051,
+                "load_duration_seconds": 0.01,
+                "prompt_eval_duration_seconds": 17.41,
+                "eval_duration_seconds": 4.493,
+                "prompt_eval_count": 1639,
+                "eval_count": 66,
+                "prompt_tokens_per_second": 94.14,
+                "tokens_per_second": 14.69
             }
         },
         {
@@ -57,14 +66,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_002\\frames\\frame_003.jpg",
             "local_timestamp": 3.0,
             "global_timestamp": 13.0,
-            "description": "This is a stylized, flat illustration of the upper facade of a coffee shop. The background is a solid light blue, suggesting a clear sky, with a small white cloud visible in the top right corner. The building structure is depicted in muted beige tones. Prominently featured is a rectangular sign with a pale yellow background and a gray border, displaying the text “Coffee Shop” in an elegant, cursive gray font. Below the sign is a striped awning with alternating vertical bands of light pink and off-white. The overall composition is clean and minimalist, focusing on the signage and awning as the main elements.",
-            "inference_time_seconds": 37.9,
+            "description": "A person with dark, curly hair is shown in a softly lit indoor setting, gazing downward at a bouquet of white and light purple tulips wrapped in brown paper. The bouquet occupies the foreground, with green stems and leaves visible. The background is blurred, featuring neutral-toned walls and dark curtains, suggesting a quiet, domestic environment.",
+            "inference_time_seconds": 23.684,
             "ollama_metrics": {
-                "total_duration_seconds": 35.861,
-                "load_duration_seconds": 0.014,
-                "prompt_eval_count": 2177,
-                "eval_count": 126,
-                "tokens_per_second": 13.48
+                "total_duration_seconds": 21.648,
+                "load_duration_seconds": 0.01,
+                "prompt_eval_duration_seconds": 16.7,
+                "eval_duration_seconds": 4.767,
+                "prompt_eval_count": 1639,
+                "eval_count": 69,
+                "prompt_tokens_per_second": 98.14,
+                "tokens_per_second": 14.47
             }
         },
         {
@@ -72,14 +84,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_002\\frames\\frame_004.jpg",
             "local_timestamp": 4.0,
             "global_timestamp": 14.0,
-            "description": "In a brightly colored, stylized urban scene under a light blue sky with two white clouds, a man is seated on a teal and red scooter positioned in front of a coffee shop. The coffee shop has a beige facade with a pink and white striped awning and a sign that reads “Coffee Shop” in cursive script. A small window on the shop displays a coffee cup icon, and a pink and yellow umbrella is visible near the entrance. The man, wearing a dark blue jacket with gold trim over a white shirt and dark pants, is holding the scooter’s handlebars. Two simplified trees with green foliage stand on either side of the coffee shop, and other buildings—one tan and one light green—are visible in the background. The overall setting is cheerful and cartoonish, with soft, flat shading and minimal detail.",
-            "inference_time_seconds": 41.275,
+            "description": "A person with curly hair, wearing a dark top and a nose ring, leans toward a bouquet of white and pink tulips wrapped in brown paper. The setting appears indoors, with warm-toned walls and dark curtains in the background. The bouquet is positioned in the foreground, slightly out of focus, while the person’s face is partially visible, angled downward.",
+            "inference_time_seconds": 24.226,
             "ollama_metrics": {
-                "total_duration_seconds": 39.23,
-                "load_duration_seconds": 0.025,
-                "prompt_eval_count": 2177,
-                "eval_count": 166,
-                "tokens_per_second": 12.93
+                "total_duration_seconds": 22.194,
+                "load_duration_seconds": 0.013,
+                "prompt_eval_duration_seconds": 17.0,
+                "eval_duration_seconds": 4.984,
+                "prompt_eval_count": 1639,
+                "eval_count": 73,
+                "prompt_tokens_per_second": 96.41,
+                "tokens_per_second": 14.65
             }
         },
         {
@@ -87,14 +102,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_002\\frames\\frame_005.jpg",
             "local_timestamp": 5.0,
             "global_timestamp": 15.0,
-            "description": "This is a stylized, flat-cartoon illustration of a city street scene under a light blue sky with two white clouds. The setting includes a paved road with dashed white lane markings in the foreground, a sidewalk with a yellow-and-white curb, and buildings in the background.\n\n1. Environment and Setting:\n   - The background features three buildings: a tan building on the left with square windows, a central coffee shop, and a light green building on the right with a grid of windows.\n   - Two small, stylized green trees are positioned on the sidewalk, one to the left of the coffee shop and one to the right.\n   - The sky is a solid light blue with two simple white clouds.\n\n2. Main Subjects and Objects:\n   - A man is riding a teal and red scooter on the road. He is wearing a dark blue jacket, light-colored shirt, and dark pants.\n   - The scooter has a red rear storage box.\n   - The central building is a coffee shop with a beige sign that reads “Coffee Shop” in cursive script. It has a pink-and-white striped awning.\n   - A small pink and yellow umbrella is visible near the coffee shop’s entrance.\n   - The coffee shop’s window displays a simple icon of a steaming coffee cup.\n\n3. Observable Actions and Positions:\n   - The man is seated on the scooter, holding the handlebars, and appears to be moving forward along the road.\n   - The scooter is positioned in the center of the frame, slightly to the left of the coffee shop.\n\n4. Relationships Between Visible Elements:\n   - The coffee shop is centrally located between the two other buildings.\n   - The trees are placed symmetrically on either side of the coffee shop on the sidewalk.\n   - The man on the scooter is positioned in front of the coffee shop, suggesting he is approaching or passing by it.\n\n5. Important Readable Text and Visual Details:\n   - The sign above the coffee shop clearly reads “Coffee Shop” in a cursive font.\n   - The coffee shop’s window has a simple graphic of a coffee cup with steam.\n   - The scooter’s color scheme is teal and red, with a red storage box at the back.\n   - The buildings have simplified, blocky designs with flat colors and minimal detail.",
-            "inference_time_seconds": 68.08,
+            "description": "A person writes a handwritten note on a folded card with cloud patterns, resting on a wooden surface. Their hands, adorned with rings and a bracelet, hold a pen. Sunlight casts distinct shadows across the paper. Visible text includes “WITH BIG HUGS” and phrases like “I don’t know what to say.” A glass bottle is partially visible on the right.",
+            "inference_time_seconds": 24.553,
             "ollama_metrics": {
-                "total_duration_seconds": 66.022,
-                "load_duration_seconds": 0.015,
-                "prompt_eval_count": 2177,
-                "eval_count": 466,
-                "tokens_per_second": 11.75
+                "total_duration_seconds": 22.501,
+                "load_duration_seconds": 0.008,
+                "prompt_eval_duration_seconds": 16.847,
+                "eval_duration_seconds": 5.532,
+                "prompt_eval_count": 1639,
+                "eval_count": 76,
+                "prompt_tokens_per_second": 97.29,
+                "tokens_per_second": 13.74
             }
         },
         {
@@ -102,14 +120,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_002\\frames\\frame_006.jpg",
             "local_timestamp": 6.0,
             "global_timestamp": 16.0,
-            "description": "This is a stylized, flat-cartoon illustration of a city street scene under a light blue sky with two white clouds. The street is gray with dashed white lines, and a sidewalk with a yellow-and-white striped curb runs alongside it. On the left, a man with dark hair, wearing a dark jacket and light-colored shirt, rides a teal and red scooter toward the right. He has a red box on the back of the scooter. Behind him is a tan-colored building with three windows and a glass door. In the center is a coffee shop with a beige facade, a pink-and-white striped awning, and a sign that reads “Coffee Shop” in cursive. The shop has a window with a coffee cup icon and an outdoor seating area with a table, two light blue chairs, and a pink-and-yellow umbrella. Two small green trees are on the sidewalk, one on each side of the coffee shop. To the right is a taller, light green building with multiple windows. The overall scene is bright and clean, with soft, pastel colors.",
-            "inference_time_seconds": 45.887,
+            "description": "A dimly lit, rustic wooden table holds a translucent container and a handwritten note. A hand interacts with the container, partially obscuring the note. The table’s surface shows wear and scattered stains. Sunlight casts warm highlights, creating contrast with shadowed areas. The note’s text is illegible due to blur and angle. The scene suggests a quiet, contemplative moment.",
+            "inference_time_seconds": 24.333,
             "ollama_metrics": {
-                "total_duration_seconds": 43.836,
-                "load_duration_seconds": 0.014,
-                "prompt_eval_count": 2177,
-                "eval_count": 216,
-                "tokens_per_second": 12.52
+                "total_duration_seconds": 22.278,
+                "load_duration_seconds": 0.009,
+                "prompt_eval_duration_seconds": 16.854,
+                "eval_duration_seconds": 5.322,
+                "prompt_eval_count": 1639,
+                "eval_count": 77,
+                "prompt_tokens_per_second": 97.25,
+                "tokens_per_second": 14.47
             }
         },
         {
@@ -117,14 +138,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_002\\frames\\frame_007.jpg",
             "local_timestamp": 7.0,
             "global_timestamp": 17.0,
-            "description": "In this stylized illustration, a man with short brown hair, wearing a blue jacket over a white shirt with a crisscross neckline, is seated on a teal scooter with red and yellow accents. He is smiling and holding the handlebars. A yellow “TAXI” sign is mounted on the scooter’s frame. Behind him, another man with glasses and a blue jacket is visible, seated in what appears to be a vehicle, holding a phone to his ear. To the right, a woman with dark, wavy hair and a purple top is seated inside a vehicle, looking forward with a neutral expression. The background features simplified, geometric representations of buildings with white rectangular windows against a light blue sky. The scene is set on a street with a gray sidewalk and a crosswalk marked by white stripes. The overall composition suggests a city environment with multiple vehicles and pedestrians.",
-            "inference_time_seconds": 42.512,
+            "description": "A pair of hands gently touches a colorful card on a weathered wooden table. Sunlight casts distinct shadows across the surface. The card features a rainbow arc and a yellow circle. Partial handwritten text is visible along the bottom edge. A glass jar sits partially in frame on the right. The scene suggests a quiet, intimate moment focused on the card.",
+            "inference_time_seconds": 24.213,
             "ollama_metrics": {
-                "total_duration_seconds": 40.491,
-                "load_duration_seconds": 0.011,
-                "prompt_eval_count": 2177,
-                "eval_count": 177,
-                "tokens_per_second": 12.81
+                "total_duration_seconds": 22.167,
+                "load_duration_seconds": 0.014,
+                "prompt_eval_duration_seconds": 16.936,
+                "eval_duration_seconds": 5.114,
+                "prompt_eval_count": 1639,
+                "eval_count": 71,
+                "prompt_tokens_per_second": 96.78,
+                "tokens_per_second": 13.88
             }
         },
         {
@@ -132,14 +156,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_002\\frames\\frame_008.jpg",
             "local_timestamp": 8.0,
             "global_timestamp": 18.0,
-            "description": "In a stylized, cartoon-like urban setting with simplified buildings and a light blue sky, a man with brown hair and a blue jacket is riding a teal scooter with a red front panel and yellow headlights. He is smiling and appears to be gesturing with his right hand. A yellow “TAXI” sign is visible on the scooter’s handlebar. Behind him, another man with glasses and a blue jacket is seated in a vehicle, holding a phone to his ear. To the right, a woman with dark, wavy hair and a purple top is visible through the window of a large, light-green vehicle, looking forward with a neutral expression. The scene is viewed from a slightly elevated perspective, with the scooter in the foreground and the other vehicles and figures arranged in the midground, suggesting a busy street or intersection.",
-            "inference_time_seconds": 41.616,
+            "description": "A woman with curly hair and a nose ring gazes downward, holding a bouquet of white and pink tulips wrapped in brown paper. She wears a dark top and ornate earrings. The setting appears indoors, with soft, warm lighting and a blurred background featuring brown curtains. The focus remains on the woman and the flowers she holds.",
+            "inference_time_seconds": 22.997,
             "ollama_metrics": {
-                "total_duration_seconds": 39.575,
-                "load_duration_seconds": 0.011,
-                "prompt_eval_count": 2177,
-                "eval_count": 168,
-                "tokens_per_second": 12.85
+                "total_duration_seconds": 20.973,
+                "load_duration_seconds": 0.01,
+                "prompt_eval_duration_seconds": 16.391,
+                "eval_duration_seconds": 4.467,
+                "prompt_eval_count": 1639,
+                "eval_count": 68,
+                "prompt_tokens_per_second": 100.0,
+                "tokens_per_second": 15.22
             }
         },
         {
@@ -147,19 +174,71 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_002\\frames\\frame_009.jpg",
             "local_timestamp": 9.0,
             "global_timestamp": 19.0,
-            "description": "In this video frame, the setting appears to be an urban street environment, indicated by the presence of buildings with windows in the background and a crosswalk in the foreground. The scene is viewed from a perspective that includes multiple vehicles and pedestrians.\n\nThe main subjects include:\n- A man in the foreground riding a teal scooter with a red front panel and yellow side mirrors. He is wearing a dark blue jacket over a light-colored shirt and has a neutral expression.\n- Behind the scooter, a taxi cab is visible, with a yellow “TAXI” sign on its roof. Inside the taxi, a man with glasses and a dark jacket is seated in the driver’s seat, smiling and holding a phone to his ear. Another man is partially visible in the passenger seat.\n- To the right, a woman with dark, wavy hair is visible through the window of a large, light-green vehicle. She is wearing a purple top and has a neutral or slightly concerned expression.\n\nThe observable actions and positions are:\n- The scooter rider is stationary or moving slowly, positioned on the crosswalk.\n- The taxi driver is holding a phone to his ear, suggesting he is on a call.\n- The woman in the green vehicle is looking forward, possibly at the scooter rider or the taxi.\n\nThe relationships between visible elements:\n- The scooter rider is positioned between the taxi and the green vehicle, suggesting he is in the middle of the street or crosswalk.\n- The taxi is directly behind the scooter, and the green vehicle is to the right of the scooter, indicating a traffic or pedestrian scenario.\n\nImportant readable text:\n- The word “TAXI” is clearly visible on the roof of the taxi cab.\n\nVisual details:\n- The buildings in the background have a modern, simplified design with rectangular windows.\n- The crosswalk is composed of alternating light and dark gray stripes.\n- The scooter has a distinct retro design with a round headlight and a red front panel.\n- The woman’s expression is neutral, and her posture suggests she is observing the scene.",
-            "inference_time_seconds": 62.48,
+            "description": "A close-up shot shows a hand writing on a card with a colorful rainbow illustration. The card reads “GET WELL SOON” in bold, multicolored letters. It rests on a weathered wooden surface with visible paint splatters. Another handwritten note lies partially beneath it. The scene suggests a personal, caring gesture in a casual, artistic environment.",
+            "inference_time_seconds": 23.284,
             "ollama_metrics": {
-                "total_duration_seconds": 60.43,
-                "load_duration_seconds": 0.025,
-                "prompt_eval_count": 2177,
-                "eval_count": 412,
-                "tokens_per_second": 12.2
+                "total_duration_seconds": 21.239,
+                "load_duration_seconds": 0.009,
+                "prompt_eval_duration_seconds": 16.39,
+                "eval_duration_seconds": 4.737,
+                "prompt_eval_count": 1639,
+                "eval_count": 72,
+                "prompt_tokens_per_second": 100.0,
+                "tokens_per_second": 15.2
             }
         }
     ],
-    "temporal_segments": [],
-    "total_elapsed_time_seconds": 467.735,
-    "individual_analysis_time_seconds": 467.71,
-    "temporal_analysis_time_seconds": 0
+    "temporal_segments": [
+        {
+            "group_id": "group_001",
+            "frame_ids": [
+                "frame_000",
+                "frame_001",
+                "frame_002",
+                "frame_003",
+                "frame_004"
+            ],
+            "start_timestamp": 10.0,
+            "end_timestamp": 14.0,
+            "description": "A person writes a handwritten note on a card with a pen. The scene transitions to the same person holding a bouquet of tulips, looking down at it. Their head tilts slightly, and their gaze remains fixed on the flowers, suggesting focused attention on the bouquet throughout the sequence.",
+            "inference_time_seconds": 81.794,
+            "ollama_metrics": {
+                "total_duration_seconds": 79.746,
+                "load_duration_seconds": 0.015,
+                "prompt_eval_duration_seconds": 70.999,
+                "eval_duration_seconds": 8.447,
+                "prompt_eval_count": 7754,
+                "eval_count": 58,
+                "prompt_tokens_per_second": 109.21,
+                "tokens_per_second": 6.87
+            }
+        },
+        {
+            "group_id": "group_002",
+            "frame_ids": [
+                "frame_005",
+                "frame_006",
+                "frame_007",
+                "frame_008",
+                "frame_009"
+            ],
+            "start_timestamp": 15.0,
+            "end_timestamp": 19.0,
+            "description": "A person writes a handwritten note on a card, then places a colorful “Get Well Soon” card on top. They adjust the cards on a wooden table. The scene shifts to show a person holding a bouquet of flowers. The sequence shows the preparation and presentation of a get-well card and flowers.",
+            "inference_time_seconds": 82.691,
+            "ollama_metrics": {
+                "total_duration_seconds": 80.659,
+                "load_duration_seconds": 0.015,
+                "prompt_eval_duration_seconds": 70.964,
+                "eval_duration_seconds": 9.084,
+                "prompt_eval_count": 7754,
+                "eval_count": 62,
+                "prompt_tokens_per_second": 109.27,
+                "tokens_per_second": 6.83
+            }
+        }
+    ],
+    "total_elapsed_time_seconds": 407.21,
+    "individual_analysis_time_seconds": 242.684,
+    "temporal_analysis_time_seconds": 164.485
 }

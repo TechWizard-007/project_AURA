@@ -1,0 +1,244 @@
+{
+    "chunk_id": "chunk_007",
+    "model": "qwen3-vl:8b-instruct",
+    "status": "completed",
+    "total_frames": 10,
+    "frame_group_size": 5,
+    "temporal_analysis_enabled": true,
+    "total_temporal_groups": 2,
+    "individual_segments": [
+        {
+            "frame_id": "frame_000",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_007\\frames\\frame_000.jpg",
+            "local_timestamp": 0.0,
+            "global_timestamp": 60.0,
+            "description": "A black screen displays white text crediting the starring actors: Féadha Ní Chaoimhe and Mitch Corrigan. The word “Starring” appears above their names. No environment, objects, or actions are visible. The text is centrally positioned, using a clean, sans-serif font. This frame serves as a credits or title card, indicating cast members without visual context.",
+            "inference_time_seconds": 27.476,
+            "ollama_metrics": {
+                "total_duration_seconds": 25.435,
+                "load_duration_seconds": 0.01,
+                "prompt_eval_duration_seconds": 17.461,
+                "eval_duration_seconds": 5.352,
+                "prompt_eval_count": 1639,
+                "eval_count": 80,
+                "prompt_tokens_per_second": 93.86,
+                "tokens_per_second": 14.95
+            }
+        },
+        {
+            "frame_id": "frame_001",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_007\\frames\\frame_001.jpg",
+            "local_timestamp": 1.0,
+            "global_timestamp": 61.0,
+            "description": "A black screen displays white text crediting the starring actors: “Starring Féadha Ní Chaoimhe” and “Mitch Corrigan.” The text is centered, with “Starring” above the names. No environment, objects, or actions are visible beyond the textual credits. The frame serves as a title card, likely indicating cast information for a film or production.",
+            "inference_time_seconds": 25.036,
+            "ollama_metrics": {
+                "total_duration_seconds": 23.0,
+                "load_duration_seconds": 0.01,
+                "prompt_eval_duration_seconds": 17.484,
+                "eval_duration_seconds": 5.366,
+                "prompt_eval_count": 1639,
+                "eval_count": 79,
+                "prompt_tokens_per_second": 93.74,
+                "tokens_per_second": 14.72
+            }
+        },
+        {
+            "frame_id": "frame_002",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_007\\frames\\frame_002.jpg",
+            "local_timestamp": 2.0,
+            "global_timestamp": 62.0,
+            "description": "A black screen displays white text crediting the producers: Matthew Gilpin, Mitch Corrigan, and Izzy Haines. The text is centered, with “Produced by” above the names. No environment, objects, or actions are visible. The frame serves as a credits card, indicating production roles without narrative context or visual elements.",
+            "inference_time_seconds": 24.466,
+            "ollama_metrics": {
+                "total_duration_seconds": 22.434,
+                "load_duration_seconds": 0.011,
+                "prompt_eval_duration_seconds": 17.486,
+                "eval_duration_seconds": 4.742,
+                "prompt_eval_count": 1639,
+                "eval_count": 70,
+                "prompt_tokens_per_second": 93.73,
+                "tokens_per_second": 14.76
+            }
+        },
+        {
+            "frame_id": "frame_003",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_007\\frames\\frame_003.jpg",
+            "local_timestamp": 3.0,
+            "global_timestamp": 63.0,
+            "description": "A black screen displays white text crediting Mitch Corrigan as Director of Photography. The text is centered, with “Director of Photography” on the top line and “Mitch Corrigan” below it. No environment, objects, or actions are visible beyond the credit text. The frame serves as a standard film credit card with minimal visual elements.",
+            "inference_time_seconds": 24.306,
+            "ollama_metrics": {
+                "total_duration_seconds": 22.257,
+                "load_duration_seconds": 0.009,
+                "prompt_eval_duration_seconds": 17.46,
+                "eval_duration_seconds": 4.668,
+                "prompt_eval_count": 1639,
+                "eval_count": 71,
+                "prompt_tokens_per_second": 93.87,
+                "tokens_per_second": 15.21
+            }
+        },
+        {
+            "frame_id": "frame_004",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_007\\frames\\frame_004.jpg",
+            "local_timestamp": 4.0,
+            "global_timestamp": 64.0,
+            "description": "A black screen displays white text crediting “Director of Photography” followed by “Mitch Corrigan.” The text is centered, using a clean sans-serif font. No environment, objects, or actions are visible. The frame serves as a credits card, acknowledging the cinematographer’s role in the production. The stark contrast emphasizes the textual information.",
+            "inference_time_seconds": 7.512,
+            "ollama_metrics": {
+                "total_duration_seconds": 5.44,
+                "load_duration_seconds": 0.009,
+                "prompt_eval_duration_seconds": 0.746,
+                "eval_duration_seconds": 4.65,
+                "prompt_eval_count": 1639,
+                "eval_count": 70,
+                "prompt_tokens_per_second": 2197.19,
+                "tokens_per_second": 15.05
+            }
+        },
+        {
+            "frame_id": "frame_005",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_007\\frames\\frame_005.jpg",
+            "local_timestamp": 5.0,
+            "global_timestamp": 65.0,
+            "description": "A black screen displays white text crediting “Art Director Izzy Haines.” The text is centered, with “Art Director” on the top line and “Izzy Haines” below it. No environment, objects, or actions are visible. The frame serves as a credit roll, indicating a role and name without additional visual context or spatial relationships.",
+            "inference_time_seconds": 24.441,
+            "ollama_metrics": {
+                "total_duration_seconds": 22.383,
+                "load_duration_seconds": 0.01,
+                "prompt_eval_duration_seconds": 17.437,
+                "eval_duration_seconds": 4.825,
+                "prompt_eval_count": 1639,
+                "eval_count": 73,
+                "prompt_tokens_per_second": 93.99,
+                "tokens_per_second": 15.13
+            }
+        },
+        {
+            "frame_id": "frame_006",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_007\\frames\\frame_006.jpg",
+            "local_timestamp": 6.0,
+            "global_timestamp": 66.0,
+            "description": "A black screen displays white text crediting the editor. The text reads “Edited by Mitch Corrigan,” centered horizontally and vertically. No environment, objects, or actions are visible. The frame serves as a credit card, acknowledging Mitch Corrigan’s editing work. The stark contrast between the white text and black background ensures readability.",
+            "inference_time_seconds": 24.093,
+            "ollama_metrics": {
+                "total_duration_seconds": 22.049,
+                "load_duration_seconds": 0.01,
+                "prompt_eval_duration_seconds": 17.454,
+                "eval_duration_seconds": 4.474,
+                "prompt_eval_count": 1639,
+                "eval_count": 68,
+                "prompt_tokens_per_second": 93.9,
+                "tokens_per_second": 15.2
+            }
+        },
+        {
+            "frame_id": "frame_007",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_007\\frames\\frame_007.jpg",
+            "local_timestamp": 7.0,
+            "global_timestamp": 67.0,
+            "description": "A black screen displays white text crediting the editor. The text reads “Edited by Mitch Corrigan,” centered horizontally and vertically. No environment, objects, or actions are visible. The frame serves as a credit card, acknowledging Mitch Corrigan’s editing contribution. The stark contrast between the white text and black background ensures readability.",
+            "inference_time_seconds": 24.014,
+            "ollama_metrics": {
+                "total_duration_seconds": 21.996,
+                "load_duration_seconds": 0.01,
+                "prompt_eval_duration_seconds": 17.43,
+                "eval_duration_seconds": 4.449,
+                "prompt_eval_count": 1639,
+                "eval_count": 68,
+                "prompt_tokens_per_second": 94.03,
+                "tokens_per_second": 15.28
+            }
+        },
+        {
+            "frame_id": "frame_008",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_007\\frames\\frame_008.jpg",
+            "local_timestamp": 8.0,
+            "global_timestamp": 68.0,
+            "description": "A black screen displays white text crediting the Foley artists. The text reads: “Foley by Mitch Corrigan Alfie Martin.” No environment, objects, or actions are visible. The frame serves as a credits card, acknowledging sound design contributors. The stark contrast between the black background and white text ensures readability.",
+            "inference_time_seconds": 23.789,
+            "ollama_metrics": {
+                "total_duration_seconds": 21.738,
+                "load_duration_seconds": 0.008,
+                "prompt_eval_duration_seconds": 17.335,
+                "eval_duration_seconds": 4.289,
+                "prompt_eval_count": 1639,
+                "eval_count": 65,
+                "prompt_tokens_per_second": 94.55,
+                "tokens_per_second": 15.15
+            }
+        },
+        {
+            "frame_id": "frame_009",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_007\\frames\\frame_009.jpg",
+            "local_timestamp": 9.0,
+            "global_timestamp": 69.0,
+            "description": "A black screen displays white text centered: “Music by Jack Price.” No environment, objects, or actions are visible. The text credits the composer, Jack Price, for the music. The frame is minimalist, serving as a credit or title card with no additional visual elements or spatial context.",
+            "inference_time_seconds": 23.491,
+            "ollama_metrics": {
+                "total_duration_seconds": 21.458,
+                "load_duration_seconds": 0.01,
+                "prompt_eval_duration_seconds": 17.413,
+                "eval_duration_seconds": 3.873,
+                "prompt_eval_count": 1639,
+                "eval_count": 59,
+                "prompt_tokens_per_second": 94.13,
+                "tokens_per_second": 15.23
+            }
+        }
+    ],
+    "temporal_segments": [
+        {
+            "group_id": "group_001",
+            "frame_ids": [
+                "frame_000",
+                "frame_001",
+                "frame_002",
+                "frame_003",
+                "frame_004"
+            ],
+            "start_timestamp": 60.0,
+            "end_timestamp": 64.0,
+            "description": "The credits sequence progresses chronologically, displaying production roles. It begins with starring credits, transitions to production credits listing three names, then highlights the director of photography. The text remains static on a black background throughout, with no visual or narrative changes between frames, indicating a continuous credit roll.",
+            "inference_time_seconds": 85.862,
+            "ollama_metrics": {
+                "total_duration_seconds": 83.815,
+                "load_duration_seconds": 0.01,
+                "prompt_eval_duration_seconds": 75.168,
+                "eval_duration_seconds": 8.376,
+                "prompt_eval_count": 7754,
+                "eval_count": 58,
+                "prompt_tokens_per_second": 103.16,
+                "tokens_per_second": 6.92
+            }
+        },
+        {
+            "group_id": "group_002",
+            "frame_ids": [
+                "frame_005",
+                "frame_006",
+                "frame_007",
+                "frame_008",
+                "frame_009"
+            ],
+            "start_timestamp": 65.0,
+            "end_timestamp": 69.0,
+            "description": "The video displays a sequence of black screen credits, advancing chronologically from 65.0 to 69.0 seconds. Each frame presents a new credit: Art Director Izzy Haines, then Edited by Mitch Corrigan, followed by Foley by Mitch Corrigan and Alfie Martin, and finally Music by Jack Price. The text remains centered and static throughout, with no visual or environmental changes.",
+            "inference_time_seconds": 90.721,
+            "ollama_metrics": {
+                "total_duration_seconds": 88.689,
+                "load_duration_seconds": 0.01,
+                "prompt_eval_duration_seconds": 75.193,
+                "eval_duration_seconds": 12.947,
+                "prompt_eval_count": 7754,
+                "eval_count": 85,
+                "prompt_tokens_per_second": 103.12,
+                "tokens_per_second": 6.57
+            }
+        }
+    ],
+    "total_elapsed_time_seconds": 405.237,
+    "individual_analysis_time_seconds": 228.624,
+    "temporal_analysis_time_seconds": 176.583
+}

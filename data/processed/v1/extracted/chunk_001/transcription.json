@@ -3,15 +3,15 @@
     "audio_path": "data\\processed\\v1\\extracted\\chunk_001\\audio.wav",
     "model": "large-v3-turbo.pt",
     "device": "cuda",
-    "language": "ru",
-    "text": "Субтитры делал DimaTorzok",
+    "language": "en",
+    "text": "I'm going to take a look at this video.",
     "segments": [
         {
             "start": 0.0,
-            "end": 29.98,
+            "end": 10.0,
             "global_start": 0.0,
-            "global_end": 29.98,
-            "text": "Субтитры делал DimaTorzok"
+            "global_end": 10.0,
+            "text": "I'm going to take a look at this video."
         }
     ]
 }

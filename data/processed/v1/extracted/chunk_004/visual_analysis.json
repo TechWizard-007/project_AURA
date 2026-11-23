@@ -1,0 +1,244 @@
+{
+    "chunk_id": "chunk_004",
+    "model": "qwen3-vl:8b-instruct",
+    "status": "completed",
+    "total_frames": 10,
+    "frame_group_size": 5,
+    "temporal_analysis_enabled": true,
+    "total_temporal_groups": 2,
+    "individual_segments": [
+        {
+            "frame_id": "frame_000",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_004\\frames\\frame_000.jpg",
+            "local_timestamp": 0.0,
+            "global_timestamp": 30.0,
+            "description": "A woman sits at a round wooden table near a large window, bathed in warm sunlight. A bouquet of tulips in a mason jar vase rests on the table. She holds a piece of paper, her hands poised as if writing or reading. Outside, bare trees and a building are visible through the glass. Dark curtains frame the window.",
+            "inference_time_seconds": 27.606,
+            "ollama_metrics": {
+                "total_duration_seconds": 25.552,
+                "load_duration_seconds": 0.014,
+                "prompt_eval_duration_seconds": 17.508,
+                "eval_duration_seconds": 4.906,
+                "prompt_eval_count": 1639,
+                "eval_count": 71,
+                "prompt_tokens_per_second": 93.62,
+                "tokens_per_second": 14.47
+            }
+        },
+        {
+            "frame_id": "frame_001",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_004\\frames\\frame_001.jpg",
+            "local_timestamp": 1.0,
+            "global_timestamp": 31.0,
+            "description": "A woman sits at a round wooden table near a large window, bathed in warm sunlight. She leans forward, gazing at a bouquet of tulips in a glass jar. The flowers, wrapped in brown paper, sit beside a mug and a tablet. Dark curtains frame the window, revealing a blurred outdoor scene. The setting is intimate and still, with soft natural lighting.",
+            "inference_time_seconds": 24.766,
+            "ollama_metrics": {
+                "total_duration_seconds": 22.733,
+                "load_duration_seconds": 0.013,
+                "prompt_eval_duration_seconds": 17.496,
+                "eval_duration_seconds": 5.098,
+                "prompt_eval_count": 1639,
+                "eval_count": 77,
+                "prompt_tokens_per_second": 93.68,
+                "tokens_per_second": 15.1
+            }
+        },
+        {
+            "frame_id": "frame_002",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_004\\frames\\frame_002.jpg",
+            "local_timestamp": 2.0,
+            "global_timestamp": 32.0,
+            "description": "A person in a dark sweater stands by a window, placing a bouquet of tulips wrapped in brown paper into a glass jar on a wooden table. The table holds a pen and coasters. Sunlight streams through the window, illuminating the scene. Dark curtains frame the window, and a small plant sits nearby. The person holds a folded white card in their other hand.",
+            "inference_time_seconds": 24.795,
+            "ollama_metrics": {
+                "total_duration_seconds": 22.738,
+                "load_duration_seconds": 0.043,
+                "prompt_eval_duration_seconds": 17.466,
+                "eval_duration_seconds": 5.077,
+                "prompt_eval_count": 1639,
+                "eval_count": 77,
+                "prompt_tokens_per_second": 93.84,
+                "tokens_per_second": 15.17
+            }
+        },
+        {
+            "frame_id": "frame_003",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_004\\frames\\frame_003.jpg",
+            "local_timestamp": 3.0,
+            "global_timestamp": 33.0,
+            "description": "A person in a dark sweater stands by a window, holding a bouquet of tulips wrapped in brown paper and a white envelope. They place the bouquet into a floral-patterned glass jar on a round wooden table. The scene is warmly lit by natural light, with dark curtains framing the window and a small plant visible on the windowsill.",
+            "inference_time_seconds": 24.192,
+            "ollama_metrics": {
+                "total_duration_seconds": 22.136,
+                "load_duration_seconds": 0.01,
+                "prompt_eval_duration_seconds": 17.448,
+                "eval_duration_seconds": 4.552,
+                "prompt_eval_count": 1639,
+                "eval_count": 69,
+                "prompt_tokens_per_second": 93.93,
+                "tokens_per_second": 15.16
+            }
+        },
+        {
+            "frame_id": "frame_004",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_004\\frames\\frame_004.jpg",
+            "local_timestamp": 4.0,
+            "global_timestamp": 34.0,
+            "description": "The frame shows a blurred, minimalist interior with light-colored walls and faint outlines of architectural elements. Indistinct rectangular shapes suggest door frames or paneling. The scene lacks discernible objects, text, or actions. Lighting is soft and even, creating a muted, abstract composition. No specific environment or subject is clearly identifiable due to the shallow depth of field and lack of focus.",
+            "inference_time_seconds": 24.748,
+            "ollama_metrics": {
+                "total_duration_seconds": 22.657,
+                "load_duration_seconds": 0.011,
+                "prompt_eval_duration_seconds": 17.437,
+                "eval_duration_seconds": 5.104,
+                "prompt_eval_count": 1639,
+                "eval_count": 77,
+                "prompt_tokens_per_second": 93.99,
+                "tokens_per_second": 15.09
+            }
+        },
+        {
+            "frame_id": "frame_005",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_004\\frames\\frame_005.jpg",
+            "local_timestamp": 5.0,
+            "global_timestamp": 35.0,
+            "description": "A person with curly, dark hair and a dark top is shown indoors, looking downward. The background includes a light-colored wall with a framed picture partially visible. The scene is softly lit, with shallow depth of field blurring the surroundings. No readable text or distinct objects are visible beyond the subject and wall decor.",
+            "inference_time_seconds": 23.753,
+            "ollama_metrics": {
+                "total_duration_seconds": 21.698,
+                "load_duration_seconds": 0.009,
+                "prompt_eval_duration_seconds": 17.355,
+                "eval_duration_seconds": 4.223,
+                "prompt_eval_count": 1639,
+                "eval_count": 64,
+                "prompt_tokens_per_second": 94.44,
+                "tokens_per_second": 15.15
+            }
+        },
+        {
+            "frame_id": "frame_006",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_004\\frames\\frame_006.jpg",
+            "local_timestamp": 6.0,
+            "global_timestamp": 36.0,
+            "description": "A young woman with curly, dark hair featuring reddish highlights stands indoors, wearing a black top and silver spiral earrings. She has a nose piercing and looks slightly off-camera. Behind her, a framed mirror leans against a pale wall. The setting appears to be a hallway or room with neutral-toned walls and soft, ambient lighting.",
+            "inference_time_seconds": 24.046,
+            "ollama_metrics": {
+                "total_duration_seconds": 21.971,
+                "load_duration_seconds": 0.011,
+                "prompt_eval_duration_seconds": 17.364,
+                "eval_duration_seconds": 4.49,
+                "prompt_eval_count": 1639,
+                "eval_count": 68,
+                "prompt_tokens_per_second": 94.39,
+                "tokens_per_second": 15.14
+            }
+        },
+        {
+            "frame_id": "frame_007",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_004\\frames\\frame_007.jpg",
+            "local_timestamp": 7.0,
+            "global_timestamp": 37.0,
+            "description": "A young man wearing a black knit beanie, gray scarf, and denim jacket with a light-colored fur collar stands indoors. He faces forward, slightly off-center, with a neutral expression. The background shows a plain wall and a wooden doorframe. Lighting is even and natural, suggesting an interior hallway or room. No readable text is visible.",
+            "inference_time_seconds": 24.203,
+            "ollama_metrics": {
+                "total_duration_seconds": 22.159,
+                "load_duration_seconds": 0.01,
+                "prompt_eval_duration_seconds": 17.412,
+                "eval_duration_seconds": 4.627,
+                "prompt_eval_count": 1639,
+                "eval_count": 70,
+                "prompt_tokens_per_second": 94.13,
+                "tokens_per_second": 15.13
+            }
+        },
+        {
+            "frame_id": "frame_008",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_004\\frames\\frame_008.jpg",
+            "local_timestamp": 8.0,
+            "global_timestamp": 38.0,
+            "description": "A young woman with curly, dark hair featuring reddish highlights stands indoors, wearing a dark top and silver spiral earrings. She has a nose piercing and a neutral expression. Behind her, a framed mirror leans against a pale wall. The setting appears to be a hallway or room with soft, warm lighting. No text or other distinct objects are visible.",
+            "inference_time_seconds": 24.186,
+            "ollama_metrics": {
+                "total_duration_seconds": 22.141,
+                "load_duration_seconds": 0.01,
+                "prompt_eval_duration_seconds": 17.356,
+                "eval_duration_seconds": 4.656,
+                "prompt_eval_count": 1639,
+                "eval_count": 71,
+                "prompt_tokens_per_second": 94.43,
+                "tokens_per_second": 15.25
+            }
+        },
+        {
+            "frame_id": "frame_009",
+            "frame_path": "data\\processed\\v1\\extracted\\chunk_004\\frames\\frame_009.jpg",
+            "local_timestamp": 9.0,
+            "global_timestamp": 39.0,
+            "description": "A young woman with curly, dark hair featuring reddish highlights stands indoors, wearing a dark top and silver spiral earrings. She has a nose piercing and freckles. Behind her, a framed mirror leans against a pale wall. The setting appears to be a hallway or room with neutral-toned walls and soft, ambient lighting.",
+            "inference_time_seconds": 24.019,
+            "ollama_metrics": {
+                "total_duration_seconds": 21.946,
+                "load_duration_seconds": 0.009,
+                "prompt_eval_duration_seconds": 17.363,
+                "eval_duration_seconds": 4.467,
+                "prompt_eval_count": 1639,
+                "eval_count": 67,
+                "prompt_tokens_per_second": 94.39,
+                "tokens_per_second": 15.0
+            }
+        }
+    ],
+    "temporal_segments": [
+        {
+            "group_id": "group_001",
+            "frame_ids": [
+                "frame_000",
+                "frame_001",
+                "frame_002",
+                "frame_003",
+                "frame_004"
+            ],
+            "start_timestamp": 30.0,
+            "end_timestamp": 34.0,
+            "description": "A person seated at a table inhales deeply near a bouquet of flowers in a mason jar. They then stand, picking up the bouquet with one hand and a card with the other. The person lifts the bouquet slightly, holding it steady. The scene transitions to a blurry white surface, indicating a camera movement or scene change.",
+            "inference_time_seconds": 87.398,
+            "ollama_metrics": {
+                "total_duration_seconds": 85.357,
+                "load_duration_seconds": 0.016,
+                "prompt_eval_duration_seconds": 75.239,
+                "eval_duration_seconds": 9.84,
+                "prompt_eval_count": 7754,
+                "eval_count": 67,
+                "prompt_tokens_per_second": 103.06,
+                "tokens_per_second": 6.81
+            }
+        },
+        {
+            "group_id": "group_002",
+            "frame_ids": [
+                "frame_005",
+                "frame_006",
+                "frame_007",
+                "frame_008",
+                "frame_009"
+            ],
+            "start_timestamp": 35.0,
+            "end_timestamp": 39.0,
+            "description": "A woman with curly hair looks down, then raises her head to face forward. A man in a beanie and scarf appears in the doorway, looking toward her. The woman maintains her forward gaze, her expression neutral. The scene remains indoors with consistent lighting and background elements. No further movement or interaction occurs between the subjects.",
+            "inference_time_seconds": 87.637,
+            "ollama_metrics": {
+                "total_duration_seconds": 85.58,
+                "load_duration_seconds": 0.015,
+                "prompt_eval_duration_seconds": 75.277,
+                "eval_duration_seconds": 9.721,
+                "prompt_eval_count": 7754,
+                "eval_count": 66,
+                "prompt_tokens_per_second": 103.01,
+                "tokens_per_second": 6.79
+            }
+        }
+    ],
+    "total_elapsed_time_seconds": 421.384,
+    "individual_analysis_time_seconds": 246.314,
+    "temporal_analysis_time_seconds": 175.035
+}

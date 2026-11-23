@@ -327,44 +327,35 @@ class VisualAnalyzer:
         )
 
         return f"""
-You are the temporal visual understanding component
-of Project AURA.
+    Analyze these {len(frames)} consecutive video frames
+    in chronological order.
 
-You have received {len(frames)} consecutive frames
-from a video, arranged in chronological order.
+    FRAME TIMELINE:
+    {timeline}
 
-FRAME TIMELINE:
+    Identify the main observable event or action
+    across the sequence.
 
-{timeline}
+    Focus on:
+    - What actions occur?
+    - How do they change or progress?
+    - Which subjects or objects remain involved?
+    - What is the overall sequence of events?
 
-Analyze all images together.
+    RULES:
+    - Describe the event as a unified sequence.
+    - Combine repeated or continuous actions.
+    - Avoid describing each frame individually.
+    - Avoid repeating static background details.
+    - Do not infer emotions, intentions or identities.
+    - Do not invent events between frames.
+    - If no meaningful action occurs, state that
+    the scene remains largely unchanged.
 
-Produce ONE unified description of the visual
-sequence, focusing on:
-
-1. Overall scene and environment.
-2. Main subjects and objects.
-3. Observable actions and changes across frames.
-4. Spatial relationships between subjects and objects.
-5. Continuity of recurring subjects and objects.
-6. Important visual details and readable text.
-7. How the scene progresses over time.
-
-IMPORTANT:
-
-- Treat images as chronological observations.
-- Identify changes that are actually visible.
-- Maintain consistency when referring to recurring
-  subjects and objects.
-- Do not invent events between frames.
-- Do not assume identity, intention or emotion.
-- Mention uncertainty when visual evidence is unclear.
-- Do not describe every frame independently.
-- Preserve useful details for semantic video retrieval.
-
-Return ONE unified natural-language description.
-"""
-
+    Use concise, factual language.
+    Return ONE unified description in approximately
+    50-80 words.
+    """
     def analyze_temporal_group(
         self,
         frames: list[dict]

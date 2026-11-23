@@ -4,21 +4,35 @@
     "model": "large-v3-turbo.pt",
     "device": "cuda",
     "language": "en",
-    "text": "So, you're running a little late today, and you haven't had your fresh cup of coffee yet. No matter the weather or traffic.",
+    "text": "I'm going to put it in a little bit. I'm going to put it in a little bit. I'm going to put it in a little bit. I'm going to put it in a little bit.",
     "segments": [
         {
             "start": 0.0,
-            "end": 6.24,
+            "end": 2.0,
             "global_start": 10.0,
-            "global_end": 16.24,
-            "text": "So, you're running a little late today, and you haven't had your fresh cup of coffee yet."
+            "global_end": 12.0,
+            "text": "I'm going to put it in a little bit."
         },
         {
-            "start": 7.76,
-            "end": 9.98,
-            "global_start": 17.76,
-            "global_end": 19.98,
-            "text": "No matter the weather or traffic."
+            "start": 2.0,
+            "end": 4.0,
+            "global_start": 12.0,
+            "global_end": 14.0,
+            "text": "I'm going to put it in a little bit."
+        },
+        {
+            "start": 4.0,
+            "end": 6.0,
+            "global_start": 14.0,
+            "global_end": 16.0,
+            "text": "I'm going to put it in a little bit."
+        },
+        {
+            "start": 6.0,
+            "end": 10.0,
+            "global_start": 16.0,
+            "global_end": 20.0,
+            "text": "I'm going to put it in a little bit."
         }
     ]
 }

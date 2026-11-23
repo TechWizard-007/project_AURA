@@ -4,22 +4,25 @@
     "status": "completed",
     "total_frames": 10,
     "frame_group_size": 5,
-    "temporal_analysis_enabled": false,
-    "total_temporal_groups": 0,
+    "temporal_analysis_enabled": true,
+    "total_temporal_groups": 2,
     "individual_segments": [
         {
             "frame_id": "frame_000",
             "frame_path": "data\\processed\\v1\\extracted\\chunk_003\\frames\\frame_000.jpg",
             "local_timestamp": 0.0,
             "global_timestamp": 20.0,
-            "description": "In a brightly lit, modern urban setting with a background of large, grid-like windows, a man on a teal scooter with a red seat and a yellow “TAXI” sign on the handlebar is positioned in the foreground. He is wearing a dark blue jacket over a white shirt and has his right arm extended outward, appearing to gesture or signal. Behind him, a large, light-gray vehicle, possibly a bus or van, is visible. Inside this vehicle, two passengers are seated: a woman with dark, wavy hair wearing a purple top, and a man with brown hair and glasses wearing a red shirt. Both passengers are looking forward with neutral expressions. To the left of the scooter, another vehicle is partially visible, showing two men seated inside—one with brown hair and a white shirt, and another with glasses and a blue jacket. The overall scene suggests a busy city street with multiple forms of transportation and passengers.",
-            "inference_time_seconds": 47.134,
+            "description": "A hand holds a white sheet of paper over a weathered wooden surface. Below, a colorful rainbow drawing is partially visible, with red, orange, yellow, green, blue, and purple arcs. Another hand holds a yellow object near the drawing. Sunlight casts shadows, highlighting textures and the vibrant artwork. No readable text is present.",
+            "inference_time_seconds": 27.95,
             "ollama_metrics": {
-                "total_duration_seconds": 45.081,
-                "load_duration_seconds": 0.014,
-                "prompt_eval_count": 2177,
-                "eval_count": 188,
-                "tokens_per_second": 12.77
+                "total_duration_seconds": 25.904,
+                "load_duration_seconds": 0.011,
+                "prompt_eval_duration_seconds": 17.476,
+                "eval_duration_seconds": 4.536,
+                "prompt_eval_count": 1639,
+                "eval_count": 69,
+                "prompt_tokens_per_second": 93.78,
+                "tokens_per_second": 15.21
             }
         },
         {
@@ -27,14 +30,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_003\\frames\\frame_001.jpg",
             "local_timestamp": 1.0,
             "global_timestamp": 21.0,
-            "description": "This is a stylized, cartoon-like illustration of a city street scene viewed from a low angle, looking forward across a crosswalk. The background features simplified, light-blue buildings with white rectangular windows, suggesting a modern urban environment. The foreground shows a gray road with white pedestrian crossing stripes.\n\nThree vehicles are visible, all appearing to be in motion or stopped in traffic:\n\n1. On the left, a light-gray taxi with a yellow “TAXI” sign on its roof. Inside, three passengers are visible: a driver in the front, and two passengers in the back. A man in a blue suit is riding a teal scooter directly in front of the taxi, seemingly in the lane with it.\n\n2. In the center, a light-green car with two occupants visible through the windshield: a woman with dark hair and a man with glasses.\n\n3. On the right, a beige police car with red and blue flashing lights on its roof. Inside, four occupants are visible.\n\nThe vehicles are arranged in a line, suggesting traffic congestion or a queue. The scooter is positioned between the taxi and the green car, appearing to be in the same lane as the taxi. The police car is to the right of the green car. The overall scene depicts a busy urban traffic situation with multiple vehicles and a scooter sharing the road.",
-            "inference_time_seconds": 50.511,
+            "description": "A hand holds a colorful “GET WELL SOON” card featuring a rainbow, sun, and clouds. The card is partially open, revealing a plain inner page. The hand, adorned with rings, rests on a textured surface under bright, directional lighting. The card’s vibrant design contrasts with the muted background, emphasizing its cheerful message.",
+            "inference_time_seconds": 24.135,
             "ollama_metrics": {
-                "total_duration_seconds": 48.453,
-                "load_duration_seconds": 0.015,
-                "prompt_eval_count": 2177,
-                "eval_count": 268,
-                "tokens_per_second": 12.29
+                "total_duration_seconds": 22.044,
+                "load_duration_seconds": 0.018,
+                "prompt_eval_duration_seconds": 17.441,
+                "eval_duration_seconds": 4.464,
+                "prompt_eval_count": 1639,
+                "eval_count": 68,
+                "prompt_tokens_per_second": 93.97,
+                "tokens_per_second": 15.23
             }
         },
         {
@@ -42,14 +48,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_003\\frames\\frame_002.jpg",
             "local_timestamp": 2.0,
             "global_timestamp": 22.0,
-            "description": "The frame displays a solid, uniform light blue background with no visible environment, subjects, objects, actions, relationships, or text.",
-            "inference_time_seconds": 30.705,
+            "description": "A hand holds a \"GET WELL SOON\" card featuring a colorful rainbow, resting on a weathered wooden surface. Another hand, adorned with rings, interacts with a light blue envelope nearby. Sunlight casts distinct shadows, highlighting textures and the card’s vibrant design. The scene suggests a moment of care or preparation for sending a well-wishing message.",
+            "inference_time_seconds": 24.354,
             "ollama_metrics": {
-                "total_duration_seconds": 28.645,
-                "load_duration_seconds": 0.009,
-                "prompt_eval_count": 2177,
-                "eval_count": 27,
-                "tokens_per_second": 14.28
+                "total_duration_seconds": 22.283,
+                "load_duration_seconds": 0.013,
+                "prompt_eval_duration_seconds": 17.441,
+                "eval_duration_seconds": 4.721,
+                "prompt_eval_count": 1639,
+                "eval_count": 72,
+                "prompt_tokens_per_second": 93.97,
+                "tokens_per_second": 15.25
             }
         },
         {
@@ -57,14 +66,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_003\\frames\\frame_003.jpg",
             "local_timestamp": 3.0,
             "global_timestamp": 23.0,
-            "description": "In the frame, a hand is holding a smartphone vertically against a plain, light blue background. The hand is partially visible, showing only the forearm and hand gripping the phone. The forearm is covered by a sleeve of a solid maroon color. The smartphone has a dark gray or black frame with a large white screen, which is blank. At the top of the phone’s screen, there are small icons indicating signal strength and battery status. The phone also features a home button at the bottom center of its frame. The hand and phone are centered in the frame, with the phone’s screen facing forward and slightly angled toward the viewer. There are no other objects or text visible in the frame.",
-            "inference_time_seconds": 39.177,
+            "description": "A hand holds a dark, textured object over a weathered wooden surface. The hand, adorned with a ring, grips the item firmly. The wood shows signs of wear and discoloration. The scene is dimly lit, emphasizing the tactile interaction between the hand and the object. No text or distinct markings are visible.",
+            "inference_time_seconds": 23.989,
             "ollama_metrics": {
-                "total_duration_seconds": 37.108,
-                "load_duration_seconds": 0.011,
-                "prompt_eval_count": 2177,
-                "eval_count": 140,
-                "tokens_per_second": 13.12
+                "total_duration_seconds": 21.944,
+                "load_duration_seconds": 0.012,
+                "prompt_eval_duration_seconds": 17.481,
+                "eval_duration_seconds": 4.344,
+                "prompt_eval_count": 1639,
+                "eval_count": 66,
+                "prompt_tokens_per_second": 93.76,
+                "tokens_per_second": 15.19
             }
         },
         {
@@ -72,14 +84,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_003\\frames\\frame_004.jpg",
             "local_timestamp": 4.0,
             "global_timestamp": 24.0,
-            "description": "In a minimalist, flat-style illustration against a solid light blue background, a hand emerges from the bottom of the frame, holding a dark gray smartphone. The hand is depicted with a simple orange-colored forearm and a purple sleeve. The smartphone’s screen is white and displays a stylized graphic: a coffee cup with steam rising from it, and the word “Coffee” written in a brown, cursive font that flows around the cup. The phone’s interface includes a status bar at the top with icons for signal strength and Wi-Fi, and a circular home button at the bottom. The hand holds the phone steady and centered in the frame, with the screen facing forward. There are no other visible elements or environmental details.",
-            "inference_time_seconds": 39.783,
+            "description": "A hand holds a black pen over a light blue sheet of paper on a weathered wooden table. The table shows peeling paint and stains. A square coaster with a black-and-white polka dot pattern rests nearby. The pen is poised to write, suggesting an imminent action. The scene is static, focused on the writing surface and immediate surroundings.",
+            "inference_time_seconds": 24.295,
             "ollama_metrics": {
-                "total_duration_seconds": 37.757,
-                "load_duration_seconds": 0.016,
-                "prompt_eval_count": 2177,
-                "eval_count": 145,
-                "tokens_per_second": 13.13
+                "total_duration_seconds": 22.25,
+                "load_duration_seconds": 0.011,
+                "prompt_eval_duration_seconds": 17.463,
+                "eval_duration_seconds": 4.66,
+                "prompt_eval_count": 1639,
+                "eval_count": 71,
+                "prompt_tokens_per_second": 93.86,
+                "tokens_per_second": 15.24
             }
         },
         {
@@ -87,14 +102,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_003\\frames\\frame_005.jpg",
             "local_timestamp": 5.0,
             "global_timestamp": 25.0,
-            "description": "In a minimalist, light blue environment, a hand with a purple sleeve holds a dark gray smartphone vertically. The phone’s screen displays a simple illustration: a steaming coffee cup on a saucer, with the word “Coffee” written in a cursive, brown font that flows around the cup. The phone’s status bar at the top shows signal and battery indicators. The hand and phone are centered in the frame, with the background being a solid, uncluttered light blue. There are no other visible elements or text.",
-            "inference_time_seconds": 36.927,
+            "description": "A person with curly hair sits at a round wooden table near a window, writing on paper. A bouquet of tulips in a mason jar sits on the table, illuminated by sunlight. Outside, bare trees and buildings are visible through the glass. Dark curtains frame the window. The scene is quiet and still, with natural light casting soft shadows.",
+            "inference_time_seconds": 24.287,
             "ollama_metrics": {
-                "total_duration_seconds": 34.884,
-                "load_duration_seconds": 0.014,
-                "prompt_eval_count": 2177,
-                "eval_count": 108,
-                "tokens_per_second": 13.25
+                "total_duration_seconds": 22.244,
+                "load_duration_seconds": 0.01,
+                "prompt_eval_duration_seconds": 17.426,
+                "eval_duration_seconds": 4.698,
+                "prompt_eval_count": 1639,
+                "eval_count": 71,
+                "prompt_tokens_per_second": 94.06,
+                "tokens_per_second": 15.11
             }
         },
         {
@@ -102,14 +120,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_003\\frames\\frame_006.jpg",
             "local_timestamp": 6.0,
             "global_timestamp": 26.0,
-            "description": "This is a static image of a logo for \"The Java Cafe.\" The central graphic is a stylized coffee cup and saucer, outlined in brown with a white interior. The word \"Coffee\" is written in a flowing, cursive script that curves around the cup. Three coffee beans are depicted on the saucer to the right of the cup. Below the main graphic, the text \"The Java Cafe\" is written in a smaller, simpler font. The entire logo is set against a plain white background.",
-            "inference_time_seconds": 36.177,
+            "description": "A person with curly hair sits at a round wooden table near a large window, writing on a surface. A bouquet of tulips in a mason jar vase sits on the table. Outside, snow falls lightly. Dark curtains frame the window. The scene is warmly lit by natural light, creating soft shadows. The person is focused on their task, surrounded by quiet stillness.",
+            "inference_time_seconds": 24.698,
             "ollama_metrics": {
-                "total_duration_seconds": 34.145,
+                "total_duration_seconds": 22.656,
                 "load_duration_seconds": 0.011,
-                "prompt_eval_count": 2177,
-                "eval_count": 104,
-                "tokens_per_second": 13.74
+                "prompt_eval_duration_seconds": 17.468,
+                "eval_duration_seconds": 5.057,
+                "prompt_eval_count": 1639,
+                "eval_count": 77,
+                "prompt_tokens_per_second": 93.83,
+                "tokens_per_second": 15.23
             }
         },
         {
@@ -117,14 +138,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_003\\frames\\frame_007.jpg",
             "local_timestamp": 7.0,
             "global_timestamp": 27.0,
-            "description": "This is a static image of a logo for a coffee establishment. The central graphic is a stylized outline of a coffee cup and saucer, rendered in a single brown line. The word “Coffee” is written in a flowing, cursive script that weaves through the cup’s form. To the right of the cup, on the saucer, are three coffee beans depicted as simple outlines. Below the cup and saucer, the text “The Java Cafe” is displayed in a smaller, clean, sans-serif font. The entire logo is monochromatic, using only brown on a plain white background. There are no environmental details, no subjects, and no actions depicted, as this is a graphic design element. The text “Coffee” is integrated into the cup’s silhouette, while “The Java Cafe” is positioned beneath it, clearly identifying the brand.",
-            "inference_time_seconds": 42.021,
+            "description": "A person with curly hair sits at a round wooden table near a window, writing on a notepad. A bouquet of tulips in a mason jar vase rests on the table. Outside, bare trees and a building are visible through the glass. Dark curtains frame the window. The scene is warmly lit by natural sunlight, casting soft shadows. No readable text is visible.",
+            "inference_time_seconds": 24.582,
             "ollama_metrics": {
-                "total_duration_seconds": 39.969,
-                "load_duration_seconds": 0.01,
-                "prompt_eval_count": 2177,
-                "eval_count": 175,
-                "tokens_per_second": 12.99
+                "total_duration_seconds": 22.539,
+                "load_duration_seconds": 0.011,
+                "prompt_eval_duration_seconds": 17.417,
+                "eval_duration_seconds": 4.998,
+                "prompt_eval_count": 1639,
+                "eval_count": 76,
+                "prompt_tokens_per_second": 94.1,
+                "tokens_per_second": 15.21
             }
         },
         {
@@ -132,14 +156,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_003\\frames\\frame_008.jpg",
             "local_timestamp": 8.0,
             "global_timestamp": 28.0,
-            "description": "This is a static image of a logo for \"The Java Cafe.\" The logo features a stylized outline of a coffee cup and saucer in a brown color on a white background. The word \"Coffee\" is written in a flowing, cursive script that curves along the side of the cup. To the right of the cup, on the saucer, are three coffee beans. Below the cup and saucer, the text \"The Java Cafe\" is written in a simpler, sans-serif font. The overall design is minimalist and centered, with the coffee cup as the central visual element.",
-            "inference_time_seconds": 37.511,
+            "description": "A person with curly hair sits at a round wooden table near a window, writing on paper. A bouquet of tulips in a mason jar sits on the table, wrapped in brown paper. Outside, bare trees and buildings are visible through the window. Dark curtains frame the scene. The setting appears to be indoors, bathed in natural light.",
+            "inference_time_seconds": 24.425,
             "ollama_metrics": {
-                "total_duration_seconds": 35.489,
-                "load_duration_seconds": 0.01,
-                "prompt_eval_count": 2177,
-                "eval_count": 120,
-                "tokens_per_second": 13.4
+                "total_duration_seconds": 22.392,
+                "load_duration_seconds": 0.011,
+                "prompt_eval_duration_seconds": 17.544,
+                "eval_duration_seconds": 4.726,
+                "prompt_eval_count": 1639,
+                "eval_count": 71,
+                "prompt_tokens_per_second": 93.42,
+                "tokens_per_second": 15.02
             }
         },
         {
@@ -147,19 +174,71 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_003\\frames\\frame_009.jpg",
             "local_timestamp": 9.0,
             "global_timestamp": 29.0,
-            "description": "The frame displays a dark, minimalist logo centered on a black background. The logo features a stylized outline of a coffee cup with a saucer. The word “Coffee” is written in a flowing, cursive script that curves around the cup. To the right of the cup, three coffee beans are depicted. Below the cup and saucer, the text “The Java Cafe” is written in a clean, sans-serif font. The entire logo is rendered in a dark brown or black color, creating a monochromatic and subdued visual effect. There are no other visible elements, actions, or environmental details in the frame.",
-            "inference_time_seconds": 38.201,
+            "description": "A person with curly hair sits at a round wooden table near a large window, bathed in warm sunlight. On the table, a bouquet of tulips in a glass jar with a handle sits beside a small plant and papers. The window reveals a snowy outdoor scene with bare trees. Dark curtains frame the window. The person appears to be handling an object in their hands.",
+            "inference_time_seconds": 24.551,
             "ollama_metrics": {
-                "total_duration_seconds": 36.117,
-                "load_duration_seconds": 0.011,
-                "prompt_eval_count": 2177,
-                "eval_count": 127,
-                "tokens_per_second": 13.31
+                "total_duration_seconds": 22.516,
+                "load_duration_seconds": 0.013,
+                "prompt_eval_duration_seconds": 17.38,
+                "eval_duration_seconds": 5.011,
+                "prompt_eval_count": 1639,
+                "eval_count": 76,
+                "prompt_tokens_per_second": 94.3,
+                "tokens_per_second": 15.17
             }
         }
     ],
-    "temporal_segments": [],
-    "total_elapsed_time_seconds": 398.179,
-    "individual_analysis_time_seconds": 398.147,
-    "temporal_analysis_time_seconds": 0
+    "temporal_segments": [
+        {
+            "group_id": "group_001",
+            "frame_ids": [
+                "frame_000",
+                "frame_001",
+                "frame_002",
+                "frame_003",
+                "frame_004"
+            ],
+            "start_timestamp": 20.0,
+            "end_timestamp": 24.0,
+            "description": "A person holds a \"GET WELL SOON\" card with a rainbow design, then flips it over to reveal a blank light-blue envelope. They place the card down and pick up a black marker, positioning it over the envelope’s surface, preparing to write. The action progresses from presenting the card to initiating writing on the envelope.",
+            "inference_time_seconds": 88.024,
+            "ollama_metrics": {
+                "total_duration_seconds": 86.002,
+                "load_duration_seconds": 0.016,
+                "prompt_eval_duration_seconds": 75.792,
+                "eval_duration_seconds": 9.847,
+                "prompt_eval_count": 7754,
+                "eval_count": 67,
+                "prompt_tokens_per_second": 102.31,
+                "tokens_per_second": 6.8
+            }
+        },
+        {
+            "group_id": "group_002",
+            "frame_ids": [
+                "frame_005",
+                "frame_006",
+                "frame_007",
+                "frame_008",
+                "frame_009"
+            ],
+            "start_timestamp": 25.0,
+            "end_timestamp": 29.0,
+            "description": "A person sits at a round table by a window, writing on a notepad. A bouquet of tulips in a mason jar sits centrally on the table. The person continues writing until the final frame, where they lift their pen and pause, holding it near the notepad. The scene remains otherwise static throughout the sequence.",
+            "inference_time_seconds": 88.478,
+            "ollama_metrics": {
+                "total_duration_seconds": 86.435,
+                "load_duration_seconds": 0.019,
+                "prompt_eval_duration_seconds": 75.614,
+                "eval_duration_seconds": 9.805,
+                "prompt_eval_count": 7754,
+                "eval_count": 67,
+                "prompt_tokens_per_second": 102.55,
+                "tokens_per_second": 6.83
+            }
+        }
+    ],
+    "total_elapsed_time_seconds": 423.802,
+    "individual_analysis_time_seconds": 247.266,
+    "temporal_analysis_time_seconds": 176.502
 }

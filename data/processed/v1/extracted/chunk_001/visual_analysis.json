@@ -12,17 +12,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_000.jpg",
             "local_timestamp": 0.0,
             "global_timestamp": 0.0,
-            "description": "A minimalist sky scene with a pale blue background. A single, soft white cloud occupies the lower right quadrant, appearing fluffy and rounded. The composition is sparse, emphasizing negative space. No other objects, text, or actions are visible. The cloud remains static, suggesting a calm, serene atmosphere.",
-            "inference_time_seconds": 13.811,
+            "description": "A bouquet of tulips—white, light purple, and deep purple—wrapped in textured gold paper sits near a window. Sunlight streams in, casting sharp shadows on the wrapping. Green stems and leaves emerge from the arrangement. The background is softly blurred, showing indistinct outdoor elements. The composition emphasizes light, texture, and color contrast.",
+            "inference_time_seconds": 21.221,
             "ollama_metrics": {
-                "total_duration_seconds": 11.775,
-                "load_duration_seconds": 3.785,
-                "prompt_eval_duration_seconds": 4.106,
-                "eval_duration_seconds": 3.838,
-                "prompt_eval_count": 2178,
-                "eval_count": 60,
-                "prompt_tokens_per_second": 530.42,
-                "tokens_per_second": 15.63
+                "total_duration_seconds": 19.187,
+                "load_duration_seconds": 11.388,
+                "prompt_eval_duration_seconds": 3.129,
+                "eval_duration_seconds": 4.613,
+                "prompt_eval_count": 1638,
+                "eval_count": 71,
+                "prompt_tokens_per_second": 523.41,
+                "tokens_per_second": 15.39
             }
         },
         {
@@ -30,17 +30,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_001.jpg",
             "local_timestamp": 1.0,
             "global_timestamp": 1.0,
-            "description": "The frame displays a minimalist sky scene with a pale blue background. A single, soft white cloud is positioned in the upper right corner, appearing fluffy and slightly blurred. No other objects, subjects, or text are visible. The composition is sparse, emphasizing open space and calmness, with the cloud as the only distinct element.",
-            "inference_time_seconds": 10.511,
+            "description": "A bouquet of tulips—white, light purple, and deep purple—is wrapped in textured gold paper. Sunlight streams from a window, casting sharp shadows on the wrapping. The background is blurred, showing indistinct outdoor elements. The flowers are arranged closely, with green stems and leaves visible. No text or readable markings are present.",
+            "inference_time_seconds": 9.339,
             "ollama_metrics": {
-                "total_duration_seconds": 8.466,
-                "load_duration_seconds": 0.008,
-                "prompt_eval_duration_seconds": 4.102,
-                "eval_duration_seconds": 4.226,
-                "prompt_eval_count": 2178,
-                "eval_count": 66,
-                "prompt_tokens_per_second": 530.99,
-                "tokens_per_second": 15.62
+                "total_duration_seconds": 7.295,
+                "load_duration_seconds": 0.014,
+                "prompt_eval_duration_seconds": 2.867,
+                "eval_duration_seconds": 4.293,
+                "prompt_eval_count": 1638,
+                "eval_count": 69,
+                "prompt_tokens_per_second": 571.35,
+                "tokens_per_second": 16.07
             }
         },
         {
@@ -48,17 +48,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_002.jpg",
             "local_timestamp": 2.0,
             "global_timestamp": 2.0,
-            "description": "The scene depicts a stylized urban environment with abstract, translucent buildings against a light blue background. In the foreground, two individuals are visible within framed panels: one appears to be driving a vehicle with a red-and-blue light bar, while the other is seated beside them. The composition suggests a cityscape viewed from a vehicle’s perspective, emphasizing motion and urban density.",
-            "inference_time_seconds": 11.127,
+            "description": "A bouquet of tulips—white, light purple, and deep purple—wrapped in textured gold paper sits near a window. Sunlight illuminates the flowers from the side, casting sharp shadows on the wrapping. The background is softly blurred, suggesting an indoor setting with natural light. No text or discernible actions are visible.",
+            "inference_time_seconds": 9.123,
             "ollama_metrics": {
-                "total_duration_seconds": 9.09,
-                "load_duration_seconds": 0.012,
-                "prompt_eval_duration_seconds": 4.171,
-                "eval_duration_seconds": 4.777,
-                "prompt_eval_count": 2178,
-                "eval_count": 74,
-                "prompt_tokens_per_second": 522.22,
-                "tokens_per_second": 15.49
+                "total_duration_seconds": 7.083,
+                "load_duration_seconds": 0.009,
+                "prompt_eval_duration_seconds": 2.871,
+                "eval_duration_seconds": 4.086,
+                "prompt_eval_count": 1638,
+                "eval_count": 66,
+                "prompt_tokens_per_second": 570.53,
+                "tokens_per_second": 16.15
             }
         },
         {
@@ -66,17 +66,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_003.jpg",
             "local_timestamp": 3.0,
             "global_timestamp": 3.0,
-            "description": "The scene depicts two cars on a city street with stylized buildings in the background. In the foreground, a light green car has a man and woman inside. Behind it, a police car with red and blue lights is visible. The second car, also light green, has a man and woman seated inside, both appearing to wave. The setting suggests an urban environment with simplified architecture.",
-            "inference_time_seconds": 11.302,
+            "description": "A bouquet of tulips—white, light purple, and deep purple—wrapped in textured brown paper rests near a window. Sunlight illuminates the flowers from the side, casting sharp shadows on the wrapping. The background is softly blurred, suggesting an indoor setting with natural light. No text or discernible actions are visible.",
+            "inference_time_seconds": 9.053,
             "ollama_metrics": {
-                "total_duration_seconds": 9.282,
-                "load_duration_seconds": 0.022,
-                "prompt_eval_duration_seconds": 4.046,
-                "eval_duration_seconds": 5.081,
-                "prompt_eval_count": 2178,
-                "eval_count": 78,
-                "prompt_tokens_per_second": 538.34,
-                "tokens_per_second": 15.35
+                "total_duration_seconds": 7.026,
+                "load_duration_seconds": 0.012,
+                "prompt_eval_duration_seconds": 2.804,
+                "eval_duration_seconds": 4.087,
+                "prompt_eval_count": 1638,
+                "eval_count": 66,
+                "prompt_tokens_per_second": 584.17,
+                "tokens_per_second": 16.15
             }
         },
         {
@@ -84,17 +84,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_004.jpg",
             "local_timestamp": 4.0,
             "global_timestamp": 4.0,
-            "description": "The scene depicts two cars in a city setting, with stylized buildings in the background. The foreground car has a man and woman inside, while the adjacent car contains another pair. A police vehicle is visible between them. All vehicles are illustrated in a flat, cartoonish style with simplified features and muted colors. No readable text is present.",
-            "inference_time_seconds": 10.777,
+            "description": "A bouquet of tulips—white, light purple, and deep purple—wrapped in textured gold paper sits near a window. Sunlight illuminates the flowers and casts shadows on the wrapping. The background is blurred, showing indistinct outdoor elements. No text or readable markings are visible. The composition emphasizes the bouquet’s colors and textures against the soft, natural light.",
+            "inference_time_seconds": 9.98,
             "ollama_metrics": {
-                "total_duration_seconds": 8.749,
-                "load_duration_seconds": 0.026,
-                "prompt_eval_duration_seconds": 4.126,
-                "eval_duration_seconds": 4.465,
-                "prompt_eval_count": 2178,
-                "eval_count": 69,
-                "prompt_tokens_per_second": 527.88,
-                "tokens_per_second": 15.45
+                "total_duration_seconds": 7.947,
+                "load_duration_seconds": 0.012,
+                "prompt_eval_duration_seconds": 2.941,
+                "eval_duration_seconds": 4.842,
+                "prompt_eval_count": 1638,
+                "eval_count": 75,
+                "prompt_tokens_per_second": 556.97,
+                "tokens_per_second": 15.49
             }
         },
         {
@@ -102,17 +102,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_005.jpg",
             "local_timestamp": 5.0,
             "global_timestamp": 5.0,
-            "description": "A city street scene with multiple cars, including a taxi and a police vehicle. Three cars are prominently visible, each with two occupants. Buildings with grid-like windows line the background. The taxi has a yellow “TAXI” sign. Cars are positioned on a road with white crosswalk markings. The illustration style is flat and cartoonish.",
-            "inference_time_seconds": 10.847,
+            "description": "A light gray envelope rests on a weathered wooden surface, its flap partially open. Sunlight casts a diagonal shadow across the envelope and table, highlighting texture and creases. The wood shows signs of aging with darkened patches and visible grain. No text or markings are visible on the envelope. The composition emphasizes stillness and natural lighting.",
+            "inference_time_seconds": 9.31,
             "ollama_metrics": {
-                "total_duration_seconds": 8.81,
-                "load_duration_seconds": 0.027,
-                "prompt_eval_duration_seconds": 4.147,
-                "eval_duration_seconds": 4.505,
-                "prompt_eval_count": 2178,
-                "eval_count": 70,
-                "prompt_tokens_per_second": 525.15,
-                "tokens_per_second": 15.54
+                "total_duration_seconds": 7.277,
+                "load_duration_seconds": 0.012,
+                "prompt_eval_duration_seconds": 2.797,
+                "eval_duration_seconds": 4.358,
+                "prompt_eval_count": 1638,
+                "eval_count": 69,
+                "prompt_tokens_per_second": 585.53,
+                "tokens_per_second": 15.83
             }
         },
         {
@@ -120,17 +120,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_006.jpg",
             "local_timestamp": 6.0,
             "global_timestamp": 6.0,
-            "description": "Urban street scene with multiple cars, including a taxi and a police vehicle, stopped at a crosswalk. Buildings with grid-like windows line the background. Three cars are prominently visible: one with two occupants, another with a woman and man, and a third with a woman gesturing. A “TAXI” sign is visible on the taxi. The crosswalk stripes are clearly marked.",
-            "inference_time_seconds": 11.388,
+            "description": "A light gray envelope rests on a weathered wooden surface with visible cracks and dark patches. Sunlight casts a sharp, angular shadow across the envelope, highlighting its folded flap. The scene is static, with no discernible movement. The wood’s texture and the envelope’s clean lines contrast with the aged background, emphasizing the object’s simplicity and the ambient lighting.",
+            "inference_time_seconds": 9.507,
             "ollama_metrics": {
-                "total_duration_seconds": 9.34,
-                "load_duration_seconds": 0.011,
-                "prompt_eval_duration_seconds": 4.108,
-                "eval_duration_seconds": 5.086,
-                "prompt_eval_count": 2178,
-                "eval_count": 79,
-                "prompt_tokens_per_second": 530.21,
-                "tokens_per_second": 15.53
+                "total_duration_seconds": 7.466,
+                "load_duration_seconds": 0.01,
+                "prompt_eval_duration_seconds": 2.825,
+                "eval_duration_seconds": 4.512,
+                "prompt_eval_count": 1638,
+                "eval_count": 73,
+                "prompt_tokens_per_second": 579.75,
+                "tokens_per_second": 16.18
             }
         },
         {
@@ -138,17 +138,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_007.jpg",
             "local_timestamp": 7.0,
             "global_timestamp": 7.0,
-            "description": "Urban street scene with multiple vehicles at a crosswalk. A green taxi is central, flanked by a beige van and a light-gray car. Background shows stylized buildings with white windows. A police car is partially visible behind the taxi. All vehicles have occupants. A “TAXI” sign is visible on the taxi’s roof. The crosswalk stripes are prominent in the foreground.",
-            "inference_time_seconds": 11.392,
+            "description": "A light gray envelope rests on a weathered wooden surface, its flap partially open. Sunlight casts a diagonal beam across the scene, highlighting texture and creases. The wood shows signs of aging with darkened patches and visible grain. No text or markings are visible on the envelope. The composition emphasizes stillness and natural lighting.",
+            "inference_time_seconds": 9.168,
             "ollama_metrics": {
-                "total_duration_seconds": 9.363,
+                "total_duration_seconds": 7.099,
                 "load_duration_seconds": 0.01,
-                "prompt_eval_duration_seconds": 4.137,
-                "eval_duration_seconds": 5.083,
-                "prompt_eval_count": 2178,
-                "eval_count": 79,
-                "prompt_tokens_per_second": 526.48,
-                "tokens_per_second": 15.54
+                "prompt_eval_duration_seconds": 2.879,
+                "eval_duration_seconds": 4.099,
+                "prompt_eval_count": 1638,
+                "eval_count": 67,
+                "prompt_tokens_per_second": 568.93,
+                "tokens_per_second": 16.35
             }
         },
         {
@@ -156,17 +156,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_008.jpg",
             "local_timestamp": 8.0,
             "global_timestamp": 8.0,
-            "description": "The frame depicts two individuals inside a vehicle. A woman with dark, wavy hair sits in the passenger seat, wearing a purple top. A man with brown hair and glasses drives, his right arm extended outward. Both are seated against a plain background, with the man’s arm positioned near the steering wheel. The scene is viewed from outside the car, through the windshield.",
-            "inference_time_seconds": 11.373,
+            "description": "A person writes a handwritten note on a card with cloud cutouts, using a pen. Their hands, adorned with rings and bracelets, rest on a wooden table. Sunlight casts shadows across the paper. Visible text includes “WITH BIG HUGS” and phrases like “I don’t know what to say.” A glass jar sits partially in view on the right.",
+            "inference_time_seconds": 9.592,
             "ollama_metrics": {
-                "total_duration_seconds": 9.293,
-                "load_duration_seconds": 0.012,
-                "prompt_eval_duration_seconds": 4.104,
-                "eval_duration_seconds": 5.047,
-                "prompt_eval_count": 2178,
-                "eval_count": 76,
-                "prompt_tokens_per_second": 530.69,
-                "tokens_per_second": 15.06
+                "total_duration_seconds": 7.571,
+                "load_duration_seconds": 0.01,
+                "prompt_eval_duration_seconds": 2.869,
+                "eval_duration_seconds": 4.566,
+                "prompt_eval_count": 1638,
+                "eval_count": 75,
+                "prompt_tokens_per_second": 570.87,
+                "tokens_per_second": 16.43
             }
         },
         {
@@ -174,17 +174,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_009.jpg",
             "local_timestamp": 9.0,
             "global_timestamp": 9.0,
-            "description": "The frame shows two individuals inside a vehicle. A woman with dark, wavy hair sits in the passenger seat, wearing a purple top. A man with brown hair and glasses sits in the driver’s seat, hand on his head, with a steering wheel visible. Both are seated against a plain background, viewed through a window. The scene is stylized with flat colors and minimal detail.",
-            "inference_time_seconds": 11.408,
+            "description": "A person writes a handwritten note on a white card with a green pen. Their hands, adorned with rings, rest on a wooden table. Sunlight casts shadows across the scene. Another card with cloud cutouts lies beside the note. Partially visible text includes “WITH BIG HUGS” and “I don’t know what to say.” A glass jar sits in the foreground.",
+            "inference_time_seconds": 9.809,
             "ollama_metrics": {
-                "total_duration_seconds": 9.367,
-                "load_duration_seconds": 0.011,
-                "prompt_eval_duration_seconds": 4.162,
-                "eval_duration_seconds": 5.076,
-                "prompt_eval_count": 2178,
-                "eval_count": 79,
-                "prompt_tokens_per_second": 523.33,
-                "tokens_per_second": 15.56
+                "total_duration_seconds": 7.769,
+                "load_duration_seconds": 0.009,
+                "prompt_eval_duration_seconds": 2.861,
+                "eval_duration_seconds": 4.78,
+                "prompt_eval_count": 1638,
+                "eval_count": 78,
+                "prompt_tokens_per_second": 572.61,
+                "tokens_per_second": 16.32
             }
         }
     ],
@@ -200,17 +200,17 @@
             ],
             "start_timestamp": 0.0,
             "end_timestamp": 4.0,
-            "description": "The video sequence begins with a serene, minimalist view of a light blue sky with a single, soft white cloud drifting in the lower right corner. The scene then transitions to a stylized, cartoonish city street, characterized by simplified, blocky buildings with white rectangular windows against the same light blue background.\n\nThe main focus shifts to two cars stopped in traffic. The first car, a light green sedan, is on the left, with a man wearing glasses driving and a woman with dark hair in the passenger seat. The second car, a beige vehicle, is on the right, with a man in glasses at the wheel and a woman in the passenger seat. Between them, a police car with red and blue lights is visible, positioned slightly behind the beige car.\n\nThroughout the sequence, the cars remain stationary, suggesting a traffic jam. The occupants in both cars are shown making small, subtle movements: the driver of the green car raises his hand to his head, and the woman in the beige car raises her hand to her head. The police car remains in the same position relative to the other vehicles.\n\nThe scene progresses with a consistent, static composition, emphasizing the urban environment and the idle state of the vehicles. The overall visual style is flat and graphic, with a calm, almost dreamlike atmosphere, despite the implied congestion. The sequence ends with the same traffic scene, reinforcing the sense of stillness and the lack of forward motion.",
-            "inference_time_seconds": 84.51,
+            "description": "The scene remains largely unchanged across the frames. A bouquet of tulips, wrapped in patterned brown paper, is positioned near a window. Sunlight illuminates the flowers, casting distinct shadows. No discernible movement or action occurs, and the background stays static, maintaining the same composition throughout the sequence.",
+            "inference_time_seconds": 22.984,
             "ollama_metrics": {
-                "total_duration_seconds": 82.459,
-                "load_duration_seconds": 0.017,
-                "prompt_eval_duration_seconds": 17.232,
-                "eval_duration_seconds": 64.87,
-                "prompt_eval_count": 10470,
-                "eval_count": 289,
-                "prompt_tokens_per_second": 607.58,
-                "tokens_per_second": 4.46
+                "total_duration_seconds": 20.929,
+                "load_duration_seconds": 0.023,
+                "prompt_eval_duration_seconds": 11.322,
+                "eval_duration_seconds": 9.297,
+                "prompt_eval_count": 7749,
+                "eval_count": 62,
+                "prompt_tokens_per_second": 684.41,
+                "tokens_per_second": 6.67
             }
         },
         {
@@ -224,21 +224,21 @@
             ],
             "start_timestamp": 5.0,
             "end_timestamp": 9.0,
-            "description": "The sequence depicts a traffic scene in a city, viewed from a low angle looking up at the vehicles. The environment is characterized by a light blue sky and the white, grid-like windows of tall buildings in the background. The foreground features a gray road with a white pedestrian crosswalk.\n\nThe main subjects are several cars, including a prominent light green car in the center, a beige car to its right, and a truck on the left. The green car, which is the central focus, contains a man with glasses driving and a woman in the passenger seat. In the background, a police car with its lights on is visible, and a taxi with a yellow \"TAXI\" sign is partially seen behind the green car.\n\nAcross the frames, the scene remains largely static, with the vehicles positioned as if stopped at an intersection. The primary change occurs within the green car: the driver, initially looking forward with a neutral expression, raises his hand to his head in a gesture of frustration or confusion by frame 5. The passenger, a woman with dark hair, remains seated with a consistently neutral or slightly concerned expression throughout the sequence. The other vehicles, including the truck and the police car, do not exhibit any discernible movement or change in position relative to the green car.\n\nThe visual narrative progresses from a general traffic scene to a close-up of the driver's reaction, suggesting a moment of stress or decision-making within the stationary traffic. The consistent positioning of the vehicles and the lack of movement in the background elements emphasize the static nature of the scene, with the only significant action being the driver's change in posture.",
-            "inference_time_seconds": 93.352,
+            "description": "The sequence begins with a closed envelope on a weathered wooden surface. It transitions to a person writing a handwritten note on a card, with the pen moving across the paper. The action progresses from preparing to writing, with the note partially completed by the final frame. The envelope remains stationary throughout.",
+            "inference_time_seconds": 23.338,
             "ollama_metrics": {
-                "total_duration_seconds": 91.29,
-                "load_duration_seconds": 0.02,
-                "prompt_eval_duration_seconds": 16.911,
-                "eval_duration_seconds": 73.253,
-                "prompt_eval_count": 10470,
-                "eval_count": 326,
-                "prompt_tokens_per_second": 619.13,
-                "tokens_per_second": 4.45
+                "total_duration_seconds": 21.301,
+                "load_duration_seconds": 0.019,
+                "prompt_eval_duration_seconds": 11.312,
+                "eval_duration_seconds": 9.397,
+                "prompt_eval_count": 7749,
+                "eval_count": 60,
+                "prompt_tokens_per_second": 685.01,
+                "tokens_per_second": 6.38
             }
         }
     ],
-    "total_elapsed_time_seconds": 291.849,
-    "individual_analysis_time_seconds": 113.936,
-    "temporal_analysis_time_seconds": 177.862
+    "total_elapsed_time_seconds": 152.51,
+    "individual_analysis_time_seconds": 106.102,
+    "temporal_analysis_time_seconds": 46.322
 }

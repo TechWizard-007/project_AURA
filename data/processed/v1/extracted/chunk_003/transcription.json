@@ -3,15 +3,29 @@
     "audio_path": "data\\processed\\v1\\extracted\\chunk_003\\audio.wav",
     "model": "large-v3-turbo.pt",
     "device": "cuda",
-    "language": "en",
-    "text": "deliver fresh coffee and bagels.",
+    "language": "ko",
+    "text": "고춧가루 고춧가루 고춧가루",
     "segments": [
         {
             "start": 0.0,
-            "end": 7.0,
+            "end": 2.0,
             "global_start": 20.0,
-            "global_end": 27.0,
-            "text": "deliver fresh coffee and bagels."
+            "global_end": 22.0,
+            "text": "고춧가루"
+        },
+        {
+            "start": 2.0,
+            "end": 4.0,
+            "global_start": 22.0,
+            "global_end": 24.0,
+            "text": "고춧가루"
+        },
+        {
+            "start": 8.0,
+            "end": 10.0,
+            "global_start": 28.0,
+            "global_end": 30.0,
+            "text": "고춧가루"
         }
     ]
 }
