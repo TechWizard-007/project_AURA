@@ -224,81 +224,179 @@ actual location. The configured path must point to the checkpoint file.
 
 ## Setup
 
-Clone the repository, then open a terminal in its root directory.
+New to Git or Python project setup? Follow these steps in order. The
+commands below are written for **Windows PowerShell**. If you use
+macOS or Linux, the Git, `uv`, and Python commands are the same, but
+the command for copying `.env.example` will differ.
 
-``` powershell
-# Create the environment and install the locked dependencies
+### 1. Install the prerequisites
+
+Install these tools first:
+
+- **Git:** https://git-scm.com/downloads
+- **Python 3.12:** https://www.python.org/downloads/
+- **uv:** https://docs.astral.sh/uv/getting-started/installation/
+- **FFmpeg:** https://ffmpeg.org/download.html
+  - Make sure both `ffmpeg` and `ffprobe` are available on your system
+    `PATH`.
+- **Ollama:** https://ollama.com/download
+
+After installing them, open a **new PowerShell window** and verify
+that the commands are available:
+
+```powershell
+git --version
+python --version
+uv --version
+ffmpeg -version
+ffprobe -version
+ollama --version
+```
+
+### 2. Clone the AURA repository
+
+On the AURA GitHub page:
+
+1. Click the green **Code** button.
+2. Select **HTTPS**.
+3. Copy the repository URL.
+
+In PowerShell, move to the folder where you want to keep AURA, then
+clone the repository. Replace the example URL with the URL you copied:
+
+```powershell
+cd D:\AI_Dev
+git clone https://github.com/YOUR-USERNAME/Project-AURA.git
+```
+
+Enter the newly created project folder:
+
+```powershell
+cd Project-AURA
+```
+
+You should now be in the repository root. You can confirm it by running:
+
+```powershell
+dir
+```
+
+You should see files such as `pyproject.toml`, `uv.lock`, and `main.py`.
+
+### 3. Create the environment and install Python dependencies
+
+Run this from the AURA repository root:
+
+```powershell
 uv sync
+```
 
-# Copy the configuration template
+This creates the project's `.venv` environment and installs the
+dependencies declared in `pyproject.toml`, using the locked versions
+recorded in `uv.lock`.
+
+### 4. Create your local configuration file
+
+Copy the example configuration:
+
+```powershell
 Copy-Item .env.example .env
 ```
 
-Edit `.env` and set `AURA_INPUT_VIDEO` to the path of a video you want
-to process. Create the input directory if needed:
+Open `.env` in your editor and set `AURA_INPUT_VIDEO` to the path of
+your input video. Keep `.env` local; **do not commit it to GitHub**.
 
-``` powershell
+### 5. Add a video to process
+
+Create the default input directory:
+
+```powershell
 New-Item -ItemType Directory -Force data/raw_videos
 ```
 
-Place the input video in that directory, or set `AURA_INPUT_VIDEO` to
-another valid path.
+Place your video in that folder and update `AURA_INPUT_VIDEO` in
+`.env` with its filename and extension. You do not need to name the
+video `v1.webm`. You can also configure an absolute path or another
+valid path supported by the current input-path configuration.
+
+### 6. Download the local AI models
+
+Make sure Ollama is installed and running, then pull the models used
+by the current configuration:
+
+```powershell
+ollama pull qwen3-vl:8b-instruct
+ollama pull bge-m3:latest
+```
+
+AURA's transcription module also requires the Whisper
+`large-v3-turbo` checkpoint. See the **Whisper checkpoint** section
+above for its expected location and how to configure a custom path.
+
+Once these steps are complete, continue to [Run the pipeline](#run-the-pipeline).
 
 ## Configuration
 
 AURA reads configuration from `.env`. See [`.env.example`](.env.example)
 for the full template.
 
-  -----------------------------------------------------------------------------------------
-  Variable                          Purpose                 Typical value
-  --------------------------------- ----------------------- -------------------------------
-  `AURA_INPUT_VIDEO`                Source video path       `data/raw_videos/example.mp4`
+  -------------------------------------------------------------------------------------
+  Variable                          Purpose             Typical value
+  --------------------------------- ------------------- -------------------------------
+  `AURA_INPUT_VIDEO`                Source video path   `data/raw_videos/example.mp4`
 
-  `AURA_OUTPUT_DIR`                 Chunk and extraction    `data/processed/v1`
-                                    output root             
+  `AURA_OUTPUT_DIR`                 Chunk and           `data/processed/v1`
+                                    extraction output   
+                                    root                
 
-  `AURA_CHUNK_DURATION`             Chunk length in seconds `10`
+  `AURA_CHUNK_DURATION`             Chunk length in     `10`
+                                    seconds             
 
-  `AURA_WHISPER_MODEL_PATH`         Local Whisper           Default cache path if omitted
-                                    checkpoint path         
+  `AURA_WHISPER_MODEL_PATH`         Local Whisper       Default cache path if omitted
+                                    checkpoint path     
 
-  `AURA_WHISPER_DEVICE`             Whisper execution       `cuda`
-                                    device                  
+  `AURA_WHISPER_DEVICE`             Whisper execution   `cuda`
+                                    device              
 
-  `AURA_WHISPER_BEAM_SIZE`          Whisper beam size       `5`
+  `AURA_WHISPER_BEAM_SIZE`          Whisper beam size   `5`
 
-  `AURA_WHISPER_LANGUAGE`           Optional forced         blank
-                                    language; blank enables 
-                                    detection               
+  `AURA_WHISPER_LANGUAGE`           Optional forced     blank
+                                    language; blank     
+                                    enables detection   
 
-  `AURA_OLLAMA_BASE_URL`            Ollama server URL       `http://localhost:11434`
+  `AURA_OLLAMA_BASE_URL`            Ollama server URL   `http://localhost:11434`
 
-  `AURA_VISION_MODEL`               Ollama vision model     `qwen3-vl:8b-instruct`
+  `AURA_VISION_MODEL`               Ollama vision model `qwen3-vl:8b-instruct`
 
-  `AURA_VISION_TIMEOUT`             Vision request timeout  `300`
-                                    in seconds              
+  `AURA_VISION_TIMEOUT`             Vision request      `300`
+                                    timeout in seconds  
 
-  `AURA_FRAME_GROUP_SIZE`           Frames per              `5`
-                                    temporal-analysis group 
+  `AURA_FRAME_GROUP_SIZE`           Frames per          `5`
+                                    temporal-analysis   
+                                    group               
 
-  `AURA_EMBEDDING_MODEL`            Ollama embedding model  `bge-m3:latest`
+  `AURA_EMBEDDING_MODEL`            Ollama embedding    `bge-m3:latest`
+                                    model               
 
-  `AURA_EMBEDDING_DIMENSIONS`       Expected embedding      `1024`
-                                    dimensions              
+  `AURA_EMBEDDING_DIMENSIONS`       Expected embedding  `1024`
+                                    dimensions          
 
-  `AURA_EMBEDDING_TIMEOUT`          Embedding request       `300`
-                                    timeout in seconds      
+  `AURA_EMBEDDING_TIMEOUT`          Embedding request   `300`
+                                    timeout in seconds  
 
-  `AURA_VECTOR_DB_DIR`              Persistent ChromaDB     `data/vector_db`
-                                    directory               
+  `AURA_VECTOR_DB_DIR`              Persistent ChromaDB `data/vector_db`
+                                    directory           
 
-  `AURA_VISUAL_COLLECTION`          Visual collection name  `aura_visual`
+  `AURA_VISUAL_COLLECTION`          Visual collection   `aura_visual`
+                                    name                
 
-  `AURA_AUDIO_COLLECTION`           Audio collection name   `aura_audio`
+  `AURA_AUDIO_COLLECTION`           Audio collection    `aura_audio`
+                                    name                
 
-  `AURA_ENABLE_TEMPORAL_ANALYSIS`   Enable Qwen temporal    `true`
-                                    group descriptions      
-  -----------------------------------------------------------------------------------------
+  `AURA_ENABLE_TEMPORAL_ANALYSIS`   Enable Qwen         `true`
+                                    temporal group      
+                                    descriptions        
+  -------------------------------------------------------------------------------------
 
 ## Run the pipeline
 
@@ -405,6 +503,44 @@ The multimodal retriever surfaced the embrace around 49--52 seconds.
 
 These are qualitative examples from one test video, not a formal
 accuracy benchmark.
+
+## Demo and test media
+
+The following short films are suitable sample inputs for demonstrating
+AURA's video-preprocessing and retrieval pipeline. They are third-party
+works and are **not** part of the AURA source code or project ownership.
+
+  -------------------------------------------------------------------------------------------------------------------------------------------------------
+  Film                                                                     Duration Published licence                                    Source
+  ----------------------------------------------------------- --------------------- ---------------------------------------------------- ----------------
+  [The Daily                                                       About 50 seconds [CC BY                                               Blender Studio
+  Dweebs](https://studio.blender.org/projects/dailydweebs/)                         3.0](https://creativecommons.org/licenses/by/3.0/)   
+
+  [Biscuit: From Stray Dog to                                            60 seconds [CC BY                                               The Studio
+  Superhero](https://www.thestudio.io/osvideo/)                                     4.0](https://creativecommons.org/licenses/by/4.0/)   
+  -------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Attribution
+
+If you use either film in a public AURA demonstration, retain the
+corresponding attribution:
+
+-   **The Daily Dweebs:** © Blender Foundation, [Blender
+    Studio](https://studio.blender.org/projects/dailydweebs/). Licensed
+    under [Creative Commons Attribution
+    3.0](https://creativecommons.org/licenses/by/3.0/).
+-   **Biscuit:** "Biscuit by The Studio (thestudio.io), CC BY 4.0".
+    Licence: [Creative Commons Attribution
+    4.0](https://creativecommons.org/licenses/by/4.0/).
+
+These are Creative Commons-licensed works, **not public-domain works**.
+The licences allow reuse subject to their attribution terms. Check the
+original source page and any asset-specific notices before
+redistributing a copy or modified version.
+
+Use the films as local test inputs. Do not add downloaded source videos
+to the AURA repository; the `.gitignore` excludes `data/raw_videos/` and
+other generated data directories.
 
 ## MVP benchmark
 
