@@ -8,7 +8,7 @@ from tqdm import tqdm
 
 import chromadb
 
-from videoChunker import OUTPUT_DIR
+from processing.videoChunker import OUTPUT_DIR
 
 
 # Load environment variables

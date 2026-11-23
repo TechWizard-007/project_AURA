@@ -4,8 +4,8 @@ import json
 from pathlib import Path
 from tqdm import tqdm
 
-from videoChunker import OUTPUT_DIR
-from embeddingGenerator import EmbeddingGenerator
+from processing.videoChunker import OUTPUT_DIR
+from embeddings.embeddingGenerator import EmbeddingGenerator
 
 
 class AudioEmbeddingGenerator:

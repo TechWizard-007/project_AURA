@@ -131,8 +131,8 @@ Model weights must be downloaded before first use.
 
 ## Repository layout
 
-The following is the intended source-code layout. Runtime data and model
-files are deliberately excluded from version control.
+The source code is organised into Python packages. Runtime data and
+model files are deliberately excluded from version control.
 
 ``` text
 project_AURA/
@@ -140,30 +140,49 @@ project_AURA/
 │   ├── raw_videos/                 # Input videos (local only)
 │   ├── processed/                  # Chunks and extracted artifacts (local only)
 │   └── vector_db/                  # Persistent ChromaDB data (local only)
+│
+├── processing/
+│   ├── __init__.py
+│   ├── videoChunker.py
+│   ├── audioExtractor.py
+│   ├── audioTranscriber.py
+│   ├── frameExtractor.py
+│   └── visualAnalyzer.py
+│
+├── embeddings/
+│   ├── __init__.py
+│   ├── embeddingGenerator.py
+│   └── audioEmbeddingGenerator.py
+│
+├── storage/
+│   ├── __init__.py
+│   ├── vectorStore.py
+│   └── audioVectorStore.py
+│
+├── retrieval/
+│   ├── __init__.py
+│   ├── retriever.py
+│   ├── audioRetriever.py
+│   ├── multimodalRetriever.py
+│   └── temporalGrouper.py
+│
+├── tests/
+│   ├── __init__.py
+│   └── test_visual.py
+│
+├── main.py
 ├── .env                            # Local configuration (not committed)
 ├── .env.example                    # Configuration template
 ├── .gitignore
 ├── .python-version
 ├── pyproject.toml
 ├── uv.lock
-│
-├── videoChunker.py
-├── audioExtractor.py
-├── audioTranscriber.py
-├── frameExtractor.py
-├── visualAnalyzer.py
-├── main.py
-│
-├── embeddingGenerator.py
-├── audioEmbeddingGenerator.py
-├── vectorStore.py
-├── audioVectorStore.py
-│
-├── retriever.py
-├── audioRetriever.py
-├── temporalGrouper.py
-└── multimodalRetriever.py
+└── README.md
 ```
+
+Run package modules from the repository root with `python -m`. This
+keeps the project root on the Python import path and allows package
+imports to resolve consistently.
 
 ## Requirements
 
@@ -305,7 +324,7 @@ This runs:
 ### 2. Generate visual embeddings
 
 ``` powershell
-uv run python embeddingGenerator.py
+uv run python -m embeddings.embeddingGenerator
 ```
 
 This reads each `visual_analysis.json` and embeds its
@@ -316,7 +335,7 @@ step.
 ### 3. Generate audio embeddings
 
 ``` powershell
-uv run python audioEmbeddingGenerator.py
+uv run python -m embeddings.audioEmbeddingGenerator
 ```
 
 This embeds the transcript segments produced by Whisper. Empty
@@ -325,8 +344,8 @@ transcript files are skipped.
 ### 4. Ingest vectors into ChromaDB
 
 ``` powershell
-uv run python vectorStore.py
-uv run python audioVectorStore.py
+uv run python -m storage.vectorStore
+uv run python -m storage.audioVectorStore
 ```
 
 The two scripts populate separate collections:
@@ -345,17 +364,29 @@ Run any retriever after the corresponding collection has been populated:
 
 ``` powershell
 # Timestamp-aware visual search
-uv run python retriever.py
+uv run python -m retrieval.retriever
 
 # Transcript search
-uv run python audioRetriever.py
+uv run python -m retrieval.audioRetriever
 
 # Experimental combined result list
-uv run python multimodalRetriever.py
+uv run python -m retrieval.multimodalRetriever
 ```
 
 Enter a natural-language query at the prompt. Type `exit` or `quit` to
 close the search loop.
+
+### 6. Run the visual-analysis test script
+
+The test script currently points to the first processed chunk in the
+example `data/processed/v1` directory.
+
+``` powershell
+uv run python -m tests.test_visual
+```
+
+Adjust `FRAME_DIR` and `OUTPUT_PATH` in `tests/test_visual.py` if your
+local data is stored elsewhere.
 
 ## Example queries
 

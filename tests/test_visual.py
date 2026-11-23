@@ -1,7 +1,8 @@
+
 import json
 from pathlib import Path
 
-from visualAnalyzer import VisualAnalyzer
+from processing.visualAnalyzer import VisualAnalyzer
 
 # First chunk's frame directory
 FRAME_DIR = Path(

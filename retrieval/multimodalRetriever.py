@@ -1,6 +1,6 @@
 
-from retriever import Retriever
-from audioRetriever import AudioRetriever
+from retrieval.retriever import Retriever
+from retrieval.audioRetriever import AudioRetriever
 
 
 # Reciprocal Rank Fusion configuration

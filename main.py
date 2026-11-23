@@ -2,16 +2,16 @@
 from pathlib import Path
 from tqdm import tqdm
 
-from videoChunker import (
+from processing.videoChunker import (
     chunk_video,
     OUTPUT_DIR,
     CHUNK_DURATION
 )
 
-from audioExtractor import extract_audio
-from audioTranscriber import AudioTranscriber
-from frameExtractor import extract_frames
-from visualAnalyzer import VisualAnalyzer
+from processing.audioExtractor import extract_audio
+from processing.audioTranscriber import AudioTranscriber
+from processing.frameExtractor import extract_frames
+from processing.visualAnalyzer import VisualAnalyzer
 
 # Extraction configuration
 FRAME_FPS = 1.0

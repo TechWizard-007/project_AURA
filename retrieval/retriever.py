@@ -6,8 +6,8 @@ from dotenv import load_dotenv
 
 import chromadb
 
-from embeddingGenerator import EmbeddingGenerator
-from temporalGrouper import TemporalGrouper
+from embeddings.embeddingGenerator import EmbeddingGenerator
+from retrieval.temporalGrouper import TemporalGrouper
 
 
 # Load environment variables

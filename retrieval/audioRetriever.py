@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 import chromadb
 
-from embeddingGenerator import EmbeddingGenerator
+from embeddings.embeddingGenerator import EmbeddingGenerator
 
 
 # Load environment variables

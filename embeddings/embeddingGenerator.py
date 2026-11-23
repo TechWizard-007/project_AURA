@@ -7,7 +7,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 from tqdm import tqdm
 
-from videoChunker import OUTPUT_DIR
+from processing.videoChunker import OUTPUT_DIR
 
 
 # Load environment variables
