@@ -1,28 +1,28 @@
 {
     "chunk_id": "chunk_001",
     "model": "qwen3-vl:8b-instruct",
-    "status": "partial",
+    "status": "completed",
     "total_frames": 10,
-    "frame_group_size": 5,
+    "frame_group_size": 3,
     "temporal_analysis_enabled": true,
-    "total_temporal_groups": 2,
+    "total_temporal_groups": 4,
     "individual_segments": [
         {
             "frame_id": "frame_000",
             "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_000.jpg",
             "local_timestamp": 0.0,
             "global_timestamp": 0.0,
-            "description": "A stylized, elongated orange object with a white inner border and dark outer edge floats against a gradient teal-blue background. The scene is illuminated from the center, creating a soft glow. Numerous small, out-of-focus particles drift throughout the space, suggesting a serene, underwater or cosmic environment with gentle motion.",
-            "inference_time_seconds": 57.328,
+            "description": "A single, stylized orange and white object floats centrally in a gradient teal-blue environment. The background features a soft radial light effect, transitioning from bright center to darker edges. Subtle floating particles are scattered throughout, enhancing the underwater or abstract ambiance. The object remains static, with no discernible motion or interaction.",
+            "inference_time_seconds": 21.16,
             "ollama_metrics": {
-                "total_duration_seconds": 55.279,
-                "load_duration_seconds": 9.881,
-                "prompt_eval_duration_seconds": 38.781,
-                "eval_duration_seconds": 6.155,
-                "prompt_eval_count": 4218,
-                "eval_count": 63,
-                "prompt_tokens_per_second": 108.76,
-                "tokens_per_second": 10.24
+                "total_duration_seconds": 19.108,
+                "load_duration_seconds": 10.162,
+                "prompt_eval_duration_seconds": 4.406,
+                "eval_duration_seconds": 4.496,
+                "prompt_eval_count": 2178,
+                "eval_count": 64,
+                "prompt_tokens_per_second": 494.36,
+                "tokens_per_second": 14.23
             }
         },
         {
@@ -30,17 +30,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_001.jpg",
             "local_timestamp": 1.0,
             "global_timestamp": 1.0,
-            "description": "The frame displays the logo “The Daily Dweebs” in bold, orange, stylized lettering with white outlines and dark shadows. It’s centered against a gradient blue background, lighter in the center and darker at the edges. Subtle floating particles add depth. The text has a playful, cartoonish design, suggesting a lighthearted or comedic theme.",
-            "inference_time_seconds": 48.293,
+            "description": "The frame displays the title \"The Dairy Dweebs\" in bold, orange, stylized lettering with white outlines and a dark drop shadow. The text is centered against a gradient blue background, lighter in the center and darker at the edges. Subtle floating particles are visible throughout the scene, suggesting a playful, animated environment.",
+            "inference_time_seconds": 11.24,
             "ollama_metrics": {
-                "total_duration_seconds": 46.228,
-                "load_duration_seconds": 0.025,
-                "prompt_eval_duration_seconds": 38.074,
-                "eval_duration_seconds": 7.476,
-                "prompt_eval_count": 4218,
-                "eval_count": 77,
-                "prompt_tokens_per_second": 110.78,
-                "tokens_per_second": 10.3
+                "total_duration_seconds": 9.168,
+                "load_duration_seconds": 0.012,
+                "prompt_eval_duration_seconds": 4.261,
+                "eval_duration_seconds": 4.742,
+                "prompt_eval_count": 2178,
+                "eval_count": 69,
+                "prompt_tokens_per_second": 511.19,
+                "tokens_per_second": 14.55
             }
         },
         {
@@ -48,17 +48,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_002.jpg",
             "local_timestamp": 2.0,
             "global_timestamp": 2.0,
-            "description": "The frame displays the logo “The Daily Dweebs” in bold, orange, stylized lettering with white outlines and dark blue shadows. It’s centered against a gradient blue background, lighter in the center and darker at the edges. Subtle floating particles add depth. The text is the sole focus, with “Dweebs” prominently arched beneath “The Daily.”",
-            "inference_time_seconds": 49.185,
+            "description": "The frame displays the logo “The Daily Dweebs” in bold, orange, stylized lettering with white outlines and a dark blue drop shadow. The text is centered against a gradient blue background, featuring subtle floating particles. “The Daily” appears above “Dweebs,” which has a dynamic, curved design. The overall aesthetic is playful and cartoonish, suggesting a lighthearted or comedic theme.",
+            "inference_time_seconds": 12.615,
             "ollama_metrics": {
-                "total_duration_seconds": 47.144,
-                "load_duration_seconds": 0.021,
-                "prompt_eval_duration_seconds": 38.689,
-                "eval_duration_seconds": 7.816,
-                "prompt_eval_count": 4218,
-                "eval_count": 79,
-                "prompt_tokens_per_second": 109.02,
-                "tokens_per_second": 10.11
+                "total_duration_seconds": 10.599,
+                "load_duration_seconds": 0.015,
+                "prompt_eval_duration_seconds": 4.226,
+                "eval_duration_seconds": 6.199,
+                "prompt_eval_count": 2178,
+                "eval_count": 88,
+                "prompt_tokens_per_second": 515.38,
+                "tokens_per_second": 14.19
             }
         },
         {
@@ -66,17 +66,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_003.jpg",
             "local_timestamp": 3.0,
             "global_timestamp": 3.0,
-            "description": "A pet bowl rests on a wooden deck in a backyard. A tricycle and swing set are visible in the blurred background. A wooden fence encloses the yard, with houses and trees beyond. Warm, golden light suggests sunset. The bowl has a bone-shaped design. No text or readable markings are present.",
-            "inference_time_seconds": 47.557,
+            "description": "A wooden deck foreground features a teal pet bowl with a bone emblem. Behind, a child’s tricycle rests on grass near a swing set. A wooden fence encloses the yard, with houses visible beyond. Warm, golden-hour lighting bathes the scene. No text or readable markings are present. The setting suggests a quiet, residential backyard at dusk.",
+            "inference_time_seconds": 11.306,
             "ollama_metrics": {
-                "total_duration_seconds": 45.488,
-                "load_duration_seconds": 0.03,
-                "prompt_eval_duration_seconds": 38.66,
-                "eval_duration_seconds": 6.066,
-                "prompt_eval_count": 4218,
-                "eval_count": 63,
-                "prompt_tokens_per_second": 109.1,
-                "tokens_per_second": 10.39
+                "total_duration_seconds": 9.25,
+                "load_duration_seconds": 0.015,
+                "prompt_eval_duration_seconds": 4.15,
+                "eval_duration_seconds": 4.913,
+                "prompt_eval_count": 2178,
+                "eval_count": 72,
+                "prompt_tokens_per_second": 524.83,
+                "tokens_per_second": 14.65
             }
         },
         {
@@ -84,17 +84,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_004.jpg",
             "local_timestamp": 4.0,
             "global_timestamp": 4.0,
-            "description": "A backyard scene at dusk, featuring a wooden deck with a teal pet bowl marked with a bone. A cartoonish, elongated creature with large eyes peers from the left. Behind, a tricycle and swing set sit on grass near a wooden fence. Houses and trees are visible in the soft, warm background, suggesting a residential setting.",
-            "inference_time_seconds": 47.943,
+            "description": "A backyard scene at dusk, featuring a wooden deck with a teal pet bowl marked with a bone symbol. In the background, a tricycle, swing set, and wooden fence are visible. A cartoonish, elongated creature with large eyes peeks from the left. Warm, golden lighting bathes the grassy area, suggesting late afternoon or early evening.",
+            "inference_time_seconds": 11.554,
             "ollama_metrics": {
-                "total_duration_seconds": 45.88,
-                "load_duration_seconds": 0.03,
-                "prompt_eval_duration_seconds": 38.59,
-                "eval_duration_seconds": 6.609,
-                "prompt_eval_count": 4218,
-                "eval_count": 69,
-                "prompt_tokens_per_second": 109.3,
-                "tokens_per_second": 10.44
+                "total_duration_seconds": 9.495,
+                "load_duration_seconds": 0.011,
+                "prompt_eval_duration_seconds": 4.259,
+                "eval_duration_seconds": 5.052,
+                "prompt_eval_count": 2178,
+                "eval_count": 73,
+                "prompt_tokens_per_second": 511.36,
+                "tokens_per_second": 14.45
             }
         },
         {
@@ -102,17 +102,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_005.jpg",
             "local_timestamp": 5.0,
             "global_timestamp": 5.0,
-            "description": "A cartoonish, elongated creature with large eyes sits on a wooden deck, beside an empty teal pet bowl with a bone symbol. The backyard setting includes a tricycle, swing set, wooden fence, and shed. Warm, golden-hour lighting bathes the scene, casting soft shadows. The creature faces forward, its tongue slightly out, appearing still and observant in the tranquil outdoor space.",
-            "inference_time_seconds": 48.697,
+            "description": "A cartoonish, elongated creature with large eyes sits on a wooden deck, beside an empty green bowl with a bone symbol. The backyard setting includes a tricycle, swing set, wooden fence, and a shed. Warm, golden-hour lighting bathes the scene, highlighting the grass, deck planks, and distant houses. The creature’s head is tilted upward, facing the sky.",
+            "inference_time_seconds": 11.973,
             "ollama_metrics": {
-                "total_duration_seconds": 46.647,
-                "load_duration_seconds": 0.029,
-                "prompt_eval_duration_seconds": 38.003,
-                "eval_duration_seconds": 7.965,
-                "prompt_eval_count": 4218,
-                "eval_count": 80,
-                "prompt_tokens_per_second": 110.99,
-                "tokens_per_second": 10.04
+                "total_duration_seconds": 9.91,
+                "load_duration_seconds": 0.012,
+                "prompt_eval_duration_seconds": 4.257,
+                "eval_duration_seconds": 5.465,
+                "prompt_eval_count": 2178,
+                "eval_count": 79,
+                "prompt_tokens_per_second": 511.57,
+                "tokens_per_second": 14.46
             }
         },
         {
@@ -120,17 +120,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_006.jpg",
             "local_timestamp": 6.0,
             "global_timestamp": 6.0,
-            "description": "A cartoon dog sits on a wooden deck, tongue out, beside an empty teal bowl with a bone symbol. In the background, a child’s tricycle and swing set are visible in a grassy yard. A wooden fence and houses are blurred behind. Warm, golden-hour lighting bathes the scene, suggesting late afternoon. The setting is a suburban backyard.",
-            "inference_time_seconds": 47.613,
+            "description": "A cartoon dog sits on a wooden deck, head tilted upward, beside an empty teal bowl with a bone symbol. In the background, a child’s tricycle rests on grass near a wooden fence. A swing set and houses are visible beyond the fence. Warm, golden-hour lighting bathes the scene, suggesting late afternoon. The setting is a residential backyard.",
+            "inference_time_seconds": 11.496,
             "ollama_metrics": {
-                "total_duration_seconds": 45.546,
-                "load_duration_seconds": 0.03,
-                "prompt_eval_duration_seconds": 37.738,
-                "eval_duration_seconds": 7.099,
-                "prompt_eval_count": 4218,
+                "total_duration_seconds": 9.451,
+                "load_duration_seconds": 0.013,
+                "prompt_eval_duration_seconds": 4.296,
+                "eval_duration_seconds": 4.979,
+                "prompt_eval_count": 2178,
                 "eval_count": 73,
-                "prompt_tokens_per_second": 111.77,
-                "tokens_per_second": 10.28
+                "prompt_tokens_per_second": 507.0,
+                "tokens_per_second": 14.66
             }
         },
         {
@@ -138,17 +138,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_007.jpg",
             "local_timestamp": 7.0,
             "global_timestamp": 7.0,
-            "description": "A cartoon dog with large eyes and a long neck stands on a wooden deck, facing a child in overalls. The child walks away holding a toy. A teal dog bowl with a bone symbol sits nearby. In the background, a tricycle rests on grass beside a wooden fence, with houses and trees under a warm, golden sunset sky.",
-            "inference_time_seconds": 47.98,
+            "description": "A cartoon dog with large eyes and a pink tongue stands on a wooden deck, facing a child in overalls. A teal pet bowl with a bone symbol sits nearby. In the background, a tricycle and a wooden fence are visible. The scene is bathed in warm, golden light, suggesting late afternoon. The child walks toward the right, partially out of frame.",
+            "inference_time_seconds": 11.686,
             "ollama_metrics": {
-                "total_duration_seconds": 45.92,
-                "load_duration_seconds": 0.028,
-                "prompt_eval_duration_seconds": 38.486,
-                "eval_duration_seconds": 6.739,
-                "prompt_eval_count": 4218,
-                "eval_count": 70,
-                "prompt_tokens_per_second": 109.6,
-                "tokens_per_second": 10.39
+                "total_duration_seconds": 9.617,
+                "load_duration_seconds": 0.026,
+                "prompt_eval_duration_seconds": 4.203,
+                "eval_duration_seconds": 5.22,
+                "prompt_eval_count": 2178,
+                "eval_count": 76,
+                "prompt_tokens_per_second": 518.25,
+                "tokens_per_second": 14.56
             }
         },
         {
@@ -156,17 +156,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_008.jpg",
             "local_timestamp": 8.0,
             "global_timestamp": 8.0,
-            "description": "A child in overalls stands on a wooden deck, holding a \"Lucky Bar\" box, facing a cartoonish, elongated creature with large eyes. A pet bowl rests between them. In the background, a tricycle and swing set are visible in a grassy yard bordered by a wooden fence. Warm, golden-hour lighting bathes the scene, suggesting late afternoon.",
-            "inference_time_seconds": 48.885,
+            "description": "A child in overalls stands on a wooden deck, holding a \"Lucky Bar\" box, facing a cartoonish, elongated creature with large eyes. A green pet bowl rests between them. In the background, a tricycle, fence, and play equipment are visible under warm, golden-hour lighting. The scene is set in a suburban backyard.",
+            "inference_time_seconds": 11.31,
             "ollama_metrics": {
-                "total_duration_seconds": 46.82,
-                "load_duration_seconds": 0.028,
-                "prompt_eval_duration_seconds": 38.275,
-                "eval_duration_seconds": 7.874,
-                "prompt_eval_count": 4218,
-                "eval_count": 77,
-                "prompt_tokens_per_second": 110.2,
-                "tokens_per_second": 9.78
+                "total_duration_seconds": 9.26,
+                "load_duration_seconds": 0.019,
+                "prompt_eval_duration_seconds": 4.137,
+                "eval_duration_seconds": 4.944,
+                "prompt_eval_count": 2178,
+                "eval_count": 72,
+                "prompt_tokens_per_second": 526.48,
+                "tokens_per_second": 14.56
             }
         },
         {
@@ -174,20 +174,110 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_001\\frames\\frame_009.jpg",
             "local_timestamp": 9.0,
             "global_timestamp": 9.0,
-            "description": "A child in overalls pours colorful \"Lucky Barks\" cereal into a bone-shaped bowl on a wooden deck. A floating, pink, cartoonish creature with large eyes hovers nearby. A tricycle and swing set are visible in the background yard. Warm, golden-hour lighting bathes the scene, highlighting the playful, outdoor setting.",
-            "inference_time_seconds": 47.449,
+            "description": "A child in overalls pours colorful \"Lucky Barks\" treats into a dog bowl on a wooden deck. A floating, cartoonish creature with large eyes hovers nearby. A tricycle and swing set are visible in the backyard. Warm, golden-hour lighting bathes the scene, highlighting the vibrant colors of the treats and the wooden planks.",
+            "inference_time_seconds": 11.412,
             "ollama_metrics": {
-                "total_duration_seconds": 45.39,
-                "load_duration_seconds": 0.028,
-                "prompt_eval_duration_seconds": 37.9,
-                "eval_duration_seconds": 6.79,
-                "prompt_eval_count": 4218,
-                "eval_count": 70,
-                "prompt_tokens_per_second": 111.29,
-                "tokens_per_second": 10.31
+                "total_duration_seconds": 9.345,
+                "load_duration_seconds": 0.029,
+                "prompt_eval_duration_seconds": 4.229,
+                "eval_duration_seconds": 4.945,
+                "prompt_eval_count": 2178,
+                "eval_count": 72,
+                "prompt_tokens_per_second": 515.0,
+                "tokens_per_second": 14.56
             }
         }
     ],
-    "temporal_segments": [],
-    "total_elapsed_time_seconds": 495.812
+    "temporal_segments": [
+        {
+            "group_id": "group_001",
+            "frame_ids": [
+                "frame_000",
+                "frame_001",
+                "frame_002"
+            ],
+            "start_timestamp": 0.0,
+            "end_timestamp": 2.0,
+            "description": "A stylized, orange, three-dimensional logo reading \"The Daily Dweebs\" emerges and settles centrally against a teal gradient background. The logo, featuring a playful, rounded font with white outlines and dark drop shadows, animates into view from the right side of the frame, moving leftward to its final position. The background remains static with subtle floating particles.",
+            "inference_time_seconds": 19.459,
+            "ollama_metrics": {
+                "total_duration_seconds": 17.416,
+                "load_duration_seconds": 0.013,
+                "prompt_eval_duration_seconds": 8.602,
+                "eval_duration_seconds": 8.488,
+                "prompt_eval_count": 6343,
+                "eval_count": 75,
+                "prompt_tokens_per_second": 737.41,
+                "tokens_per_second": 8.84
+            }
+        },
+        {
+            "group_id": "group_002",
+            "frame_ids": [
+                "frame_003",
+                "frame_004",
+                "frame_005"
+            ],
+            "start_timestamp": 3.0,
+            "end_timestamp": 5.0,
+            "description": "A cartoon creature enters the frame from the left, moving toward a dog bowl on a wooden deck. It stops beside the bowl, then turns to face forward, remaining stationary. The background, featuring a tricycle and swing set, stays unchanged throughout the sequence. The creature’s position shifts from entering to settling beside the bowl.",
+            "inference_time_seconds": 18.381,
+            "ollama_metrics": {
+                "total_duration_seconds": 16.349,
+                "load_duration_seconds": 0.019,
+                "prompt_eval_duration_seconds": 8.538,
+                "eval_duration_seconds": 7.288,
+                "prompt_eval_count": 6343,
+                "eval_count": 66,
+                "prompt_tokens_per_second": 742.88,
+                "tokens_per_second": 9.06
+            }
+        },
+        {
+            "group_id": "group_003",
+            "frame_ids": [
+                "frame_006",
+                "frame_007",
+                "frame_008"
+            ],
+            "start_timestamp": 6.0,
+            "end_timestamp": 8.0,
+            "description": "A cartoon creature sits on a wooden deck beside an empty bowl. A child enters from the right, walks toward the creature, and bends down, holding a box labeled “Lucky Bar.” The creature remains in place, its head tilted upward, observing the child’s approach and action.",
+            "inference_time_seconds": 17.535,
+            "ollama_metrics": {
+                "total_duration_seconds": 15.491,
+                "load_duration_seconds": 0.018,
+                "prompt_eval_duration_seconds": 8.512,
+                "eval_duration_seconds": 6.457,
+                "prompt_eval_count": 6343,
+                "eval_count": 58,
+                "prompt_tokens_per_second": 745.18,
+                "tokens_per_second": 8.98
+            }
+        },
+        {
+            "group_id": "group_004",
+            "frame_ids": [
+                "frame_009"
+            ],
+            "start_timestamp": 9.0,
+            "end_timestamp": 9.0,
+            "description": "A child pours colorful \"Lucky Barks\" treats from a box into a dog bowl on a wooden deck. A floating, cartoonish creature with large eyes hovers nearby, watching the action. The child remains focused on filling the bowl, while scattered treats and a tricycle are visible in the background. The scene remains static, with no further movement or changes observed.",
+            "inference_time_seconds": 8.143,
+            "ollama_metrics": {
+                "total_duration_seconds": 6.109,
+                "load_duration_seconds": 0.014,
+                "prompt_eval_duration_seconds": 0.429,
+                "eval_duration_seconds": 5.279,
+                "prompt_eval_count": 2237,
+                "eval_count": 76,
+                "prompt_tokens_per_second": 5214.67,
+                "tokens_per_second": 14.4
+            }
+        }
+    ],
+    "temporal_errors": [],
+    "total_elapsed_time_seconds": 189.323,
+    "individual_analysis_time_seconds": 125.752,
+    "temporal_analysis_time_seconds": 63.518
 }

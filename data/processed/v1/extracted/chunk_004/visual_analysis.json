@@ -3,26 +3,26 @@
     "model": "qwen3-vl:8b-instruct",
     "status": "completed",
     "total_frames": 10,
-    "frame_group_size": 5,
+    "frame_group_size": 3,
     "temporal_analysis_enabled": true,
-    "total_temporal_groups": 2,
+    "total_temporal_groups": 4,
     "individual_segments": [
         {
             "frame_id": "frame_000",
             "frame_path": "data\\processed\\v1\\extracted\\chunk_004\\frames\\frame_000.jpg",
             "local_timestamp": 0.0,
             "global_timestamp": 30.0,
-            "description": "A woman sits at a round wooden table near a large window, bathed in warm sunlight. A bouquet of tulips in a mason jar vase rests on the table. She holds a piece of paper, her hands poised as if writing or reading. Outside, bare trees and a building are visible through the glass. Dark curtains frame the window.",
-            "inference_time_seconds": 27.606,
+            "description": "A cartoon dog stands on a wooden deck, head lowered toward an empty green bowl with a bone symbol. In the background, a child’s tricycle rests on grass near a wooden fence. A swing set and a small shed are visible. The scene is bathed in warm, golden light, suggesting late afternoon or early evening.",
+            "inference_time_seconds": 40.114,
             "ollama_metrics": {
-                "total_duration_seconds": 25.552,
+                "total_duration_seconds": 38.06,
                 "load_duration_seconds": 0.014,
-                "prompt_eval_duration_seconds": 17.508,
-                "eval_duration_seconds": 4.906,
-                "prompt_eval_count": 1639,
-                "eval_count": 71,
-                "prompt_tokens_per_second": 93.62,
-                "tokens_per_second": 14.47
+                "prompt_eval_duration_seconds": 29.382,
+                "eval_duration_seconds": 5.056,
+                "prompt_eval_count": 2179,
+                "eval_count": 67,
+                "prompt_tokens_per_second": 74.16,
+                "tokens_per_second": 13.25
             }
         },
         {
@@ -30,17 +30,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_004\\frames\\frame_001.jpg",
             "local_timestamp": 1.0,
             "global_timestamp": 31.0,
-            "description": "A woman sits at a round wooden table near a large window, bathed in warm sunlight. She leans forward, gazing at a bouquet of tulips in a glass jar. The flowers, wrapped in brown paper, sit beside a mug and a tablet. Dark curtains frame the window, revealing a blurred outdoor scene. The setting is intimate and still, with soft natural lighting.",
-            "inference_time_seconds": 24.766,
+            "description": "A stylized, pink, blob-like creature sits on a wooden deck, facing a teal pet bowl with a bone symbol. In the background, a child’s tricycle and swing set are visible in a grassy backyard. A wooden fence and houses appear under a warm, golden sunset sky. The scene is tranquil, with soft lighting and shallow depth of field emphasizing the foreground.",
+            "inference_time_seconds": 35.668,
             "ollama_metrics": {
-                "total_duration_seconds": 22.733,
+                "total_duration_seconds": 33.605,
                 "load_duration_seconds": 0.013,
-                "prompt_eval_duration_seconds": 17.496,
-                "eval_duration_seconds": 5.098,
-                "prompt_eval_count": 1639,
+                "prompt_eval_duration_seconds": 27.766,
+                "eval_duration_seconds": 5.647,
+                "prompt_eval_count": 2179,
                 "eval_count": 77,
-                "prompt_tokens_per_second": 93.68,
-                "tokens_per_second": 15.1
+                "prompt_tokens_per_second": 78.48,
+                "tokens_per_second": 13.64
             }
         },
         {
@@ -48,17 +48,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_004\\frames\\frame_002.jpg",
             "local_timestamp": 2.0,
             "global_timestamp": 32.0,
-            "description": "A person in a dark sweater stands by a window, placing a bouquet of tulips wrapped in brown paper into a glass jar on a wooden table. The table holds a pen and coasters. Sunlight streams through the window, illuminating the scene. Dark curtains frame the window, and a small plant sits nearby. The person holds a folded white card in their other hand.",
-            "inference_time_seconds": 24.795,
+            "description": "A cartoonish, elongated orange creature stands on a wooden deck, facing right. A teal pet bowl with a bone symbol rests beside it. In the background, a child’s tricycle, swing set, and wooden fence are visible. The scene is bathed in warm, golden-hour lighting, suggesting late afternoon. Houses and trees complete the suburban backyard setting.",
+            "inference_time_seconds": 35.24,
             "ollama_metrics": {
-                "total_duration_seconds": 22.738,
-                "load_duration_seconds": 0.043,
-                "prompt_eval_duration_seconds": 17.466,
-                "eval_duration_seconds": 5.077,
-                "prompt_eval_count": 1639,
-                "eval_count": 77,
-                "prompt_tokens_per_second": 93.84,
-                "tokens_per_second": 15.17
+                "total_duration_seconds": 33.181,
+                "load_duration_seconds": 0.015,
+                "prompt_eval_duration_seconds": 27.595,
+                "eval_duration_seconds": 5.433,
+                "prompt_eval_count": 2179,
+                "eval_count": 74,
+                "prompt_tokens_per_second": 78.96,
+                "tokens_per_second": 13.62
             }
         },
         {
@@ -66,17 +66,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_004\\frames\\frame_003.jpg",
             "local_timestamp": 3.0,
             "global_timestamp": 33.0,
-            "description": "A person in a dark sweater stands by a window, holding a bouquet of tulips wrapped in brown paper and a white envelope. They place the bouquet into a floral-patterned glass jar on a round wooden table. The scene is warmly lit by natural light, with dark curtains framing the window and a small plant visible on the windowsill.",
-            "inference_time_seconds": 24.192,
+            "description": "A cartoonish, elongated creature stands on a wooden deck in a backyard. A teal pet bowl with a bone symbol rests nearby. In the background, a tricycle, swing set, and wooden fence are visible. The scene is bathed in warm, golden-hour lighting, suggesting late afternoon. The creature faces forward, appearing stationary.",
+            "inference_time_seconds": 35.141,
             "ollama_metrics": {
-                "total_duration_seconds": 22.136,
-                "load_duration_seconds": 0.01,
-                "prompt_eval_duration_seconds": 17.448,
-                "eval_duration_seconds": 4.552,
-                "prompt_eval_count": 1639,
+                "total_duration_seconds": 33.109,
+                "load_duration_seconds": 0.013,
+                "prompt_eval_duration_seconds": 27.81,
+                "eval_duration_seconds": 5.144,
+                "prompt_eval_count": 2179,
                 "eval_count": 69,
-                "prompt_tokens_per_second": 93.93,
-                "tokens_per_second": 15.16
+                "prompt_tokens_per_second": 78.35,
+                "tokens_per_second": 13.41
             }
         },
         {
@@ -84,17 +84,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_004\\frames\\frame_004.jpg",
             "local_timestamp": 4.0,
             "global_timestamp": 34.0,
-            "description": "The frame shows a blurred, minimalist interior with light-colored walls and faint outlines of architectural elements. Indistinct rectangular shapes suggest door frames or paneling. The scene lacks discernible objects, text, or actions. Lighting is soft and even, creating a muted, abstract composition. No specific environment or subject is clearly identifiable due to the shallow depth of field and lack of focus.",
-            "inference_time_seconds": 24.748,
+            "description": "A cartoonish, pink, dinosaur-like creature sits on a wooden deck, facing a teal pet bowl with a bone symbol. Behind it, a child’s tricycle and swing set are visible in a grassy backyard. A wooden fence and houses form the background under a soft, warm-toned sky, suggesting late afternoon or early evening. The scene is tranquil and domestic.",
+            "inference_time_seconds": 35.557,
             "ollama_metrics": {
-                "total_duration_seconds": 22.657,
-                "load_duration_seconds": 0.011,
-                "prompt_eval_duration_seconds": 17.437,
-                "eval_duration_seconds": 5.104,
-                "prompt_eval_count": 1639,
-                "eval_count": 77,
-                "prompt_tokens_per_second": 93.99,
-                "tokens_per_second": 15.09
+                "total_duration_seconds": 33.537,
+                "load_duration_seconds": 0.015,
+                "prompt_eval_duration_seconds": 27.794,
+                "eval_duration_seconds": 5.551,
+                "prompt_eval_count": 2179,
+                "eval_count": 76,
+                "prompt_tokens_per_second": 78.4,
+                "tokens_per_second": 13.69
             }
         },
         {
@@ -102,17 +102,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_004\\frames\\frame_005.jpg",
             "local_timestamp": 5.0,
             "global_timestamp": 35.0,
-            "description": "A person with curly, dark hair and a dark top is shown indoors, looking downward. The background includes a light-colored wall with a framed picture partially visible. The scene is softly lit, with shallow depth of field blurring the surroundings. No readable text or distinct objects are visible beyond the subject and wall decor.",
-            "inference_time_seconds": 23.753,
+            "description": "A stylized, pink, blob-like creature sits on a wooden deck, facing a teal pet bowl with a bone symbol. The backyard setting includes a tricycle, swing set, wooden fence, and shed. Warm, golden-hour lighting bathes the scene. The creature’s posture suggests stillness, while the bowl remains empty. Background elements are softly blurred, emphasizing the foreground subjects.",
+            "inference_time_seconds": 35.592,
             "ollama_metrics": {
-                "total_duration_seconds": 21.698,
-                "load_duration_seconds": 0.009,
-                "prompt_eval_duration_seconds": 17.355,
-                "eval_duration_seconds": 4.223,
-                "prompt_eval_count": 1639,
-                "eval_count": 64,
-                "prompt_tokens_per_second": 94.44,
-                "tokens_per_second": 15.15
+                "total_duration_seconds": 33.541,
+                "load_duration_seconds": 0.014,
+                "prompt_eval_duration_seconds": 27.646,
+                "eval_duration_seconds": 5.742,
+                "prompt_eval_count": 2179,
+                "eval_count": 78,
+                "prompt_tokens_per_second": 78.82,
+                "tokens_per_second": 13.59
             }
         },
         {
@@ -120,17 +120,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_004\\frames\\frame_006.jpg",
             "local_timestamp": 6.0,
             "global_timestamp": 36.0,
-            "description": "A young woman with curly, dark hair featuring reddish highlights stands indoors, wearing a black top and silver spiral earrings. She has a nose piercing and looks slightly off-camera. Behind her, a framed mirror leans against a pale wall. The setting appears to be a hallway or room with neutral-toned walls and soft, ambient lighting.",
-            "inference_time_seconds": 24.046,
+            "description": "A stylized, pink, blob-like creature sits on a wooden deck, facing a teal pet bowl with a bone symbol. In the background, a child’s tricycle and swing set are visible in a grassy backyard. A wooden fence and houses appear beyond. Warm, golden-hour lighting bathes the scene, suggesting late afternoon. The creature remains still, positioned near the bowl.",
+            "inference_time_seconds": 35.581,
             "ollama_metrics": {
-                "total_duration_seconds": 21.971,
+                "total_duration_seconds": 33.52,
                 "load_duration_seconds": 0.011,
-                "prompt_eval_duration_seconds": 17.364,
-                "eval_duration_seconds": 4.49,
-                "prompt_eval_count": 1639,
-                "eval_count": 68,
-                "prompt_tokens_per_second": 94.39,
-                "tokens_per_second": 15.14
+                "prompt_eval_duration_seconds": 27.639,
+                "eval_duration_seconds": 5.733,
+                "prompt_eval_count": 2179,
+                "eval_count": 78,
+                "prompt_tokens_per_second": 78.84,
+                "tokens_per_second": 13.61
             }
         },
         {
@@ -138,17 +138,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_004\\frames\\frame_007.jpg",
             "local_timestamp": 7.0,
             "global_timestamp": 37.0,
-            "description": "A young man wearing a black knit beanie, gray scarf, and denim jacket with a light-colored fur collar stands indoors. He faces forward, slightly off-center, with a neutral expression. The background shows a plain wall and a wooden doorframe. Lighting is even and natural, suggesting an interior hallway or room. No readable text is visible.",
-            "inference_time_seconds": 24.203,
+            "description": "A cartoon dog lies on a wooden deck, head down near an empty teal food bowl with a bone symbol. In the background, a child’s tricycle and swing set sit on a grassy yard bordered by a wooden fence. Houses and trees are visible under a soft, warm-toned sky, suggesting late afternoon or early evening.",
+            "inference_time_seconds": 34.658,
             "ollama_metrics": {
-                "total_duration_seconds": 22.159,
-                "load_duration_seconds": 0.01,
-                "prompt_eval_duration_seconds": 17.412,
-                "eval_duration_seconds": 4.627,
-                "prompt_eval_count": 1639,
-                "eval_count": 70,
-                "prompt_tokens_per_second": 94.13,
-                "tokens_per_second": 15.13
+                "total_duration_seconds": 32.627,
+                "load_duration_seconds": 0.011,
+                "prompt_eval_duration_seconds": 27.489,
+                "eval_duration_seconds": 4.943,
+                "prompt_eval_count": 2179,
+                "eval_count": 68,
+                "prompt_tokens_per_second": 79.27,
+                "tokens_per_second": 13.76
             }
         },
         {
@@ -156,17 +156,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_004\\frames\\frame_008.jpg",
             "local_timestamp": 8.0,
             "global_timestamp": 38.0,
-            "description": "A young woman with curly, dark hair featuring reddish highlights stands indoors, wearing a dark top and silver spiral earrings. She has a nose piercing and a neutral expression. Behind her, a framed mirror leans against a pale wall. The setting appears to be a hallway or room with soft, warm lighting. No text or other distinct objects are visible.",
-            "inference_time_seconds": 24.186,
+            "description": "A cartoon dog lies on a wooden deck, head down near an empty teal dog bowl with a bone symbol. In the background, a child’s tricycle and swing set are visible in a grassy backyard. A wooden fence and houses appear beyond. Warm, golden-hour lighting bathes the scene, suggesting late afternoon.",
+            "inference_time_seconds": 34.581,
             "ollama_metrics": {
-                "total_duration_seconds": 22.141,
-                "load_duration_seconds": 0.01,
-                "prompt_eval_duration_seconds": 17.356,
-                "eval_duration_seconds": 4.656,
-                "prompt_eval_count": 1639,
-                "eval_count": 71,
-                "prompt_tokens_per_second": 94.43,
-                "tokens_per_second": 15.25
+                "total_duration_seconds": 32.562,
+                "load_duration_seconds": 0.011,
+                "prompt_eval_duration_seconds": 27.628,
+                "eval_duration_seconds": 4.78,
+                "prompt_eval_count": 2179,
+                "eval_count": 65,
+                "prompt_tokens_per_second": 78.87,
+                "tokens_per_second": 13.6
             }
         },
         {
@@ -174,17 +174,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_004\\frames\\frame_009.jpg",
             "local_timestamp": 9.0,
             "global_timestamp": 39.0,
-            "description": "A young woman with curly, dark hair featuring reddish highlights stands indoors, wearing a dark top and silver spiral earrings. She has a nose piercing and freckles. Behind her, a framed mirror leans against a pale wall. The setting appears to be a hallway or room with neutral-toned walls and soft, ambient lighting.",
-            "inference_time_seconds": 24.019,
+            "description": "A cartoonish, elongated creature with large eyes sits on a wooden deck, facing right. A teal dog bowl with a bone symbol rests nearby. The background shows a backyard with a wooden fence, swing set, tricycle, and shed. Warm, golden-hour lighting bathes the scene, suggesting late afternoon. The creature appears stationary, observing its surroundings.",
+            "inference_time_seconds": 35.277,
             "ollama_metrics": {
-                "total_duration_seconds": 21.946,
-                "load_duration_seconds": 0.009,
-                "prompt_eval_duration_seconds": 17.363,
-                "eval_duration_seconds": 4.467,
-                "prompt_eval_count": 1639,
-                "eval_count": 67,
-                "prompt_tokens_per_second": 94.39,
-                "tokens_per_second": 15.0
+                "total_duration_seconds": 33.237,
+                "load_duration_seconds": 0.013,
+                "prompt_eval_duration_seconds": 27.73,
+                "eval_duration_seconds": 5.354,
+                "prompt_eval_count": 2179,
+                "eval_count": 73,
+                "prompt_tokens_per_second": 78.58,
+                "tokens_per_second": 13.64
             }
         }
     ],
@@ -194,51 +194,90 @@
             "frame_ids": [
                 "frame_000",
                 "frame_001",
-                "frame_002",
-                "frame_003",
-                "frame_004"
+                "frame_002"
             ],
             "start_timestamp": 30.0,
-            "end_timestamp": 34.0,
-            "description": "A person seated at a table inhales deeply near a bouquet of flowers in a mason jar. They then stand, picking up the bouquet with one hand and a card with the other. The person lifts the bouquet slightly, holding it steady. The scene transitions to a blurry white surface, indicating a camera movement or scene change.",
-            "inference_time_seconds": 87.398,
+            "end_timestamp": 32.0,
+            "description": "A stylized, pinkish-brown creature on a wooden deck leans toward an empty dog bowl. It then abruptly lifts its head and torso, twisting its neck upward and backward. The creature remains on the deck, its posture shifting from a low, forward-leaning position to a more upright, arched stance, while the bowl stays stationary.",
+            "inference_time_seconds": 68.944,
             "ollama_metrics": {
-                "total_duration_seconds": 85.357,
-                "load_duration_seconds": 0.016,
-                "prompt_eval_duration_seconds": 75.239,
-                "eval_duration_seconds": 9.84,
-                "prompt_eval_count": 7754,
-                "eval_count": 67,
-                "prompt_tokens_per_second": 103.06,
-                "tokens_per_second": 6.81
+                "total_duration_seconds": 66.868,
+                "load_duration_seconds": 0.018,
+                "prompt_eval_duration_seconds": 58.701,
+                "eval_duration_seconds": 7.843,
+                "prompt_eval_count": 6346,
+                "eval_count": 69,
+                "prompt_tokens_per_second": 108.11,
+                "tokens_per_second": 8.8
             }
         },
         {
             "group_id": "group_002",
             "frame_ids": [
-                "frame_005",
+                "frame_003",
+                "frame_004",
+                "frame_005"
+            ],
+            "start_timestamp": 33.0,
+            "end_timestamp": 35.0,
+            "description": "The character remains stationary on a wooden deck, facing a pet bowl. Its head tilts slightly downward across the frames, with minimal positional change. The background, including a tricycle and swing set, stays static. No significant action or movement occurs between the frames, indicating a brief, static observation period.",
+            "inference_time_seconds": 68.417,
+            "ollama_metrics": {
+                "total_duration_seconds": 66.332,
+                "load_duration_seconds": 0.016,
+                "prompt_eval_duration_seconds": 58.856,
+                "eval_duration_seconds": 6.985,
+                "prompt_eval_count": 6346,
+                "eval_count": 62,
+                "prompt_tokens_per_second": 107.82,
+                "tokens_per_second": 8.88
+            }
+        },
+        {
+            "group_id": "group_003",
+            "frame_ids": [
                 "frame_006",
                 "frame_007",
-                "frame_008",
+                "frame_008"
+            ],
+            "start_timestamp": 36.0,
+            "end_timestamp": 38.0,
+            "description": "A small, pink, cartoonish creature lowers its head toward a wooden deck, moving closer to a teal dog bowl with a bone symbol. Its posture shifts slightly across frames, indicating a continuous, gradual approach. The background remains static, featuring a tricycle, swing set, and fence. No other significant actions or changes occur.",
+            "inference_time_seconds": 68.993,
+            "ollama_metrics": {
+                "total_duration_seconds": 66.934,
+                "load_duration_seconds": 0.018,
+                "prompt_eval_duration_seconds": 58.826,
+                "eval_duration_seconds": 7.62,
+                "prompt_eval_count": 6346,
+                "eval_count": 67,
+                "prompt_tokens_per_second": 107.88,
+                "tokens_per_second": 8.79
+            }
+        },
+        {
+            "group_id": "group_004",
+            "frame_ids": [
                 "frame_009"
             ],
-            "start_timestamp": 35.0,
+            "start_timestamp": 39.0,
             "end_timestamp": 39.0,
-            "description": "A woman with curly hair looks down, then raises her head to face forward. A man in a beanie and scarf appears in the doorway, looking toward her. The woman maintains her forward gaze, her expression neutral. The scene remains indoors with consistent lighting and background elements. No further movement or interaction occurs between the subjects.",
-            "inference_time_seconds": 87.637,
+            "description": "A cartoonish, elongated creature with large eyes sits on a wooden deck, facing forward. Beside it rests a teal pet bowl with a bone emblem. The background features a grassy yard, a tricycle, a swing set, and a wooden fence. The scene remains static, with no discernible movement or change across the frame, capturing a tranquil backyard setting during golden hour.",
+            "inference_time_seconds": 9.199,
             "ollama_metrics": {
-                "total_duration_seconds": 85.58,
-                "load_duration_seconds": 0.015,
-                "prompt_eval_duration_seconds": 75.277,
-                "eval_duration_seconds": 9.721,
-                "prompt_eval_count": 7754,
-                "eval_count": 66,
-                "prompt_tokens_per_second": 103.01,
-                "tokens_per_second": 6.79
+                "total_duration_seconds": 7.144,
+                "load_duration_seconds": 0.011,
+                "prompt_eval_duration_seconds": 1.011,
+                "eval_duration_seconds": 5.752,
+                "prompt_eval_count": 2238,
+                "eval_count": 79,
+                "prompt_tokens_per_second": 2212.89,
+                "tokens_per_second": 13.74
             }
         }
     ],
-    "total_elapsed_time_seconds": 421.384,
-    "individual_analysis_time_seconds": 246.314,
-    "temporal_analysis_time_seconds": 175.035
+    "temporal_errors": [],
+    "total_elapsed_time_seconds": 573.012,
+    "individual_analysis_time_seconds": 357.409,
+    "temporal_analysis_time_seconds": 215.553
 }

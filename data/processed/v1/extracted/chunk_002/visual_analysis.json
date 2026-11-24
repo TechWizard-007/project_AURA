@@ -3,26 +3,26 @@
     "model": "qwen3-vl:8b-instruct",
     "status": "completed",
     "total_frames": 10,
-    "frame_group_size": 5,
+    "frame_group_size": 3,
     "temporal_analysis_enabled": true,
-    "total_temporal_groups": 2,
+    "total_temporal_groups": 4,
     "individual_segments": [
         {
             "frame_id": "frame_000",
             "frame_path": "data\\processed\\v1\\extracted\\chunk_002\\frames\\frame_000.jpg",
             "local_timestamp": 0.0,
             "global_timestamp": 10.0,
-            "description": "A person writes a handwritten note on a white card with cloud cutouts, using a black pen. Their hands, adorned with rings, rest on a wooden table. Sunlight casts shadows across the scene. Partially visible text includes “WITH BIG HUGS” and “I don’t know what to say.” A glass jar sits blurred in the foreground, suggesting a quiet, personal moment.",
-            "inference_time_seconds": 27.554,
+            "description": "A child in overalls stands on a wooden deck, holding a \"Lucky Rabbit\" cereal box. Beside them, a cartoonish, elongated creature with large eyes eagerly looks at a bowl of colorful cereal. A tricycle rests in the grassy yard behind. The scene is bathed in warm, late-afternoon light, with a wooden fence and play equipment in the background.",
+            "inference_time_seconds": 36.082,
             "ollama_metrics": {
-                "total_duration_seconds": 25.518,
-                "load_duration_seconds": 0.013,
-                "prompt_eval_duration_seconds": 16.742,
-                "eval_duration_seconds": 5.471,
-                "prompt_eval_count": 1639,
+                "total_duration_seconds": 34.029,
+                "load_duration_seconds": 0.015,
+                "prompt_eval_duration_seconds": 25.145,
+                "eval_duration_seconds": 6.206,
+                "prompt_eval_count": 2179,
                 "eval_count": 80,
-                "prompt_tokens_per_second": 97.9,
-                "tokens_per_second": 14.62
+                "prompt_tokens_per_second": 86.66,
+                "tokens_per_second": 12.89
             }
         },
         {
@@ -30,17 +30,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_002\\frames\\frame_001.jpg",
             "local_timestamp": 1.0,
             "global_timestamp": 11.0,
-            "description": "A person with dark, curly hair is out of focus in the background, looking downward. In the foreground, a bouquet of white and light purple tulips with green stems is wrapped in textured brown paper. The setting appears indoors with warm, soft lighting. The person’s face is blurred, and no readable text is visible.",
-            "inference_time_seconds": 23.744,
+            "description": "A child walks across a wooden deck in a backyard, carrying a blue \"Lucky Barks\" bag. A small, light-colored stuffed animal lies nearby, partially under the child’s foot. A pet food bowl with colorful kibble sits on the deck. In the background, a tricycle, swing set, and wooden fence are visible under warm, golden-hour lighting.",
+            "inference_time_seconds": 32.958,
             "ollama_metrics": {
-                "total_duration_seconds": 21.707,
-                "load_duration_seconds": 0.013,
-                "prompt_eval_duration_seconds": 17.048,
-                "eval_duration_seconds": 4.524,
-                "prompt_eval_count": 1639,
-                "eval_count": 66,
-                "prompt_tokens_per_second": 96.14,
-                "tokens_per_second": 14.59
+                "total_duration_seconds": 30.908,
+                "load_duration_seconds": 0.014,
+                "prompt_eval_duration_seconds": 25.108,
+                "eval_duration_seconds": 5.563,
+                "prompt_eval_count": 2179,
+                "eval_count": 76,
+                "prompt_tokens_per_second": 86.78,
+                "tokens_per_second": 13.66
             }
         },
         {
@@ -48,17 +48,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_002\\frames\\frame_002.jpg",
             "local_timestamp": 2.0,
             "global_timestamp": 12.0,
-            "description": "A person with dark, curly hair is seen in soft focus, looking downward. In the foreground, a bouquet of white and light pink tulips wrapped in brown paper is prominently displayed. The setting appears to be indoors, with warm, muted lighting. The person’s face is blurred, emphasizing the flowers as the primary subject.",
-            "inference_time_seconds": 24.096,
+            "description": "A cartoonish, pink, elongated creature with large eyes sits on a wooden deck, beside a teal pet bowl with a bone symbol. In the background, a child’s tricycle and swing set are visible in a grassy backyard, bordered by a wooden fence. The scene is bathed in warm, golden-hour lighting, suggesting late afternoon.",
+            "inference_time_seconds": 32.591,
             "ollama_metrics": {
-                "total_duration_seconds": 22.051,
-                "load_duration_seconds": 0.01,
-                "prompt_eval_duration_seconds": 17.41,
-                "eval_duration_seconds": 4.493,
-                "prompt_eval_count": 1639,
-                "eval_count": 66,
-                "prompt_tokens_per_second": 94.14,
-                "tokens_per_second": 14.69
+                "total_duration_seconds": 30.561,
+                "load_duration_seconds": 0.011,
+                "prompt_eval_duration_seconds": 25.11,
+                "eval_duration_seconds": 5.229,
+                "prompt_eval_count": 2179,
+                "eval_count": 71,
+                "prompt_tokens_per_second": 86.78,
+                "tokens_per_second": 13.58
             }
         },
         {
@@ -66,17 +66,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_002\\frames\\frame_003.jpg",
             "local_timestamp": 3.0,
             "global_timestamp": 13.0,
-            "description": "A person with dark, curly hair is shown in a softly lit indoor setting, gazing downward at a bouquet of white and light purple tulips wrapped in brown paper. The bouquet occupies the foreground, with green stems and leaves visible. The background is blurred, featuring neutral-toned walls and dark curtains, suggesting a quiet, domestic environment.",
-            "inference_time_seconds": 23.684,
+            "description": "A cartoonish, pink, lizard-like creature sits on a wooden deck, its head tilted back as colorful cereal spills from its mouth. Beside it rests an empty teal pet bowl with a bone symbol. In the background, a child’s tricycle and swing set are visible in a grassy backyard, framed by a wooden fence and houses under a warm, golden sunset.",
+            "inference_time_seconds": 32.883,
             "ollama_metrics": {
-                "total_duration_seconds": 21.648,
-                "load_duration_seconds": 0.01,
-                "prompt_eval_duration_seconds": 16.7,
-                "eval_duration_seconds": 4.767,
-                "prompt_eval_count": 1639,
-                "eval_count": 69,
-                "prompt_tokens_per_second": 98.14,
-                "tokens_per_second": 14.47
+                "total_duration_seconds": 30.801,
+                "load_duration_seconds": 0.012,
+                "prompt_eval_duration_seconds": 25.018,
+                "eval_duration_seconds": 5.607,
+                "prompt_eval_count": 2179,
+                "eval_count": 76,
+                "prompt_tokens_per_second": 87.1,
+                "tokens_per_second": 13.55
             }
         },
         {
@@ -84,17 +84,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_002\\frames\\frame_004.jpg",
             "local_timestamp": 4.0,
             "global_timestamp": 14.0,
-            "description": "A person with curly hair, wearing a dark top and a nose ring, leans toward a bouquet of white and pink tulips wrapped in brown paper. The setting appears indoors, with warm-toned walls and dark curtains in the background. The bouquet is positioned in the foreground, slightly out of focus, while the person’s face is partially visible, angled downward.",
-            "inference_time_seconds": 24.226,
+            "description": "A cartoonish, pink, worm-like creature sits on a wooden deck, beside a teal pet bowl with a bone symbol. In the background, a child’s tricycle and swing set are visible in a grassy backyard. A wooden fence and houses appear under a warm, golden-hour sky. The scene is tranquil, with soft lighting and shallow depth of field emphasizing the creature and bowl.",
+            "inference_time_seconds": 33.095,
             "ollama_metrics": {
-                "total_duration_seconds": 22.194,
+                "total_duration_seconds": 31.04,
                 "load_duration_seconds": 0.013,
-                "prompt_eval_duration_seconds": 17.0,
-                "eval_duration_seconds": 4.984,
-                "prompt_eval_count": 1639,
-                "eval_count": 73,
-                "prompt_tokens_per_second": 96.41,
-                "tokens_per_second": 14.65
+                "prompt_eval_duration_seconds": 25.083,
+                "eval_duration_seconds": 5.782,
+                "prompt_eval_count": 2179,
+                "eval_count": 79,
+                "prompt_tokens_per_second": 86.87,
+                "tokens_per_second": 13.66
             }
         },
         {
@@ -102,17 +102,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_002\\frames\\frame_005.jpg",
             "local_timestamp": 5.0,
             "global_timestamp": 15.0,
-            "description": "A person writes a handwritten note on a folded card with cloud patterns, resting on a wooden surface. Their hands, adorned with rings and a bracelet, hold a pen. Sunlight casts distinct shadows across the paper. Visible text includes “WITH BIG HUGS” and phrases like “I don’t know what to say.” A glass bottle is partially visible on the right.",
-            "inference_time_seconds": 24.553,
+            "description": "A backyard scene at dusk, featuring a wooden deck with a white chicken and a pink, elongated creature. The chicken stands near a small object, while the creature looks upward beside a teal pet bowl with a bone symbol. A swing set and fence are visible in the background, bathed in warm, golden light.",
+            "inference_time_seconds": 32.107,
             "ollama_metrics": {
-                "total_duration_seconds": 22.501,
-                "load_duration_seconds": 0.008,
-                "prompt_eval_duration_seconds": 16.847,
-                "eval_duration_seconds": 5.532,
-                "prompt_eval_count": 1639,
-                "eval_count": 76,
-                "prompt_tokens_per_second": 97.29,
-                "tokens_per_second": 13.74
+                "total_duration_seconds": 30.041,
+                "load_duration_seconds": 0.012,
+                "prompt_eval_duration_seconds": 25.102,
+                "eval_duration_seconds": 4.74,
+                "prompt_eval_count": 2179,
+                "eval_count": 65,
+                "prompt_tokens_per_second": 86.81,
+                "tokens_per_second": 13.71
             }
         },
         {
@@ -120,17 +120,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_002\\frames\\frame_006.jpg",
             "local_timestamp": 6.0,
             "global_timestamp": 16.0,
-            "description": "A dimly lit, rustic wooden table holds a translucent container and a handwritten note. A hand interacts with the container, partially obscuring the note. The table’s surface shows wear and scattered stains. Sunlight casts warm highlights, creating contrast with shadowed areas. The note’s text is illegible due to blur and angle. The scene suggests a quiet, contemplative moment.",
-            "inference_time_seconds": 24.333,
+            "description": "A backyard scene at dusk, featuring a white chicken and a brown, elongated creature with a colorful beak. They stand on a wooden deck. The creature has a bone-shaped bowl nearby. Background includes a wooden fence, swing set, and a small shed. Warm lighting suggests late afternoon or early evening.",
+            "inference_time_seconds": 32.088,
             "ollama_metrics": {
-                "total_duration_seconds": 22.278,
-                "load_duration_seconds": 0.009,
-                "prompt_eval_duration_seconds": 16.854,
-                "eval_duration_seconds": 5.322,
-                "prompt_eval_count": 1639,
-                "eval_count": 77,
-                "prompt_tokens_per_second": 97.25,
-                "tokens_per_second": 14.47
+                "total_duration_seconds": 30.005,
+                "load_duration_seconds": 0.011,
+                "prompt_eval_duration_seconds": 24.983,
+                "eval_duration_seconds": 4.795,
+                "prompt_eval_count": 2179,
+                "eval_count": 63,
+                "prompt_tokens_per_second": 87.22,
+                "tokens_per_second": 13.14
             }
         },
         {
@@ -138,17 +138,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_002\\frames\\frame_007.jpg",
             "local_timestamp": 7.0,
             "global_timestamp": 17.0,
-            "description": "A pair of hands gently touches a colorful card on a weathered wooden table. Sunlight casts distinct shadows across the surface. The card features a rainbow arc and a yellow circle. Partial handwritten text is visible along the bottom edge. A glass jar sits partially in frame on the right. The scene suggests a quiet, intimate moment focused on the card.",
-            "inference_time_seconds": 24.213,
+            "description": "A backyard scene at dusk, featuring a wooden deck with a white chicken and a pink, elongated creature. A teal pet bowl rests nearby. In the background, a tricycle, swing set, and wooden fence are visible. Warm, golden light bathes the setting, highlighting grass, trees, and a small shed. No readable text is present.",
+            "inference_time_seconds": 32.459,
             "ollama_metrics": {
-                "total_duration_seconds": 22.167,
-                "load_duration_seconds": 0.014,
-                "prompt_eval_duration_seconds": 16.936,
-                "eval_duration_seconds": 5.114,
-                "prompt_eval_count": 1639,
-                "eval_count": 71,
-                "prompt_tokens_per_second": 96.78,
-                "tokens_per_second": 13.88
+                "total_duration_seconds": 30.435,
+                "load_duration_seconds": 0.011,
+                "prompt_eval_duration_seconds": 24.967,
+                "eval_duration_seconds": 5.294,
+                "prompt_eval_count": 2179,
+                "eval_count": 72,
+                "prompt_tokens_per_second": 87.28,
+                "tokens_per_second": 13.6
             }
         },
         {
@@ -156,17 +156,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_002\\frames\\frame_008.jpg",
             "local_timestamp": 8.0,
             "global_timestamp": 18.0,
-            "description": "A woman with curly hair and a nose ring gazes downward, holding a bouquet of white and pink tulips wrapped in brown paper. She wears a dark top and ornate earrings. The setting appears indoors, with soft, warm lighting and a blurred background featuring brown curtains. The focus remains on the woman and the flowers she holds.",
-            "inference_time_seconds": 22.997,
+            "description": "A backyard scene at dusk, featuring a wooden deck with a white chicken and a pink, elongated creature. A teal pet bowl rests nearby. In the background, a tricycle, swing set, and wooden fence are visible. Warm, golden light bathes the grassy area, with houses and trees softly blurred in the distance.",
+            "inference_time_seconds": 32.277,
             "ollama_metrics": {
-                "total_duration_seconds": 20.973,
-                "load_duration_seconds": 0.01,
-                "prompt_eval_duration_seconds": 16.391,
-                "eval_duration_seconds": 4.467,
-                "prompt_eval_count": 1639,
+                "total_duration_seconds": 30.227,
+                "load_duration_seconds": 0.013,
+                "prompt_eval_duration_seconds": 25.02,
+                "eval_duration_seconds": 5.039,
+                "prompt_eval_count": 2179,
                 "eval_count": 68,
-                "prompt_tokens_per_second": 100.0,
-                "tokens_per_second": 15.22
+                "prompt_tokens_per_second": 87.09,
+                "tokens_per_second": 13.49
             }
         },
         {
@@ -174,17 +174,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_002\\frames\\frame_009.jpg",
             "local_timestamp": 9.0,
             "global_timestamp": 19.0,
-            "description": "A close-up shot shows a hand writing on a card with a colorful rainbow illustration. The card reads “GET WELL SOON” in bold, multicolored letters. It rests on a weathered wooden surface with visible paint splatters. Another handwritten note lies partially beneath it. The scene suggests a personal, caring gesture in a casual, artistic environment.",
-            "inference_time_seconds": 23.284,
+            "description": "A backyard scene at dusk, featuring a white chicken and a pink, elongated creature on a wooden deck. The creature sprays sparks from its mouth, hovering near a teal pet bowl. A tricycle and playset are visible in the grassy background, with a wooden fence and houses beyond. Warm, golden lighting bathes the scene.",
+            "inference_time_seconds": 32.534,
             "ollama_metrics": {
-                "total_duration_seconds": 21.239,
-                "load_duration_seconds": 0.009,
-                "prompt_eval_duration_seconds": 16.39,
-                "eval_duration_seconds": 4.737,
-                "prompt_eval_count": 1639,
-                "eval_count": 72,
-                "prompt_tokens_per_second": 100.0,
-                "tokens_per_second": 15.2
+                "total_duration_seconds": 30.47,
+                "load_duration_seconds": 0.012,
+                "prompt_eval_duration_seconds": 25.123,
+                "eval_duration_seconds": 5.113,
+                "prompt_eval_count": 2179,
+                "eval_count": 70,
+                "prompt_tokens_per_second": 86.73,
+                "tokens_per_second": 13.69
             }
         }
     ],
@@ -194,51 +194,90 @@
             "frame_ids": [
                 "frame_000",
                 "frame_001",
-                "frame_002",
-                "frame_003",
-                "frame_004"
+                "frame_002"
             ],
             "start_timestamp": 10.0,
-            "end_timestamp": 14.0,
-            "description": "A person writes a handwritten note on a card with a pen. The scene transitions to the same person holding a bouquet of tulips, looking down at it. Their head tilts slightly, and their gaze remains fixed on the flowers, suggesting focused attention on the bouquet throughout the sequence.",
-            "inference_time_seconds": 81.794,
+            "end_timestamp": 12.0,
+            "description": "A child walks past a small, long-necked creature on a wooden deck. The child carries a bag of “Lucky Bark” treats and steps over the creature’s food bowl, emptying its contents. The creature remains seated, watching the child depart. The scene transitions from anticipation to the child’s action and the creature’s passive observation.",
+            "inference_time_seconds": 64.238,
             "ollama_metrics": {
-                "total_duration_seconds": 79.746,
-                "load_duration_seconds": 0.015,
-                "prompt_eval_duration_seconds": 70.999,
-                "eval_duration_seconds": 8.447,
-                "prompt_eval_count": 7754,
-                "eval_count": 58,
-                "prompt_tokens_per_second": 109.21,
-                "tokens_per_second": 6.87
+                "total_duration_seconds": 62.181,
+                "load_duration_seconds": 0.022,
+                "prompt_eval_duration_seconds": 53.631,
+                "eval_duration_seconds": 8.127,
+                "prompt_eval_count": 6346,
+                "eval_count": 70,
+                "prompt_tokens_per_second": 118.33,
+                "tokens_per_second": 8.61
             }
         },
         {
             "group_id": "group_002",
             "frame_ids": [
-                "frame_005",
+                "frame_003",
+                "frame_004",
+                "frame_005"
+            ],
+            "start_timestamp": 13.0,
+            "end_timestamp": 15.0,
+            "description": "A small, pink, lizard-like creature sits on a wooden deck, initially holding a pile of colorful candies in its mouth. It then lowers its head, appearing to eat or examine the candies. A white chicken enters the frame from the left and approaches a single nut on the deck, standing beside the creature. The creature’s bowl remains empty and untouched.",
+            "inference_time_seconds": 64.42,
+            "ollama_metrics": {
+                "total_duration_seconds": 62.346,
+                "load_duration_seconds": 0.018,
+                "prompt_eval_duration_seconds": 53.324,
+                "eval_duration_seconds": 8.277,
+                "prompt_eval_count": 6346,
+                "eval_count": 72,
+                "prompt_tokens_per_second": 119.01,
+                "tokens_per_second": 8.7
+            }
+        },
+        {
+            "group_id": "group_003",
+            "frame_ids": [
                 "frame_006",
                 "frame_007",
-                "frame_008",
+                "frame_008"
+            ],
+            "start_timestamp": 16.0,
+            "end_timestamp": 18.0,
+            "description": "A white chicken and a brown, long-necked creature sit on a wooden deck. The creature, with its mouth full of colorful food, looks upward. The chicken remains stationary, observing. A green pet bowl sits beside the creature. The background shows a backyard with a swing set and fence, unchanged across the frames.",
+            "inference_time_seconds": 63.286,
+            "ollama_metrics": {
+                "total_duration_seconds": 61.253,
+                "load_duration_seconds": 0.022,
+                "prompt_eval_duration_seconds": 53.331,
+                "eval_duration_seconds": 7.358,
+                "prompt_eval_count": 6346,
+                "eval_count": 65,
+                "prompt_tokens_per_second": 118.99,
+                "tokens_per_second": 8.83
+            }
+        },
+        {
+            "group_id": "group_004",
+            "frame_ids": [
                 "frame_009"
             ],
-            "start_timestamp": 15.0,
+            "start_timestamp": 19.0,
             "end_timestamp": 19.0,
-            "description": "A person writes a handwritten note on a card, then places a colorful “Get Well Soon” card on top. They adjust the cards on a wooden table. The scene shifts to show a person holding a bouquet of flowers. The sequence shows the preparation and presentation of a get-well card and flowers.",
-            "inference_time_seconds": 82.691,
+            "description": "A white chicken stands on a wooden deck, facing a pink, elongated creature that leaps mid-air, spraying sparks from its mouth. A teal pet bowl rests nearby. The chicken remains stationary, while the creature’s dynamic motion contrasts with the static background of a fenced yard and playground equipment. The scene captures a sudden, energetic action in a suburban backyard setting.",
+            "inference_time_seconds": 9.068,
             "ollama_metrics": {
-                "total_duration_seconds": 80.659,
-                "load_duration_seconds": 0.015,
-                "prompt_eval_duration_seconds": 70.964,
-                "eval_duration_seconds": 9.084,
-                "prompt_eval_count": 7754,
-                "eval_count": 62,
-                "prompt_tokens_per_second": 109.27,
-                "tokens_per_second": 6.83
+                "total_duration_seconds": 7.028,
+                "load_duration_seconds": 0.013,
+                "prompt_eval_duration_seconds": 1.1,
+                "eval_duration_seconds": 5.504,
+                "prompt_eval_count": 2238,
+                "eval_count": 73,
+                "prompt_tokens_per_second": 2034.72,
+                "tokens_per_second": 13.26
             }
         }
     ],
-    "total_elapsed_time_seconds": 407.21,
-    "individual_analysis_time_seconds": 242.684,
-    "temporal_analysis_time_seconds": 164.485
+    "temporal_errors": [],
+    "total_elapsed_time_seconds": 530.128,
+    "individual_analysis_time_seconds": 329.074,
+    "temporal_analysis_time_seconds": 201.012
 }

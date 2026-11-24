@@ -3,29 +3,29 @@
     "audio_path": "data\\processed\\v1\\extracted\\chunk_003\\audio.wav",
     "model": "large-v3-turbo.pt",
     "device": "cuda",
-    "language": "ko",
-    "text": "고춧가루 고춧가루 고춧가루",
+    "language": "en",
+    "text": "Grr! Grr! Grr! Grr! Grr! Grr! Grr! Grr! Grr! Grr! Grr! Grr! Grr! Grr!",
     "segments": [
         {
             "start": 0.0,
             "end": 2.0,
             "global_start": 20.0,
             "global_end": 22.0,
-            "text": "고춧가루"
+            "text": "Grr! Grr! Grr! Grr! Grr! Grr!"
         },
         {
             "start": 2.0,
             "end": 4.0,
             "global_start": 22.0,
             "global_end": 24.0,
-            "text": "고춧가루"
+            "text": "Grr! Grr! Grr! Grr!"
         },
         {
-            "start": 8.0,
+            "start": 4.0,
             "end": 10.0,
-            "global_start": 28.0,
+            "global_start": 24.0,
             "global_end": 30.0,
-            "text": "고춧가루"
+            "text": "Grr! Grr! Grr! Grr!"
         }
     ]
 }

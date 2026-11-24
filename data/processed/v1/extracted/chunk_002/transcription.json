@@ -4,35 +4,14 @@
     "model": "large-v3-turbo.pt",
     "device": "cuda",
     "language": "en",
-    "text": "I'm going to put it in a little bit. I'm going to put it in a little bit. I'm going to put it in a little bit. I'm going to put it in a little bit.",
+    "text": "Have a good day!",
     "segments": [
         {
             "start": 0.0,
-            "end": 2.0,
-            "global_start": 10.0,
-            "global_end": 12.0,
-            "text": "I'm going to put it in a little bit."
-        },
-        {
-            "start": 2.0,
-            "end": 4.0,
-            "global_start": 12.0,
-            "global_end": 14.0,
-            "text": "I'm going to put it in a little bit."
-        },
-        {
-            "start": 4.0,
-            "end": 6.0,
-            "global_start": 14.0,
-            "global_end": 16.0,
-            "text": "I'm going to put it in a little bit."
-        },
-        {
-            "start": 6.0,
             "end": 10.0,
-            "global_start": 16.0,
+            "global_start": 10.0,
             "global_end": 20.0,
-            "text": "I'm going to put it in a little bit."
+            "text": "Have a good day!"
         }
     ]
 }

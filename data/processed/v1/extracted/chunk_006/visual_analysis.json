@@ -3,26 +3,26 @@
     "model": "qwen3-vl:8b-instruct",
     "status": "completed",
     "total_frames": 10,
-    "frame_group_size": 5,
+    "frame_group_size": 3,
     "temporal_analysis_enabled": true,
-    "total_temporal_groups": 2,
+    "total_temporal_groups": 4,
     "individual_segments": [
         {
             "frame_id": "frame_000",
             "frame_path": "data\\processed\\v1\\extracted\\chunk_006\\frames\\frame_000.jpg",
             "local_timestamp": 0.0,
             "global_timestamp": 50.0,
-            "description": "Two individuals are in a close embrace. One wears a dark knit beanie and a light-colored jacket with a fluffy collar. The other, with dark hair, has their face partially obscured, eyes closed, and hand near their face. The setting appears indoors with a plain, light-colored wall in the background. No text or distinct environmental markers are visible.",
-            "inference_time_seconds": 27.582,
+            "description": "A cartoon chicken stands on a wooden deck in a backyard, facing a large, outstretched chicken wing. A tricycle rests nearby on grass, with a swing set and wooden fence in the background. The scene is bathed in warm, golden-hour light, suggesting late afternoon. The setting is residential, with houses visible beyond the fence. No readable text is present.",
+            "inference_time_seconds": 36.11,
             "ollama_metrics": {
-                "total_duration_seconds": 25.515,
-                "load_duration_seconds": 0.013,
-                "prompt_eval_duration_seconds": 17.559,
-                "eval_duration_seconds": 4.916,
-                "prompt_eval_count": 1639,
-                "eval_count": 72,
-                "prompt_tokens_per_second": 93.34,
-                "tokens_per_second": 14.65
+                "total_duration_seconds": 34.09,
+                "load_duration_seconds": 0.011,
+                "prompt_eval_duration_seconds": 25.691,
+                "eval_duration_seconds": 5.54,
+                "prompt_eval_count": 2179,
+                "eval_count": 76,
+                "prompt_tokens_per_second": 84.82,
+                "tokens_per_second": 13.72
             }
         },
         {
@@ -30,17 +30,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_006\\frames\\frame_001.jpg",
             "local_timestamp": 1.0,
             "global_timestamp": 51.0,
-            "description": "Two individuals embrace closely indoors. One wears a dark knit beanie and a light-colored jacket with a white fleece collar. The other has curly dark hair, visible ear piercings, and wears a similar jacket. Their faces are partially obscured by the embrace. The background is a plain, light-colored wall, suggesting a simple, domestic setting.",
-            "inference_time_seconds": 24.466,
+            "description": "A wooden deck foreground features a teal pet bowl with a bone symbol. Behind, a grassy backyard contains a tricycle and a blue swing set. A wooden fence encloses the yard, with houses and trees visible beyond. Warm, golden-hour lighting bathes the scene, suggesting late afternoon. No people or animals are present.",
+            "inference_time_seconds": 32.873,
             "ollama_metrics": {
-                "total_duration_seconds": 22.395,
-                "load_duration_seconds": 0.012,
-                "prompt_eval_duration_seconds": 17.525,
-                "eval_duration_seconds": 4.698,
-                "prompt_eval_count": 1639,
-                "eval_count": 70,
-                "prompt_tokens_per_second": 93.52,
-                "tokens_per_second": 14.9
+                "total_duration_seconds": 30.827,
+                "load_duration_seconds": 0.013,
+                "prompt_eval_duration_seconds": 25.679,
+                "eval_duration_seconds": 4.972,
+                "prompt_eval_count": 2179,
+                "eval_count": 67,
+                "prompt_tokens_per_second": 84.86,
+                "tokens_per_second": 13.48
             }
         },
         {
@@ -48,17 +48,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_006\\frames\\frame_002.jpg",
             "local_timestamp": 2.0,
             "global_timestamp": 52.0,
-            "description": "Two individuals embrace closely indoors. One wears a dark knit beanie and a gray jacket with white fur trim. The other has curly dark hair, visible earrings, and multiple rings on their hand resting on the other’s shoulder. The background is a plain, light-colored wall. The scene suggests an intimate, personal moment between the two.",
-            "inference_time_seconds": 24.279,
+            "description": "The frame displays a teal background with floating particles, resembling an underwater or cosmic scene. Centered text credits key roles: Director/Animation Hjalti Hjalmarsson, Art Director Andy Goralczyk, and Composer Bjarni Biering Margeirsson. The text uses a stylized font with a subtle drop shadow, enhancing readability against the gradient backdrop.",
+            "inference_time_seconds": 33.469,
             "ollama_metrics": {
-                "total_duration_seconds": 22.176,
-                "load_duration_seconds": 0.011,
-                "prompt_eval_duration_seconds": 17.532,
-                "eval_duration_seconds": 4.518,
-                "prompt_eval_count": 1639,
-                "eval_count": 68,
-                "prompt_tokens_per_second": 93.48,
-                "tokens_per_second": 15.05
+                "total_duration_seconds": 31.431,
+                "load_duration_seconds": 0.01,
+                "prompt_eval_duration_seconds": 25.402,
+                "eval_duration_seconds": 5.883,
+                "prompt_eval_count": 2179,
+                "eval_count": 79,
+                "prompt_tokens_per_second": 85.78,
+                "tokens_per_second": 13.43
             }
         },
         {
@@ -66,17 +66,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_006\\frames\\frame_003.jpg",
             "local_timestamp": 3.0,
             "global_timestamp": 53.0,
-            "description": "A white envelope rests on a wooden surface, bearing the handwritten text “For Milo” in cursive. Partially visible green foliage sits behind the envelope. The scene is dimly lit, emphasizing the envelope’s placement and the legible inscription. The wood grain and envelope’s clean edges are distinct visual elements.",
-            "inference_time_seconds": 24.033,
+            "description": "A teal-blue background with subtle floating particles. Centered text credits key roles: Director/Animation Hjalti Hjalmarsson, Art Director Andy Goralczyk, and Composer Bjarni Biering Margeirsson. The text uses a stylized, rounded font with a slight drop shadow, creating a clean, animated credits screen. No characters or objects are present.",
+            "inference_time_seconds": 33.718,
             "ollama_metrics": {
-                "total_duration_seconds": 21.956,
-                "load_duration_seconds": 0.01,
-                "prompt_eval_duration_seconds": 17.484,
-                "eval_duration_seconds": 4.316,
-                "prompt_eval_count": 1639,
-                "eval_count": 63,
-                "prompt_tokens_per_second": 93.74,
-                "tokens_per_second": 14.6
+                "total_duration_seconds": 31.669,
+                "load_duration_seconds": 0.012,
+                "prompt_eval_duration_seconds": 25.527,
+                "eval_duration_seconds": 5.99,
+                "prompt_eval_count": 2179,
+                "eval_count": 81,
+                "prompt_tokens_per_second": 85.36,
+                "tokens_per_second": 13.52
             }
         },
         {
@@ -84,17 +84,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_006\\frames\\frame_004.jpg",
             "local_timestamp": 4.0,
             "global_timestamp": 54.0,
-            "description": "A white envelope rests on a wooden surface, bearing the handwritten text “For Milo” in cursive script. A green plant is partially visible in the upper background. The scene is static, with soft, natural lighting highlighting the envelope’s texture and the wood grain. The composition suggests a personal, stationary moment.",
-            "inference_time_seconds": 23.713,
+            "description": "The frame displays a credits screen with a teal gradient background and subtle particle effects. Text is arranged in two columns, listing roles and names: Executive Producer Ton Roosendaal, Producer Francesco Siddi, Sound Design Sander Houtman, Voice Actor Devin Compton, Voice Actor/Rigging Hjalti Hjalmarsson, and Rendering IT4Innovations. Font is bold, white with a slight shadow.",
+            "inference_time_seconds": 34.197,
             "ollama_metrics": {
-                "total_duration_seconds": 21.664,
-                "load_duration_seconds": 0.009,
-                "prompt_eval_duration_seconds": 17.405,
-                "eval_duration_seconds": 4.112,
-                "prompt_eval_count": 1639,
-                "eval_count": 63,
-                "prompt_tokens_per_second": 94.17,
-                "tokens_per_second": 15.32
+                "total_duration_seconds": 32.131,
+                "load_duration_seconds": 0.014,
+                "prompt_eval_duration_seconds": 25.473,
+                "eval_duration_seconds": 6.474,
+                "prompt_eval_count": 2179,
+                "eval_count": 88,
+                "prompt_tokens_per_second": 85.54,
+                "tokens_per_second": 13.59
             }
         },
         {
@@ -102,17 +102,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_006\\frames\\frame_005.jpg",
             "local_timestamp": 5.0,
             "global_timestamp": 55.0,
-            "description": "A white envelope rests on a wooden surface, bearing the handwritten text “For Mio” in cursive. Partially visible green foliage sits behind the envelope. The scene is dimly lit, emphasizing the envelope’s simple design and the handwritten message. The wood grain and natural textures suggest a quiet, indoor setting.",
-            "inference_time_seconds": 23.896,
+            "description": "The frame displays a credits screen with a teal gradient background and subtle floating particles. Text is arranged in two columns, listing roles and names: Executive Producer Ton Roosendaal, Producer Francesco Siddi, Sound Design Sander Houtman, Voice Actor Devin Compton, Voice Actor/Rigging Hjalti Hjalmarsson, and Rendering IT4Innovations. The text is white with a slight shadow effect.",
+            "inference_time_seconds": 34.371,
             "ollama_metrics": {
-                "total_duration_seconds": 21.841,
-                "load_duration_seconds": 0.025,
-                "prompt_eval_duration_seconds": 17.48,
-                "eval_duration_seconds": 4.221,
-                "prompt_eval_count": 1639,
-                "eval_count": 64,
-                "prompt_tokens_per_second": 93.76,
-                "tokens_per_second": 15.16
+                "total_duration_seconds": 32.332,
+                "load_duration_seconds": 0.009,
+                "prompt_eval_duration_seconds": 25.745,
+                "eval_duration_seconds": 6.441,
+                "prompt_eval_count": 2179,
+                "eval_count": 88,
+                "prompt_tokens_per_second": 84.64,
+                "tokens_per_second": 13.66
             }
         },
         {
@@ -120,17 +120,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_006\\frames\\frame_006.jpg",
             "local_timestamp": 6.0,
             "global_timestamp": 56.0,
-            "description": "A white envelope rests on a wooden surface, bearing the handwritten text “For Milo” in cursive script. Partially visible green foliage sits behind the envelope. The scene is dimly lit, emphasizing the envelope’s placement and the legible inscription. The wood grain and subtle shadows suggest a quiet, indoor setting.",
-            "inference_time_seconds": 23.797,
+            "description": "The frame displays a teal gradient background with floating particles. It features two logos: “Blender Cloud” with a cloud icon and “blender” with its 3D icon. Text reads “Thanks to our supporters!” and “Made with.” Copyright info states “© 2017 Blender Animation Studio, Amsterdam” and availability under Creative Commons on blender.cloud.",
+            "inference_time_seconds": 33.261,
             "ollama_metrics": {
-                "total_duration_seconds": 21.732,
-                "load_duration_seconds": 0.01,
-                "prompt_eval_duration_seconds": 17.422,
-                "eval_duration_seconds": 4.189,
-                "prompt_eval_count": 1639,
-                "eval_count": 64,
-                "prompt_tokens_per_second": 94.08,
-                "tokens_per_second": 15.28
+                "total_duration_seconds": 31.223,
+                "load_duration_seconds": 0.013,
+                "prompt_eval_duration_seconds": 25.491,
+                "eval_duration_seconds": 5.585,
+                "prompt_eval_count": 2179,
+                "eval_count": 76,
+                "prompt_tokens_per_second": 85.48,
+                "tokens_per_second": 13.61
             }
         },
         {
@@ -138,17 +138,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_006\\frames\\frame_007.jpg",
             "local_timestamp": 7.0,
             "global_timestamp": 57.0,
-            "description": "A white envelope rests on a wooden surface, bearing the cursive inscription “For Milo.” Partially visible green foliage sits behind it. The scene is static, with soft, natural lighting highlighting the wood grain and the envelope’s smooth texture. The composition suggests a personal, stationary moment, possibly awaiting delivery or discovery.",
-            "inference_time_seconds": 23.771,
+            "description": "The frame displays a teal gradient background with floating particles. Text reads “Thanks to our supporters!” alongside the Blender Cloud logo, and “Made with blender™” with the Blender logo. Copyright info states “© 2017 Blender Animation Studio, Amsterdam” and “Available as Creative Commons on blender.cloud.” No characters or dynamic actions are present.",
+            "inference_time_seconds": 35.815,
             "ollama_metrics": {
-                "total_duration_seconds": 21.727,
-                "load_duration_seconds": 0.014,
-                "prompt_eval_duration_seconds": 17.418,
-                "eval_duration_seconds": 4.189,
-                "prompt_eval_count": 1639,
-                "eval_count": 64,
-                "prompt_tokens_per_second": 94.1,
-                "tokens_per_second": 15.28
+                "total_duration_seconds": 33.764,
+                "load_duration_seconds": 0.01,
+                "prompt_eval_duration_seconds": 28.316,
+                "eval_duration_seconds": 5.281,
+                "prompt_eval_count": 2179,
+                "eval_count": 72,
+                "prompt_tokens_per_second": 76.95,
+                "tokens_per_second": 13.63
             }
         },
         {
@@ -156,17 +156,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_006\\frames\\frame_008.jpg",
             "local_timestamp": 8.0,
             "global_timestamp": 58.0,
-            "description": "The frame is entirely black, showing no discernible environment, objects, subjects, actions, or text. There are no visual elements present to describe. The scene lacks any distinguishable features or spatial relationships, offering no semantic information for retrieval or analysis.",
-            "inference_time_seconds": 22.902,
+            "description": "The frame is entirely black, showing no discernible environment, objects, subjects, actions, or text. There are no visual elements present to describe. The scene is void of any content, offering no spatial relationships or readable information. It appears as a completely dark or blank image with no distinguishable features.",
+            "inference_time_seconds": 33.942,
             "ollama_metrics": {
-                "total_duration_seconds": 20.857,
-                "load_duration_seconds": 0.012,
-                "prompt_eval_duration_seconds": 17.402,
-                "eval_duration_seconds": 3.329,
-                "prompt_eval_count": 1639,
-                "eval_count": 51,
-                "prompt_tokens_per_second": 94.18,
-                "tokens_per_second": 15.32
+                "total_duration_seconds": 31.9,
+                "load_duration_seconds": 0.008,
+                "prompt_eval_duration_seconds": 27.188,
+                "eval_duration_seconds": 4.569,
+                "prompt_eval_count": 2179,
+                "eval_count": 62,
+                "prompt_tokens_per_second": 80.15,
+                "tokens_per_second": 13.57
             }
         },
         {
@@ -174,17 +174,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_006\\frames\\frame_009.jpg",
             "local_timestamp": 9.0,
             "global_timestamp": 59.0,
-            "description": "A black screen displays white text crediting Matthew D Gilpin as both writer and director. No environment, objects, or actions are visible. The text is centered, with “Written and Directed by” above the name. This is a standard credit card, likely from a film or video’s opening or closing sequence, providing attribution without visual context.",
-            "inference_time_seconds": 24.095,
+            "description": "The frame is entirely black, showing no discernible environment, objects, subjects, actions, or text. There are no visual elements present to describe. The scene is devoid of any content, offering no spatial relationships or readable information. It appears as a blank or non-informative visual state.",
+            "inference_time_seconds": 7.358,
             "ollama_metrics": {
-                "total_duration_seconds": 22.047,
+                "total_duration_seconds": 5.303,
                 "load_duration_seconds": 0.009,
-                "prompt_eval_duration_seconds": 17.332,
-                "eval_duration_seconds": 4.605,
-                "prompt_eval_count": 1639,
-                "eval_count": 70,
-                "prompt_tokens_per_second": 94.57,
-                "tokens_per_second": 15.2
+                "prompt_eval_duration_seconds": 0.782,
+                "eval_duration_seconds": 4.467,
+                "prompt_eval_count": 2179,
+                "eval_count": 60,
+                "prompt_tokens_per_second": 2787.69,
+                "tokens_per_second": 13.43
             }
         }
     ],
@@ -194,51 +194,90 @@
             "frame_ids": [
                 "frame_000",
                 "frame_001",
-                "frame_002",
-                "frame_003",
-                "frame_004"
+                "frame_002"
             ],
             "start_timestamp": 50.0,
-            "end_timestamp": 54.0,
-            "description": "A person with curly hair, wearing a denim jacket, embraces another individual in a dark beanie. The first person’s hand, adorned with rings, grips the other’s shoulder. The scene transitions to a close-up of a white card on a wooden surface, bearing the handwritten text “For Milo.”",
-            "inference_time_seconds": 86.361,
+            "end_timestamp": 52.0,
+            "description": "A small, cartoonish creature stands on a wooden deck, facing a large chicken’s foot. The creature then disappears, leaving only an empty pet bowl on the deck. The background remains static, featuring a tricycle, swing set, and fence. The scene transitions to a credits screen listing production roles.",
+            "inference_time_seconds": 64.236,
             "ollama_metrics": {
-                "total_duration_seconds": 84.307,
-                "load_duration_seconds": 0.018,
-                "prompt_eval_duration_seconds": 75.17,
-                "eval_duration_seconds": 8.841,
-                "prompt_eval_count": 7754,
-                "eval_count": 61,
-                "prompt_tokens_per_second": 103.15,
-                "tokens_per_second": 6.9
+                "total_duration_seconds": 62.201,
+                "load_duration_seconds": 0.019,
+                "prompt_eval_duration_seconds": 54.712,
+                "eval_duration_seconds": 7.152,
+                "prompt_eval_count": 6346,
+                "eval_count": 62,
+                "prompt_tokens_per_second": 115.99,
+                "tokens_per_second": 8.67
             }
         },
         {
             "group_id": "group_002",
             "frame_ids": [
-                "frame_005",
+                "frame_003",
+                "frame_004",
+                "frame_005"
+            ],
+            "start_timestamp": 53.0,
+            "end_timestamp": 55.0,
+            "description": "The credits sequence progresses chronologically, displaying production roles and personnel. Frame 1 introduces director Hjalti Hjalmarsson, art director Andy Goralczyk, and composer Bjarni Biering Margeirsson. Frames 2 and 3 present additional credits, including executive producer Ton Roosendaal, voice actors Devin Compton and Hjalti Hjalmarsson, and sound designer Sander Houtman, with no visual change between the latter two frames.",
+            "inference_time_seconds": 69.779,
+            "ollama_metrics": {
+                "total_duration_seconds": 67.731,
+                "load_duration_seconds": 0.016,
+                "prompt_eval_duration_seconds": 54.701,
+                "eval_duration_seconds": 12.542,
+                "prompt_eval_count": 6346,
+                "eval_count": 104,
+                "prompt_tokens_per_second": 116.01,
+                "tokens_per_second": 8.29
+            }
+        },
+        {
+            "group_id": "group_003",
+            "frame_ids": [
                 "frame_006",
                 "frame_007",
-                "frame_008",
+                "frame_008"
+            ],
+            "start_timestamp": 56.0,
+            "end_timestamp": 58.0,
+            "description": "The scene remains static, displaying a teal background with logos for Blender Cloud and Blender, along with copyright text. No visual changes or actions occur across the frames. The content is identical, serving as an end credit screen acknowledging supporters and creators. The sequence shows no progression or movement.",
+            "inference_time_seconds": 63.677,
+            "ollama_metrics": {
+                "total_duration_seconds": 61.616,
+                "load_duration_seconds": 0.012,
+                "prompt_eval_duration_seconds": 54.811,
+                "eval_duration_seconds": 6.351,
+                "prompt_eval_count": 6346,
+                "eval_count": 57,
+                "prompt_tokens_per_second": 115.78,
+                "tokens_per_second": 8.97
+            }
+        },
+        {
+            "group_id": "group_004",
+            "frame_ids": [
                 "frame_009"
             ],
-            "start_timestamp": 55.0,
+            "start_timestamp": 59.0,
             "end_timestamp": 59.0,
-            "description": "The scene remains static, showing a white envelope with \"For Milo\" handwritten on it, resting on a wooden surface. A dark plant is partially visible in the background. At 59 seconds, credits appear, stating \"Written and Directed by Matthew D Gilpin,\" indicating a transition to the film's production information. No other actions occur.",
-            "inference_time_seconds": 88.381,
+            "description": "The scene remains entirely black across the single frame at 59.0 seconds. No visual elements, actions, or changes occur. There is no movement, lighting variation, or subject presence detectable. The frame is static and devoid of any observable event or progression. The environment or context remains unaltered and visually inactive.",
+            "inference_time_seconds": 8.293,
             "ollama_metrics": {
-                "total_duration_seconds": 86.315,
-                "load_duration_seconds": 0.014,
-                "prompt_eval_duration_seconds": 75.357,
-                "eval_duration_seconds": 10.403,
-                "prompt_eval_count": 7754,
-                "eval_count": 70,
-                "prompt_tokens_per_second": 102.9,
-                "tokens_per_second": 6.73
+                "total_duration_seconds": 6.271,
+                "load_duration_seconds": 0.01,
+                "prompt_eval_duration_seconds": 1.011,
+                "eval_duration_seconds": 4.889,
+                "prompt_eval_count": 2238,
+                "eval_count": 67,
+                "prompt_tokens_per_second": 2213.87,
+                "tokens_per_second": 13.71
             }
         }
     ],
-    "total_elapsed_time_seconds": 417.311,
-    "individual_analysis_time_seconds": 242.534,
-    "temporal_analysis_time_seconds": 174.742
+    "temporal_errors": [],
+    "total_elapsed_time_seconds": 521.144,
+    "individual_analysis_time_seconds": 315.114,
+    "temporal_analysis_time_seconds": 205.985
 }

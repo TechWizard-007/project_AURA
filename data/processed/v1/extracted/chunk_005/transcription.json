@@ -4,14 +4,21 @@
     "model": "large-v3-turbo.pt",
     "device": "cuda",
     "language": "en",
-    "text": "You",
+    "text": "Oh Oh",
     "segments": [
         {
             "start": 0.0,
             "end": 2.0,
             "global_start": 40.0,
             "global_end": 42.0,
-            "text": "You"
+            "text": "Oh"
+        },
+        {
+            "start": 8.0,
+            "end": 10.0,
+            "global_start": 48.0,
+            "global_end": 50.0,
+            "text": "Oh"
         }
     ]
 }

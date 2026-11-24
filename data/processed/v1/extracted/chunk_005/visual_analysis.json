@@ -3,26 +3,26 @@
     "model": "qwen3-vl:8b-instruct",
     "status": "completed",
     "total_frames": 10,
-    "frame_group_size": 5,
+    "frame_group_size": 3,
     "temporal_analysis_enabled": true,
-    "total_temporal_groups": 2,
+    "total_temporal_groups": 4,
     "individual_segments": [
         {
             "frame_id": "frame_000",
             "frame_path": "data\\processed\\v1\\extracted\\chunk_005\\frames\\frame_000.jpg",
             "local_timestamp": 0.0,
             "global_timestamp": 40.0,
-            "description": "A young man in a black knit beanie and gray scarf stands indoors, wearing a denim jacket with a light-colored fur collar. He faces forward, slightly off-center, in a narrow hallway with plain walls and wooden door frames. The lighting is soft and even, highlighting his facial features and attire. No text or distinct objects are visible.",
-            "inference_time_seconds": 26.493,
+            "description": "A cartoonish, tan creature with large eyes sits on a wooden deck, facing left. A teal pet bowl rests nearby. The background shows a grassy yard with a swing set, a tricycle, and a wooden fence. Houses and trees are visible beyond the fence. Warm, golden-hour lighting bathes the scene, suggesting late afternoon.",
+            "inference_time_seconds": 38.051,
             "ollama_metrics": {
-                "total_duration_seconds": 24.448,
-                "load_duration_seconds": 0.009,
-                "prompt_eval_duration_seconds": 17.489,
-                "eval_duration_seconds": 4.622,
-                "prompt_eval_count": 1639,
-                "eval_count": 69,
-                "prompt_tokens_per_second": 93.72,
-                "tokens_per_second": 14.93
+                "total_duration_seconds": 36.032,
+                "load_duration_seconds": 0.011,
+                "prompt_eval_duration_seconds": 27.931,
+                "eval_duration_seconds": 5.354,
+                "prompt_eval_count": 2179,
+                "eval_count": 70,
+                "prompt_tokens_per_second": 78.01,
+                "tokens_per_second": 13.07
             }
         },
         {
@@ -30,17 +30,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_005\\frames\\frame_001.jpg",
             "local_timestamp": 1.0,
             "global_timestamp": 41.0,
-            "description": "A young man wearing a black knit beanie, gray scarf, and denim jacket with a light-colored fur collar stands indoors. The background shows a plain wall and wooden doorframe. His gaze is directed slightly off-camera. The lighting is even and natural, suggesting an interior space with ambient illumination. No readable text or distinct environmental markers are visible.",
-            "inference_time_seconds": 24.445,
+            "description": "A backyard scene at dusk, featuring a cartoon chicken covered in colorful sprinkles and a small, elongated creature with large eyes. Both stand on a wooden deck near a teal pet bowl. A tricycle and swing set are visible in the background, with a wooden fence and houses beyond. Warm, golden lighting bathes the scene.",
+            "inference_time_seconds": 35.311,
             "ollama_metrics": {
-                "total_duration_seconds": 22.369,
-                "load_duration_seconds": 0.049,
-                "prompt_eval_duration_seconds": 17.499,
-                "eval_duration_seconds": 4.658,
-                "prompt_eval_count": 1639,
-                "eval_count": 70,
-                "prompt_tokens_per_second": 93.66,
-                "tokens_per_second": 15.03
+                "total_duration_seconds": 33.256,
+                "load_duration_seconds": 0.028,
+                "prompt_eval_duration_seconds": 27.785,
+                "eval_duration_seconds": 5.257,
+                "prompt_eval_count": 2179,
+                "eval_count": 68,
+                "prompt_tokens_per_second": 78.42,
+                "tokens_per_second": 12.93
             }
         },
         {
@@ -48,17 +48,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_005\\frames\\frame_002.jpg",
             "local_timestamp": 2.0,
             "global_timestamp": 42.0,
-            "description": "A young man in a black knit beanie, gray scarf, and jacket with a light-colored fur collar stands indoors. The background features a plain wall and wooden doorframe. He faces forward, his gaze directed slightly off-camera. Lighting is even, suggesting an interior space with artificial illumination. No text or other distinct objects are visible.",
-            "inference_time_seconds": 24.154,
+            "description": "A backyard scene at dusk, featuring a small, elongated creature with large eyes and a wide mouth, facing a large white chicken covered in colorful specks. Both stand on a wooden deck near a green pet bowl. A tricycle and swing set are visible in the background, with a wooden fence and houses beyond. Warm, golden light bathes the scene.",
+            "inference_time_seconds": 35.61,
             "ollama_metrics": {
-                "total_duration_seconds": 22.125,
-                "load_duration_seconds": 0.01,
-                "prompt_eval_duration_seconds": 17.471,
-                "eval_duration_seconds": 4.465,
-                "prompt_eval_count": 1639,
-                "eval_count": 68,
-                "prompt_tokens_per_second": 93.81,
-                "tokens_per_second": 15.23
+                "total_duration_seconds": 33.581,
+                "load_duration_seconds": 0.012,
+                "prompt_eval_duration_seconds": 27.85,
+                "eval_duration_seconds": 5.591,
+                "prompt_eval_count": 2179,
+                "eval_count": 74,
+                "prompt_tokens_per_second": 78.24,
+                "tokens_per_second": 13.24
             }
         },
         {
@@ -66,17 +66,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_005\\frames\\frame_003.jpg",
             "local_timestamp": 3.0,
             "global_timestamp": 43.0,
-            "description": "A hand with a silver bracelet and ring reaches toward a partially open door. The person wears a dark blue sweater and dark pants. A red object is visible in the background through the doorway. The scene is indoors, with warm lighting and a beige wall. The hand is positioned to interact with the door frame, suggesting movement or hesitation.",
-            "inference_time_seconds": 24.035,
+            "description": "A backyard scene at dusk, featuring a large, white chicken covered in colorful sprinkles standing beside a small, brown creature with large eyes. Both are on a wooden deck near a green pet bowl. A tricycle and swing set are visible in the background, with a wooden fence and houses beyond. Warm, golden light bathes the scene.",
+            "inference_time_seconds": 34.852,
             "ollama_metrics": {
-                "total_duration_seconds": 21.978,
-                "load_duration_seconds": 0.012,
-                "prompt_eval_duration_seconds": 17.385,
-                "eval_duration_seconds": 4.471,
-                "prompt_eval_count": 1639,
-                "eval_count": 68,
-                "prompt_tokens_per_second": 94.27,
-                "tokens_per_second": 15.21
+                "total_duration_seconds": 32.835,
+                "load_duration_seconds": 0.014,
+                "prompt_eval_duration_seconds": 27.597,
+                "eval_duration_seconds": 5.095,
+                "prompt_eval_count": 2179,
+                "eval_count": 70,
+                "prompt_tokens_per_second": 78.96,
+                "tokens_per_second": 13.74
             }
         },
         {
@@ -84,17 +84,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_005\\frames\\frame_004.jpg",
             "local_timestamp": 4.0,
             "global_timestamp": 44.0,
-            "description": "A person with voluminous, curly dark hair featuring reddish highlights stands indoors. They wear a dark top and dangling earrings, with a nose piercing visible. Behind them, a framed artwork hangs on a light-colored wall beside a white door. The scene is softly lit, suggesting an interior space with neutral tones and minimal decor.",
-            "inference_time_seconds": 24.011,
+            "description": "A backyard scene at dusk, featuring a cartoon chicken and a small, elongated creature on a wooden deck. The chicken, with speckled feathers and a colorful tail, stands near a green bowl. The creature looks up at the chicken. A tricycle and swing set are visible in the background, with a wooden fence and houses beyond. Warm, golden lighting bathes the scene.",
+            "inference_time_seconds": 35.706,
             "ollama_metrics": {
-                "total_duration_seconds": 21.955,
-                "load_duration_seconds": 0.01,
-                "prompt_eval_duration_seconds": 17.482,
-                "eval_duration_seconds": 4.359,
-                "prompt_eval_count": 1639,
-                "eval_count": 66,
-                "prompt_tokens_per_second": 93.75,
-                "tokens_per_second": 15.14
+                "total_duration_seconds": 33.637,
+                "load_duration_seconds": 0.014,
+                "prompt_eval_duration_seconds": 27.639,
+                "eval_duration_seconds": 5.813,
+                "prompt_eval_count": 2179,
+                "eval_count": 79,
+                "prompt_tokens_per_second": 78.84,
+                "tokens_per_second": 13.59
             }
         },
         {
@@ -102,17 +102,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_005\\frames\\frame_005.jpg",
             "local_timestamp": 5.0,
             "global_timestamp": 45.0,
-            "description": "A person with curly, dark hair featuring reddish highlights stands indoors, wearing a dark top and dangling earrings. A framed mirror leans against a plain wall to the left. The setting appears to be a hallway or room with neutral-toned walls. The individual’s gaze is directed slightly off-camera, suggesting awareness of surroundings. No readable text is visible.",
-            "inference_time_seconds": 24.375,
+            "description": "A cartoon chicken covered in colorful sprinkles stands on a wooden deck beside a small, worm-like creature. A green pet bowl sits between them. The backyard setting includes a swing set, fence, and tricycle in the background. Warm, golden-hour lighting bathes the scene, highlighting the characters and surroundings. No readable text is visible.",
+            "inference_time_seconds": 34.938,
             "ollama_metrics": {
-                "total_duration_seconds": 22.301,
-                "load_duration_seconds": 0.009,
-                "prompt_eval_duration_seconds": 17.439,
-                "eval_duration_seconds": 4.73,
-                "prompt_eval_count": 1639,
-                "eval_count": 71,
-                "prompt_tokens_per_second": 93.98,
-                "tokens_per_second": 15.01
+                "total_duration_seconds": 32.879,
+                "load_duration_seconds": 0.015,
+                "prompt_eval_duration_seconds": 27.693,
+                "eval_duration_seconds": 5.027,
+                "prompt_eval_count": 2179,
+                "eval_count": 69,
+                "prompt_tokens_per_second": 78.68,
+                "tokens_per_second": 13.73
             }
         },
         {
@@ -120,17 +120,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_005\\frames\\frame_006.jpg",
             "local_timestamp": 6.0,
             "global_timestamp": 46.0,
-            "description": "A young man wearing a black knit beanie, gray scarf, and denim jacket with a light-colored fur collar stands indoors. He looks slightly off-camera with a neutral expression. The background features a plain wall and wooden doorframe. Lighting is even, suggesting an interior space. No readable text or distinct objects are visible.",
-            "inference_time_seconds": 23.898,
+            "description": "A cartoon chicken covered in colorful sprinkles stands on a wooden deck beside a small, surprised-looking creature. A green pet bowl sits between them. The background shows a backyard with a swing set, fence, and children’s tricycle. Warm, golden-hour lighting bathes the scene, suggesting late afternoon.",
+            "inference_time_seconds": 34.354,
             "ollama_metrics": {
-                "total_duration_seconds": 21.858,
-                "load_duration_seconds": 0.015,
-                "prompt_eval_duration_seconds": 17.459,
-                "eval_duration_seconds": 4.268,
-                "prompt_eval_count": 1639,
-                "eval_count": 65,
-                "prompt_tokens_per_second": 93.87,
-                "tokens_per_second": 15.23
+                "total_duration_seconds": 32.31,
+                "load_duration_seconds": 0.014,
+                "prompt_eval_duration_seconds": 27.627,
+                "eval_duration_seconds": 4.527,
+                "prompt_eval_count": 2179,
+                "eval_count": 62,
+                "prompt_tokens_per_second": 78.87,
+                "tokens_per_second": 13.7
             }
         },
         {
@@ -138,17 +138,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_005\\frames\\frame_007.jpg",
             "local_timestamp": 7.0,
             "global_timestamp": 47.0,
-            "description": "A young man in a dark knit beanie, gray scarf, and denim jacket with a light-colored fur collar stands indoors. The background features a plain wall and wooden doorframe. His gaze is directed slightly off-camera. Lighting is soft and even, suggesting an interior space. No readable text or distinct environmental markers are visible.",
-            "inference_time_seconds": 23.894,
+            "description": "A backyard scene at dusk, featuring a large, white chicken covered in colorful sprinkles standing beside a small, brown creature with large eyes. Both are on a wooden deck. A child’s tricycle and swing set are visible in the background. The chicken has a green bowl with a bone symbol nearby. Warm, golden light bathes the setting.",
+            "inference_time_seconds": 35.135,
             "ollama_metrics": {
-                "total_duration_seconds": 21.871,
-                "load_duration_seconds": 0.01,
-                "prompt_eval_duration_seconds": 17.406,
-                "eval_duration_seconds": 4.322,
-                "prompt_eval_count": 1639,
-                "eval_count": 66,
-                "prompt_tokens_per_second": 94.16,
-                "tokens_per_second": 15.27
+                "total_duration_seconds": 33.095,
+                "load_duration_seconds": 0.014,
+                "prompt_eval_duration_seconds": 27.693,
+                "eval_duration_seconds": 5.203,
+                "prompt_eval_count": 2179,
+                "eval_count": 71,
+                "prompt_tokens_per_second": 78.68,
+                "tokens_per_second": 13.65
             }
         },
         {
@@ -156,17 +156,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_005\\frames\\frame_008.jpg",
             "local_timestamp": 8.0,
             "global_timestamp": 48.0,
-            "description": "A woman with curly hair and multiple rings covers her face with both hands, her eyes visible and wide. She wears dark earrings and a dark top. In the foreground, a blurred figure with dark hair and a light-colored top is partially visible, facing her. The setting appears to be indoors with neutral-toned walls. No text is visible.",
-            "inference_time_seconds": 24.284,
+            "description": "A backyard scene at dusk, featuring a wooden deck with a small, brown creature and a large, white chicken covered in colorful sprinkles. The chicken stands upright, facing the creature. A tricycle and swing set are visible in the background. Warm, golden light bathes the scene, highlighting the grass, fence, and distant houses.",
+            "inference_time_seconds": 34.86,
             "ollama_metrics": {
-                "total_duration_seconds": 22.221,
+                "total_duration_seconds": 32.83,
                 "load_duration_seconds": 0.012,
-                "prompt_eval_duration_seconds": 17.431,
-                "eval_duration_seconds": 4.61,
-                "prompt_eval_count": 1639,
-                "eval_count": 70,
-                "prompt_tokens_per_second": 94.03,
-                "tokens_per_second": 15.19
+                "prompt_eval_duration_seconds": 27.624,
+                "eval_duration_seconds": 5.055,
+                "prompt_eval_count": 2179,
+                "eval_count": 69,
+                "prompt_tokens_per_second": 78.88,
+                "tokens_per_second": 13.65
             }
         },
         {
@@ -174,17 +174,17 @@
             "frame_path": "data\\processed\\v1\\extracted\\chunk_005\\frames\\frame_009.jpg",
             "local_timestamp": 9.0,
             "global_timestamp": 49.0,
-            "description": "A person with curly hair, wearing a gray hoodie, is embraced by another individual in a dark beanie and light jacket with white fur trim. The scene appears indoors, with neutral-toned walls. The hugging subjects are close, suggesting intimacy. No readable text or distinct environmental features are visible.",
-            "inference_time_seconds": 23.549,
+            "description": "A cartoon chicken covered in colorful sprinkles stands on a wooden deck, facing a small, surprised-looking creature. A tricycle and a dog bowl rest nearby. The background shows a fenced backyard with a swing set, shed, and houses under a warm, golden sunset. The scene is bright and playful, with soft focus on distant elements.",
+            "inference_time_seconds": 34.998,
             "ollama_metrics": {
-                "total_duration_seconds": 21.52,
-                "load_duration_seconds": 0.01,
-                "prompt_eval_duration_seconds": 17.4,
-                "eval_duration_seconds": 4.007,
-                "prompt_eval_count": 1639,
-                "eval_count": 61,
-                "prompt_tokens_per_second": 94.19,
-                "tokens_per_second": 15.22
+                "total_duration_seconds": 32.932,
+                "load_duration_seconds": 0.015,
+                "prompt_eval_duration_seconds": 27.648,
+                "eval_duration_seconds": 5.13,
+                "prompt_eval_count": 2179,
+                "eval_count": 69,
+                "prompt_tokens_per_second": 78.81,
+                "tokens_per_second": 13.45
             }
         }
     ],
@@ -194,51 +194,90 @@
             "frame_ids": [
                 "frame_000",
                 "frame_001",
-                "frame_002",
-                "frame_003",
-                "frame_004"
+                "frame_002"
             ],
             "start_timestamp": 40.0,
-            "end_timestamp": 44.0,
-            "description": "A person in a beanie and scarf stands in a doorway, then steps aside. A hand with a bracelet and ring enters the frame, reaching toward a door. A woman with curly hair appears in the doorway, looking forward. The sequence shows a transition from one individual to another, with a hand gesture indicating movement or interaction within an indoor space.",
-            "inference_time_seconds": 88.036,
+            "end_timestamp": 42.0,
+            "description": "A small, elongated creature sits on a wooden deck, facing forward. A large chicken enters from the right, covered in colorful sprinkles. The creature turns its head to look at the chicken, mouth slightly open. The chicken remains stationary, facing the creature. The scene remains otherwise unchanged.",
+            "inference_time_seconds": 68.005,
             "ollama_metrics": {
-                "total_duration_seconds": 86.004,
-                "load_duration_seconds": 0.014,
-                "prompt_eval_duration_seconds": 75.156,
-                "eval_duration_seconds": 10.557,
-                "prompt_eval_count": 7754,
-                "eval_count": 71,
-                "prompt_tokens_per_second": 103.17,
-                "tokens_per_second": 6.73
+                "total_duration_seconds": 65.987,
+                "load_duration_seconds": 0.02,
+                "prompt_eval_duration_seconds": 58.886,
+                "eval_duration_seconds": 6.775,
+                "prompt_eval_count": 6346,
+                "eval_count": 60,
+                "prompt_tokens_per_second": 107.77,
+                "tokens_per_second": 8.86
             }
         },
         {
             "group_id": "group_002",
             "frame_ids": [
-                "frame_005",
+                "frame_003",
+                "frame_004",
+                "frame_005"
+            ],
+            "start_timestamp": 43.0,
+            "end_timestamp": 45.0,
+            "description": "A large, speckled chicken stands on a wooden deck, facing a smaller, elongated creature. The chicken slightly turns its head and body between frames, appearing to shift its gaze. The smaller creature remains stationary, looking up. A green pet bowl sits between them. The background, including a swing set and fence, stays unchanged throughout the sequence.",
+            "inference_time_seconds": 69.752,
+            "ollama_metrics": {
+                "total_duration_seconds": 67.698,
+                "load_duration_seconds": 0.018,
+                "prompt_eval_duration_seconds": 58.906,
+                "eval_duration_seconds": 8.304,
+                "prompt_eval_count": 6346,
+                "eval_count": 72,
+                "prompt_tokens_per_second": 107.73,
+                "tokens_per_second": 8.67
+            }
+        },
+        {
+            "group_id": "group_003",
+            "frame_ids": [
                 "frame_006",
                 "frame_007",
-                "frame_008",
+                "frame_008"
+            ],
+            "start_timestamp": 46.0,
+            "end_timestamp": 48.0,
+            "description": "A small, elongated creature looks up at a large, speckled chicken standing on a wooden deck. The chicken remains mostly stationary, occasionally shifting its posture slightly. The creature maintains its upward gaze. The scene remains static with no significant movement or interaction occurring between the subjects across the frames.",
+            "inference_time_seconds": 68.163,
+            "ollama_metrics": {
+                "total_duration_seconds": 66.122,
+                "load_duration_seconds": 0.02,
+                "prompt_eval_duration_seconds": 58.85,
+                "eval_duration_seconds": 6.788,
+                "prompt_eval_count": 6346,
+                "eval_count": 60,
+                "prompt_tokens_per_second": 107.83,
+                "tokens_per_second": 8.84
+            }
+        },
+        {
+            "group_id": "group_004",
+            "frame_ids": [
                 "frame_009"
             ],
-            "start_timestamp": 45.0,
+            "start_timestamp": 49.0,
             "end_timestamp": 49.0,
-            "description": "A woman with curly hair looks forward, then covers her face with both hands. A man in a beanie and jacket approaches her. She leans into him, and they embrace in a close hug. The man’s jacket and the woman’s hands remain visible throughout the sequence, indicating a physical interaction between them.",
-            "inference_time_seconds": 86.974,
+            "description": "A small, cartoonish creature with large eyes looks up at a large, white chicken covered in colorful sprinkles. Both stand on a wooden deck in a backyard. The creature remains stationary, gazing upward, while the chicken stands still, facing it. Background elements like a tricycle and swing set remain unchanged throughout the scene.",
+            "inference_time_seconds": 8.307,
             "ollama_metrics": {
-                "total_duration_seconds": 84.927,
-                "load_duration_seconds": 0.018,
-                "prompt_eval_duration_seconds": 75.223,
-                "eval_duration_seconds": 9.103,
-                "prompt_eval_count": 7754,
-                "eval_count": 63,
-                "prompt_tokens_per_second": 103.08,
-                "tokens_per_second": 6.92
+                "total_duration_seconds": 6.25,
+                "load_duration_seconds": 0.011,
+                "prompt_eval_duration_seconds": 1.007,
+                "eval_duration_seconds": 4.863,
+                "prompt_eval_count": 2238,
+                "eval_count": 67,
+                "prompt_tokens_per_second": 2221.96,
+                "tokens_per_second": 13.78
             }
         }
     ],
-    "total_elapsed_time_seconds": 418.184,
-    "individual_analysis_time_seconds": 243.138,
-    "temporal_analysis_time_seconds": 175.01
+    "temporal_errors": [],
+    "total_elapsed_time_seconds": 568.087,
+    "individual_analysis_time_seconds": 353.815,
+    "temporal_analysis_time_seconds": 214.227
 }
