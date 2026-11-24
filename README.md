@@ -550,9 +550,6 @@ corresponding attribution:
     Studio](https://studio.blender.org/projects/dailydweebs/). Licensed
     under [Creative Commons Attribution
     3.0](https://creativecommons.org/licenses/by/3.0/).
--   **Biscuit:** "Biscuit by The Studio (thestudio.io), CC BY 4.0".
-    Licence: [Creative Commons Attribution
-    4.0](https://creativecommons.org/licenses/by/4.0/).
 
 These are Creative Commons-licensed works, **not public-domain works**.
 The licences allow reuse subject to their attribution terms. Check the
