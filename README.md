@@ -2,7 +2,8 @@
 
 **Local-first audio-visual understanding and semantic video retrieval.**
 
-Project AURA turns a video into timestamped visual descriptions and
+Project AURA (Autonomous Understanding & Retrieval Architecture)
+turns a video into timestamped visual descriptions and
 speech transcripts, embeds those records locally, and makes them
 searchable with natural-language queries.
 
