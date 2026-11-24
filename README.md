@@ -538,9 +538,7 @@ works and are **not** part of the AURA source code or project ownership.
   ----------------------------------------------------------- --------------------- ---------------------------------------------------- ----------------
   [The Daily                                                       About 50 seconds [CC BY                                               Blender Studio
   Dweebs](https://studio.blender.org/projects/dailydweebs/)                         3.0](https://creativecommons.org/licenses/by/3.0/)   
-
-  [Biscuit: From Stray Dog to                                            60 seconds [CC BY                                               The Studio
-  Superhero](https://www.thestudio.io/osvideo/)                                     4.0](https://creativecommons.org/licenses/by/4.0/)   
+ 
   -------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Attribution
